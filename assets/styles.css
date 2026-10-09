@@ -5,3 +5,72 @@
 @media(max-width:900px){.sidebar{transform:translateX(-100%);transition:transform .2s ease;box-shadow:none}.sidebar.open{transform:translateX(0);box-shadow:10px 0 40px #0e222944}.main-column{margin-left:0;width:100%}.mobile-menu,.close-menu{display:inline-block}.close-menu{position:absolute;right:15px;top:28px;color:#cbdcdb}.mobile-scrim:not([hidden]){display:block;position:fixed;inset:0;background:#10263170;z-index:19}.topbar{height:65px;justify-content:flex-start;gap:18px}.topbar-tools{margin-left:auto}.hero .hero-symbol{right:30px}}
 @media(max-width:620px){main{padding:25px 18px 58px}.topbar{padding:0 17px}.topbar .text-tool span{display:none}.hero{padding:32px 24px;min-height:270px}.hero .hero-symbol{display:none}.hero h1{font-size:37px}.card-grid,.rule-split,.vocab-grid,.intonation-grid{grid-template-columns:1fr}.intro-stats{grid-template-columns:repeat(3,1fr);gap:6px}.mini-stat{padding:12px}.mini-stat strong{font-size:20px}.mini-stat small{font-size:9px}.page-title{font-size:34px}.lead{font-size:14px}.rule-card,.exercise-panel,.reflection-panel{padding:19px}.question-top{gap:9px}.reading-text{padding:25px 20px}.reading-text p{font-size:15px}.section-heading{align-items:start}.main-footer{padding:18px}.exercise-summary{margin-left:0;width:100%}.level-pill{padding:4px 9px}}
 @media print{.sidebar,.topbar,.main-footer,.mobile-scrim,.exercise-actions,.route-next,.reflection-actions,.vocab-categories,.vocab-search,.button{display:none!important}.main-column{margin:0;width:100%}main{max-width:none;padding:0 8px}.chapter-header{page-break-after:avoid}.rule-card,.exercise-panel,.reading-text,.compare-card{break-inside:avoid;box-shadow:none}.hero{color:#000;background:#fff;border:1px solid #888}.hero p,.hero .eyebrow{color:#444}body{background:white}.exercise-panel{page-break-inside:avoid}}
+
+/* Mejoras de legibilidad: aumento moderado de fuentes (sin cambiar las rejillas). */
+body { font-size: 16px; }
+.brand small { font-size: 10.5px; }
+.sidebar-heading { font-size: 11px; }
+.nav-link { font-size: 14px; }
+.sidebar-foot { font-size: 12px; }
+.topbar-trail { font-size: 14px; }
+.level-pill, .text-tool { font-size: 12.5px; }
+.eyebrow, .hero-subtitle { font-size: 12px; }
+.hero p { font-size: 17px; }
+.lead { font-size: 17px; }
+.button { font-size: 14px; }
+.button-small { font-size: 12.5px; }
+.section-heading p { font-size: 13.5px; }
+.tile h3 { font-size: 18px; }
+.tile p { font-size: 14.3px; }
+.tile-footer { font-size: 12.5px; }
+.module-index { font-size: 11px; }
+.notice { font-size: 14.2px; }
+.meta-chip { font-size: 12.5px; }
+.lesson-block p { font-size: 15.5px; }
+.rule-card li, .example { font-size: 15px; }
+.example .translation { font-size: 13.2px; }
+.note-badge { font-size: 11px; }
+.compare-card h4 { font-size: 14.5px; }
+.compare-card p { font-size: 14.6px; }
+.compare-card small { font-size: 12.5px; }
+.content-table { font-size: 14.5px; }
+.content-table th { font-size: 12.5px; }
+.filter-chip { font-size: 13px; }
+.vocab-card strong { font-size: 15px; }
+.vocab-card p { font-size: 14px; }
+.vocab-card em { font-size: 13.2px; }
+.vocab-empty { font-size: 14px; }
+.reading-text p { font-size: 17px; }
+.reading-text .reading-credit { font-size: 12px; }
+.exercise-panel .exercise-kicker { font-size: 11px; }
+.exercise-note { font-size: 13.6px; }
+.score-label { font-size: 12.5px; }
+.question-num { font-size: 12.5px; }
+.question-prompt { font-size: 15px; }
+.question-hint { font-size: 12.5px; }
+.option { font-size: 14.2px; }
+.answer-input, .reflection-box { font-size: 14.5px; }
+.feedback { font-size: 13.5px; }
+.feedback strong { font-size: 12.5px; }
+.exercise-summary { font-size: 13.5px; }
+.activity-tag { font-size: 11px; }
+.reflection-panel p { font-size: 14.5px; }
+.save-status { font-size: 12px; }
+.reflection-checklist label { font-size: 13px; }
+.route-next span { font-size: 11px; }
+.lesson-row strong { font-size: 14.5px; }
+.lesson-row small { font-size: 12px; }
+.lesson-row .list-index { font-size: 12.5px; }
+.not-ready p { font-size: 14.5px; }
+.tag-soft { font-size: 11px; }
+@media (max-width: 620px) {
+  .lead { font-size: 16px; }
+  .reading-text p { font-size: 16.5px; }
+  .hero p { font-size: 16px; }
+}
+
+/* Mantener la ruta de navegación dentro de la barra en pantallas estrechas. */
+@media (max-width: 620px) {
+  .topbar-trail { flex: 1; min-width: 0; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+  .topbar-tools { flex-shrink: 0; }
+}
