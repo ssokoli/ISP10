@@ -9,7 +9,7 @@
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="assets/styles.css">
   <link rel="stylesheet" href="assets/editorial.css">
-  <link rel="stylesheet" href="assets/eap-palette.css?v=2">
+  <link rel="stylesheet" href="assets/eap-palette.css?v=3">
   <script src="units/unit01.js" defer></script>
   <script src="units/unit02.js" defer></script>
   <script src="units/unit03.js" defer></script>
@@ -29,11 +29,18 @@
   <a class="skip-link" href="#main">Saltar al contenido</a>
   <div class="site-shell">
     <aside class="sidebar" id="sidebar" aria-label="Navegación de la asignatura">
-      <div class="brand"><a class="brand-link" href="?unit=1#inicio"><span class="brand-mark">i<span>·</span></span><span><strong>ISP10</strong><small>AULA DE ESPAÑOL · B2</small></span></a><button id="close-menu" class="icon-button close-menu" type="button" aria-label="Cerrar menú">✕</button></div>
-      <nav class="side-nav" id="main-nav" aria-label="Secciones"><a href="#inicio" data-nav="inicio" class="nav-link"><span class="nav-icon">⌂</span><span>Inicio</span></a></nav>
-      <div class="sidebar-heading unit-heading" id="current-unit-heading">UNIDAD 1 · VIDAS ANÓNIMAS</div>
+      <div class="brand"><a class="brand-link" href="#inicio"><span class="brand-mark">i<span>·</span></span><span><strong>ISP10</strong><small>AULA DE ESPAÑOL · B2</small></span></a><button id="close-menu" class="icon-button close-menu" type="button" aria-label="Cerrar menú">✕</button></div>
+      <div class="unit-chooser">
+        <div class="sidebar-heading">UNIDADES DEL CURSO</div>
+        <details class="unit-switcher" id="unit-switcher">
+          <summary aria-label="Cambiar unidad"><span class="unit-switcher-copy"><small>Unidad seleccionada</small><strong id="unit-switcher-label">01 · Vidas anónimas</strong></span><span class="unit-switcher-chevron" aria-hidden="true">⌄</span></summary>
+          <nav class="unit-options" id="unit-nav" aria-label="Elegir unidad"></nav>
+        </details>
+      </div>
+      <nav class="side-nav" id="main-nav" aria-label="Inicio de la unidad"><a href="#inicio" data-nav="inicio" class="nav-link"><span class="nav-icon">⌂</span><span>Inicio de la unidad</span></a></nav>
+      <div class="sidebar-heading unit-heading" id="current-unit-heading">CONTENIDOS · UNIDAD 1</div>
       <nav id="lesson-nav" class="side-nav" aria-label="Lecciones de la unidad"></nav>
-      <div class="sidebar-heading">LAS 12 UNIDADES</div><nav class="side-nav" id="unit-nav" aria-label="Unidades"></nav><nav class="side-nav"><a href="#proximas" class="nav-link upcoming-link" data-nav="proximas"><span class="nav-icon">▦</span><span>Ver todas las unidades</span><span class="nav-tail">›</span></a></nav>
+      <nav class="side-nav sidebar-course-overview" aria-label="Programa del curso"><a href="#proximas" class="nav-link upcoming-link" data-nav="proximas"><span class="nav-icon">▦</span><span>Programa completo</span><span class="nav-tail">›</span></a></nav>
     </aside>
     <div class="mobile-scrim" id="mobile-scrim" hidden></div>
     <div class="main-column">
