@@ -126,3 +126,35 @@ button:focus-visible,a:focus-visible,input:focus-visible,textarea:focus-visible,
   .hero{border-top-color:#555;border-bottom:1px solid #aaa}
   .hero h1,.hero p,.hero .eyebrow{color:#111}
 }
+
+/* Menú institucional: azul marino y tipografía blanca. */
+:root{--serif:var(--sans)}
+.sidebar{background:#0a223a;color:#f7faff;border-right:1px solid #2c4a66;scrollbar-color:#66819b #0a223a}
+.sidebar .brand{border-bottom-color:#3c536b}
+.sidebar .brand-link,.sidebar .brand strong{color:#fff}
+.sidebar .brand-mark,.sidebar .brand-mark span{color:#ff8ccc!important;border-right-color:#64758a}
+.sidebar .brand small{color:#e2ecf5;opacity:1}
+.sidebar .sidebar-heading{color:#e2ecf5;border-bottom-color:#465b73}
+.sidebar .nav-link{color:#f8fbff;border-bottom-color:#344d66;background:transparent!important}
+.sidebar .nav-link:hover{color:#fff;background:#173854!important}
+.sidebar .nav-link.active{color:#fff;background:#234361!important}
+.sidebar .nav-link.active::before{background:#ff83c7}
+.sidebar .nav-icon,.sidebar .nav-link.active .nav-icon{color:#d3e3f4}
+.sidebar .nav-link.active .nav-icon{color:#ff9bd3}
+.sidebar .nav-tail{color:#d1e1f0}
+.sidebar .nav-check{color:#a4e6c3}
+.sidebar .sidebar-foot{color:#d5e3ee;border-top-color:#405971}
+.sidebar .brand-link:focus-visible,.sidebar .nav-link:focus-visible{outline:2px solid #ffb2dc!important;outline-offset:2px}
+.sidebar .close-menu{color:#fff}
+@media(max-width:900px){.sidebar{background:#0a223a}.sidebar .close-menu{color:#fff}}
+/* El número grande pertenece a la unidad activa: 01, 02, ... 12. */
+.hero::before{content:attr(data-unit-number);font-family:var(--sans);font-weight:700;letter-spacing:-.07em}
+/* Fuente sans serif consistente entre títulos, textos y navegación. */
+body,button,input,textarea,select{font-family:var(--sans)}
+.brand strong,.hero h1,.page-title,.section-heading h2,.content-heading,
+.lesson-block h2,.lesson-block h3,.rule-card h3,.reading-text h2,
+.exercise-panel h2,.reflection-panel h2,.route-next strong,.tile h3,
+.not-ready h2{font-family:var(--sans)}
+.hero h1{font-weight:700;letter-spacing:-.035em}
+.page-title{font-weight:700;letter-spacing:-.034em}
+.section-heading h2,.lesson-block h2,.lesson-block h3{font-weight:700;letter-spacing:-.02em}
