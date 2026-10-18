@@ -75,26 +75,8 @@ window.ISP10_UNITS[2] = {
       "type": "Destrezas"
     },
     {
-      "id": "vocales",
-      "index": "08",
-      "title": "Diptongo, triptongo e hiato",
-      "short": "División silábica y tildes",
-      "icon": "♫",
-      "minutes": 25,
-      "type": "Pronunciación"
-    },
-    {
-      "id": "enlaces",
-      "index": "09",
-      "title": "Sinéresis y sinalefa",
-      "short": "Vocales en el habla continua",
-      "icon": "♪",
-      "minutes": 17,
-      "type": "Pronunciación"
-    },
-    {
       "id": "lectura",
-      "index": "10",
+      "index": "08",
       "title": "Lectura y producción",
       "short": "Comprender, escribir y argumentar",
       "icon": "▤",
@@ -103,7 +85,7 @@ window.ISP10_UNITS[2] = {
     },
     {
       "id": "vocabulario2",
-      "index": "11",
+      "index": "09",
       "title": "Vocabulario de la unidad 2",
       "short": "Buscador por categorías y ejemplos",
       "icon": "☷",
@@ -112,11 +94,11 @@ window.ISP10_UNITS[2] = {
     },
     {
       "id": "repaso2",
-      "index": "12",
+      "index": "10",
       "title": "Autoevaluación de la unidad 2",
-      "short": "Integra gramática, léxico y pronunciación",
+      "short": "Integra gramática, léxico y comunicación",
       "icon": "✓",
-      "minutes": 30,
+      "minutes": 24,
       "type": "Evaluación"
     }
   ],
@@ -830,203 +812,6 @@ window.ISP10_UNITS[2] = {
         }
       ]
     },
-    "vocales": {
-      "introduction": "Revisa la clasificación ortográfica de las secuencias de vocales y el papel de la tilde.",
-      "blocks": "<section class=\"lesson-block\"><h2>1. La sílaba: un punto de partida</h2><p>Las vocales abiertas son <strong>a, e, o</strong>; las cerradas son <strong>i, u</strong>. Un <strong>diptongo</strong> reúne dos vocales en una misma sílaba; un <strong>triptongo</strong>, tres; un <strong>hiato</strong> coloca dos vocales contiguas en sílabas distintas.</p><div class=\"table-scroll\"><table class=\"content-table\"><thead><tr><th>Fenómeno</th><th>Separación silábica convencional</th><th>Explicación</th></tr></thead><tbody><tr><td>Diptongo</td><td><b>cau</b>-sa; <b>tie</b>-rra</td><td>Dos vocales en una sílaba.</td></tr><tr><td>Triptongo</td><td><b>buey</b>; Pa-ra-<b>guay</b></td><td>Tres vocales en una sílaba.</td></tr><tr><td>Hiato</td><td>pa-<b>ís</b>; te-<b>a</b>-tro</td><td>Vocales contiguas en sílabas distintas.</td></tr></tbody></table></div></section><section class=\"lesson-block\"><h2>2. Combinaciones y acentuación</h2><p>En términos ortográficos, una vocal cerrada tónica junto a una abierta átona forma <strong>hiato</strong> y lleva tilde en la cerrada: <em>país, río, baúl</em>. Dos vocales abiertas sucesivas se consideran hiato: <em>teatro, poeta</em>. Las secuencias de vocales cerradas distintas (<em>ciudad, ruido</em>) se consideran diptongos a efectos ortográficos.</p><div class=\"example\">a + ú → ba-<b>úl</b> (hiato, tilde en la cerrada tónica)<br>i + e → <b>tie</b>-rra (diptongo)<br>u + e + y → <b>buey</b> (triptongo ortográfico)</div><div class=\"notice warm\"><strong>Pronunciación y escritura:</strong> las convenciones ortográficas clasifican algunas secuencias como diptongos o triptongos aunque su realización fonética pueda variar entre hablantes y contextos. Las actividades de esta página se refieren expresamente a la <strong>clasificación ortográfica</strong>.</div></section><section class=\"lesson-block\"><h2>3. Clasifica y escucha</h2><p>Pronuncia despacio las palabras siguientes: <em>aire, ciudad, país, teatro, baúl, buey, limpiáis</em>. Luego comprueba su clasificación ortográfica con los ejercicios. Puedes escuchar las palabras en un diccionario que incluya audio; esta página no ofrece grabaciones del manual.</p><p class=\"reflection-instructions\">Referencia: <a href=\"https://www.rae.es/ortograf%C3%ADa-b%C3%A1sica/uso-de-la-tilde/las-reglas-de-acentuaci%C3%B3n-gr%C3%A1fica/la-acentuaci%C3%B3n-gr%C3%A1fica-de-las-palabras-con-secuencias-voc%C3%A1licas\" target=\"_blank\" rel=\"noopener noreferrer\">RAE/ASALE, <em>Ortografía básica: secuencias vocálicas</em></a>.</p></section>",
-      "exerciseTitle": "Practica: diptongo, triptongo e hiato",
-      "exerciseNote": "Elige la opción que corresponde exactamente al contexto indicado. En las respuestas abiertas, respeta las tildes.",
-      "questions": [
-        {
-          "type": "choice",
-          "q": "En la división ortográfica de «causa», «au» es:",
-          "options": [
-            "hiato",
-            "diptongo",
-            "triptongo"
-          ],
-          "answer": 1,
-          "ex": "«Cau-sa»: las vocales a y u se encuentran en la misma sílaba."
-        },
-        {
-          "type": "choice",
-          "q": "En «país», «a-í» es:",
-          "options": [
-            "hiato",
-            "diptongo",
-            "triptongo"
-          ],
-          "answer": 0,
-          "ex": "«Pa-ís» tiene hiato; la vocal cerrada tónica lleva tilde."
-        },
-        {
-          "type": "choice",
-          "q": "La secuencia vocálica de «buey» constituye, a efectos ortográficos:",
-          "options": [
-            "un hiato",
-            "un diptongo",
-            "un triptongo"
-          ],
-          "answer": 2,
-          "ex": "RAE/ASALE clasifica «buey» como triptongo ortográfico."
-        },
-        {
-          "type": "gap",
-          "q": "Separa «teatro» en sílabas con guiones.",
-          "answers": [
-            "te-a-tro"
-          ],
-          "ex": "Las vocales abiertas e y a forman hiato: te-a-tro."
-        },
-        {
-          "type": "choice",
-          "q": "¿Cuál contiene un hiato ortográfico?",
-          "options": [
-            "tierra",
-            "baúl",
-            "ciudad"
-          ],
-          "answer": 1,
-          "ex": "Ba-úl: a + ú con vocal cerrada tónica forman hiato."
-        },
-        {
-          "type": "choice",
-          "q": "¿En cuál se identifica un triptongo ortográfico?",
-          "options": [
-            "Paraguay",
-            "poeta",
-            "aire"
-          ],
-          "answer": 0,
-          "ex": "Pa-ra-guay: la secuencia uay es un triptongo ortográfico."
-        },
-        {
-          "type": "gap",
-          "q": "Separa «río» en sílabas usando un guion.",
-          "answers": [
-            "rí-o"
-          ],
-          "ex": "«Rí-o» contiene hiato de cerrada tónica + abierta."
-        },
-        {
-          "type": "choice",
-          "q": "¿Dónde hay un diptongo ortográfico?",
-          "options": [
-            "teatro",
-            "aire",
-            "país"
-          ],
-          "answer": 1,
-          "ex": "«Ai-re»: ai constituye un diptongo."
-        },
-        {
-          "type": "choice",
-          "q": "Elige la afirmación correcta:",
-          "options": [
-            "La «h» intercalada impide siempre un diptongo.",
-            "Un hiato lleva siempre tilde.",
-            "La ortografía establece convenciones de clasificación que no siempre coinciden con todas las pronunciaciones."
-          ],
-          "answer": 2,
-          "ex": "La RAE distingue clasificación ortográfica y realización fonética; además, hay hiatos sin tilde."
-        },
-        {
-          "type": "choice",
-          "q": "¿Qué palabra lleva tilde por la presencia de una vocal cerrada tónica en hiato?",
-          "options": [
-            "baúl",
-            "buey",
-            "aire"
-          ],
-          "answer": 0,
-          "ex": "En «baúl», la ú es tónica en el hiato a-ú."
-        }
-      ]
-    },
-    "enlaces": {
-      "introduction": "Distingue la unión de vocales dentro de una palabra de su enlace entre dos palabras, sin convertir variaciones de pronunciación en errores.",
-      "blocks": "<section class=\"lesson-block\"><h2>1. Dos fenómenos diferentes</h2><div class=\"rule-split\"><div class=\"compare-card\"><h4>Sinéresis: dentro de una palabra</h4><p>En ciertas realizaciones, las vocales de un hiato se pronuncian como una sola sílaba. Es un fenómeno fonético o una licencia métrica, según el caso.</p><small>Ejemplo orientativo: la palabra «poeta», convencionalmente po-e-ta, puede comprimirse en determinadas realizaciones orales.</small></div><div class=\"compare-card danger\"><h4>Sinalefa: entre palabras</h4><p>En determinados contextos, la vocal final de una palabra y la inicial de la siguiente se articulan en una misma secuencia silábica.</p><small>Ejemplo: «mi amigo» puede enlazar «mi_a» en habla continua.</small></div></div></section><section class=\"lesson-block\"><h2>2. No confundas pronunciación y ortografía</h2><p>Una sinéresis o una sinalefa <strong>no cambia la escritura convencional</strong> de las palabras. Su presencia depende del ritmo, el acento, la variedad y la situación de habla. No se debe pedir una única división fonética como si fuera válida en todas las voces.</p><div class=\"table-scroll\"><table class=\"content-table\"><thead><tr><th>Caso</th><th>Qué observamos</th><th>Qué no debemos inferir</th></tr></thead><tbody><tr><td>poeta pronunciado con contracción</td><td>Sinéresis posible dentro de una palabra.</td><td>Que «poeta» deja de clasificarse ortográficamente con hiato.</td></tr><tr><td>mi amigo dicho con enlace vocálico</td><td>Sinalefa posible entre palabras.</td><td>Que la expresión se escribe como una sola palabra.</td></tr><tr><td>país (pa-ís)</td><td>Hiato ortográfico con tilde.</td><td>Que la tilde desaparezca cuando se habla rápido.</td></tr></tbody></table></div></section><section class=\"lesson-block\"><h2>3. Escucha con espíritu crítico</h2><p>Graba si lo deseas las frases <em>«Mi amiga estudia español»</em> y <em>«La poeta presentó un libro»</em>. Compáralas pronunciadas lentamente y en habla fluida. <strong>No hay obligación de producir una contracción</strong>. El objetivo es reconocer la posibilidad del enlace y distinguirla de las reglas ortográficas.</p><div class=\"notice warm\">La clasificación de los ejercicios es conceptual. No se evalúan sonidos que no se pueden escuchar en esta página.</div></section>",
-      "exerciseTitle": "Practica: sinéresis y sinalefa",
-      "exerciseNote": "Elige la opción que corresponde exactamente al contexto indicado. En las respuestas abiertas, respeta las tildes.",
-      "questions": [
-        {
-          "type": "choice",
-          "q": "Una persona pronuncia las dos vocales contiguas de «poeta» en una sola sílaba. ¿Qué fenómeno puede describirlo?",
-          "options": [
-            "Sinalefa",
-            "Sinéresis",
-            "Elisión obligatoria de una letra"
-          ],
-          "answer": 1,
-          "ex": "La sinéresis puede reunir en la pronunciación vocales de un hiato dentro de una palabra."
-        },
-        {
-          "type": "choice",
-          "q": "En el habla continua alguien enlaza las vocales finales e iniciales de «mi amiga». ¿Cómo se llama ese enlace?",
-          "options": [
-            "Sinalefa",
-            "Sinéresis",
-            "Triptongo obligatorio"
-          ],
-          "answer": 0,
-          "ex": "La sinalefa se establece entre palabras."
-        },
-        {
-          "type": "choice",
-          "q": "¿Qué afirmación es correcta?",
-          "options": [
-            "La sinalefa obliga a eliminar espacios de la escritura.",
-            "La sinéresis obliga a quitar las tildes.",
-            "Estos fenómenos de pronunciación no cambian la ortografía convencional."
-          ],
-          "answer": 2,
-          "ex": "La escritura de las palabras no cambia."
-        },
-        {
-          "type": "choice",
-          "q": "¿Dónde se describe correctamente el alcance de la sinéresis?",
-          "options": [
-            "Dentro de una palabra.",
-            "Solo entre dos párrafos.",
-            "Solo entre palabras sin vocales."
-          ],
-          "answer": 0,
-          "ex": "La sinéresis reúne vocales que pertenecen a una misma palabra."
-        },
-        {
-          "type": "choice",
-          "q": "¿Cuál es una observación adecuada?",
-          "options": [
-            "Todos los hablantes deben producir siempre las mismas sinalefas.",
-            "La velocidad y el ritmo pueden favorecer o dificultar un enlace.",
-            "Si hay sinalefa, el texto tiene una falta de ortografía."
-          ],
-          "answer": 1,
-          "ex": "La realización varía según la situación y la pronunciación."
-        },
-        {
-          "type": "choice",
-          "q": "Una palabra escrita «teatro» sigue teniendo a efectos ortográficos:",
-          "options": [
-            "un triptongo",
-            "un único diptongo obligatorio",
-            "un hiato entre «e» y «a»"
-          ],
-          "answer": 2,
-          "ex": "El análisis ortográfico considera e+a un hiato."
-        },
-        {
-          "type": "choice",
-          "q": "¿Qué ejemplo corresponde a una posible sinalefa?",
-          "options": [
-            "La unión vocálica entre «la» y «escuela» en habla continua.",
-            "La unión de dos vocales dentro de «poeta».",
-            "La tilde de «país»."
-          ],
-          "answer": 0,
-          "ex": "«La escuela» permite un enlace entre palabras, a diferencia de la sinéresis."
-        }
-      ]
-    },
     "lectura": {
       "introduction": "Aplica la gramática y el léxico a un relato original y prepara producciones escritas y orales.",
       "blocks": "<section class=\"lesson-block\"><h2>1. Lectura: «Un semestre para descubrir qué necesito»</h2><div class=\"rule-card\"><p>Cuando Álex empezó a estudiar español, soñaba con pasar una temporada en otro país. Buscaba una universidad que ofreciera cursos compatibles con su carrera. Después de comparar varias opciones, encontró un programa que incluía tutorías y prácticas de conversación. El programa, que se desarrollaba en una ciudad pequeña, le pareció apropiado para su presupuesto.</p><p>Al principio, Álex sentía vergüenza al hablar. No conocía a nadie con quien practicar fuera de clase y lo que más le preocupaba era cometer errores. Un compañero, cuya familia vivía en la ciudad, lo invitó a participar en un club de lectura. Allí descubrió que escuchar antes de intervenir también era una estrategia útil.</p><p>Al terminar el semestre, Álex ya podía mantener conversaciones largas. No afirmaba que su español fuera perfecto, pero reconocía algo importante: había aprendido a pedir aclaraciones y a expresar desacuerdos de forma respetuosa. Su conclusión fue sencilla: lo que necesitaba no era hablar sin equivocarse, sino seguir aprendiendo.</p><p class=\"reflection-instructions\">Texto original de apoyo creado para ISP10. El personaje es ficticio.</p></div></section><section class=\"lesson-block\"><h2>2. Observa cómo la gramática construye el significado</h2><div class=\"table-scroll\"><table class=\"content-table\"><thead><tr><th>Fragmento del relato</th><th>Interpretación</th></tr></thead><tbody><tr><td>«Buscaba una universidad que <b>ofreciera</b>…»</td><td>Describe el tipo de universidad que deseaba encontrar.</td></tr><tr><td>«Encontró un programa que <b>incluía</b>…»</td><td>Afirma una propiedad del programa encontrado.</td></tr><tr><td>«El programa, que se desarrollaba…»</td><td>Añade un dato explicativo sobre un programa ya identificado.</td></tr><tr><td>«Un compañero, cuya familia vivía…»</td><td>«Cuya» expresa relación posesiva con «familia».</td></tr><tr><td>«Lo que necesitaba…»</td><td>Relativa neutra que presenta un contenido o idea.</td></tr></tbody></table></div></section><section class=\"lesson-block\"><h2>3. De la lectura a la producción</h2><p>Antes de escribir, diferencia una <strong>situación</strong>, un <strong>objetivo</strong>, una <strong>dificultad</strong>, una <strong>estrategia</strong> y un <strong>resultado</strong>. Así puedes construir un relato coherente en lugar de enumerar ideas sin relación.</p></section>",
@@ -1168,7 +953,7 @@ window.ISP10_UNITS[2] = {
     },
     "repaso2": {
       "introduction": "Comprueba lo aprendido con una prueba final: contexto, forma y uso comunicativo.",
-      "blocks": "<section class=\"lesson-block\"><h2>Revisión final de la unidad</h2><p>Esta autoevaluación combina oraciones de relativo, puntuación, pronombres y adverbios relativos, léxico del aprendizaje, formulación de reservas y clasificación ortográfica de secuencias vocálicas. Todas las preguntas incluyen un contexto explícito.</p><div class=\"notice warm\"><strong>Antes de corregir:</strong> revisa el contexto de cada frase. En preguntas con respuestas escritas se especifica la forma solicitada. Este test complementa las actividades del manual; no sustituye sus audios ni los ejercicios que dependan de ellos.</div></section>",
+      "blocks": "<section class=\"lesson-block\"><h2>Revisión final de la unidad</h2><p>Esta autoevaluación combina oraciones de relativo, puntuación, pronombres y adverbios relativos, léxico del aprendizaje y formulación de reservas. Todas las preguntas incluyen un contexto explícito.</p><div class=\"notice warm\"><strong>Antes de corregir:</strong> revisa el contexto de cada frase. En preguntas con respuestas escritas se especifica la forma solicitada. Este test complementa las actividades del manual; no sustituye sus audios ni los ejercicios que dependan de ellos.</div></section>",
       "exerciseTitle": "Practica: autoevaluación de la unidad 2",
       "exerciseNote": "Elige la opción que corresponde exactamente al contexto indicado. En las respuestas abiertas, respeta las tildes.",
       "questions": [
@@ -1300,61 +1085,6 @@ window.ISP10_UNITS[2] = {
         },
         {
           "type": "choice",
-          "q": "¿Cuál es la clasificación ortográfica de «tierra»?",
-          "options": [
-            "Hiato",
-            "Triptongo",
-            "Diptongo"
-          ],
-          "answer": 2,
-          "ex": "«Tie-rra» contiene un diptongo ie."
-        },
-        {
-          "type": "choice",
-          "q": "¿Cuál contiene un hiato ortográfico?",
-          "options": [
-            "buey",
-            "país",
-            "causa"
-          ],
-          "answer": 1,
-          "ex": "«Pa-ís» presenta hiato con í tónica."
-        },
-        {
-          "type": "choice",
-          "q": "¿Qué secuencia tiene «Paraguay» a efectos ortográficos?",
-          "options": [
-            "Triptongo",
-            "Hiato",
-            "Solo dos vocales consecutivas"
-          ],
-          "answer": 0,
-          "ex": "«Paraguay» contiene el triptongo uay en su última sílaba."
-        },
-        {
-          "type": "choice",
-          "q": "Un enlace vocálico posible entre «la» y «escuela» se llama:",
-          "options": [
-            "sinéresis",
-            "hiato obligatorio",
-            "sinalefa"
-          ],
-          "answer": 2,
-          "ex": "El fenómeno se produce entre dos palabras."
-        },
-        {
-          "type": "choice",
-          "q": "Una unión ocasional dentro de «poeta» de las vocales normalmente en hiato se denomina:",
-          "options": [
-            "sinalefa",
-            "sinéresis",
-            "tildación"
-          ],
-          "answer": 1,
-          "ex": "Es sinéresis por ocurrir dentro de una palabra."
-        },
-        {
-          "type": "choice",
           "q": "¿Qué afirmación sobre la movilidad es correcta?",
           "options": [
             "Las condiciones de todos los programas son idénticas.",
@@ -1367,7 +1097,7 @@ window.ISP10_UNITS[2] = {
       ]
     },
     "vocabulario2": {
-      "introduction": "Consulta el glosario y aprende a usar vocabulario académico, cultural, argumentativo y fonético.",
+      "introduction": "Consulta el glosario y aprende a usar vocabulario académico, cultural y argumentativo.",
       "blocks": "<section class=\"lesson-block\"><h2>Consulta el vocabulario</h2><p>Busca una palabra o selecciona una de las categorías para repasar las expresiones de esta unidad. Todas las entradas incluyen una definición contextualizada y un ejemplo original.</p><div id=\"vocab-app\"></div></section><section class=\"lesson-block\"><h2>Usa las expresiones en contexto</h2><p>Relaciona un objetivo con la palabra más precisa y no confundas términos próximos: <em>beca</em> no significa lo mismo que <em>matrícula</em>; <em>emigrar</em> e <em>inmigrar</em> describen el desplazamiento desde perspectivas diferentes.</p><div class=\"notice warm\">El vocabulario aparece agrupado por temas. Puedes volver aquí siempre que lo necesites; las definiciones no dependen de que hayas hecho los ejercicios anteriores.</div></section>",
       "exerciseTitle": "Practica: vocabulario de la unidad 2",
       "exerciseNote": "Elige la opción que corresponde exactamente al contexto indicado. En las respuestas abiertas, respeta las tildes.",
@@ -1453,9 +1183,9 @@ window.ISP10_UNITS[2] = {
           "type": "choice",
           "q": "En la oración «Su principal ______ es aprender español para trabajar», ¿qué sustantivo encaja?",
           "options": [
-            "sinalefa",
+            "matrícula",
             "motivación",
-            "oración de relativo"
+            "convocatoria"
           ],
           "answer": 1,
           "ex": "«Motivación» nombra la razón que impulsa la actividad."
@@ -1476,8 +1206,8 @@ window.ISP10_UNITS[2] = {
           "q": "Para expresar que un programa exige organizar varias gestiones administrativas, ¿qué palabra usarías?",
           "options": [
             "trámites",
-            "hiatos",
-            "diptongos"
+            "intercambios",
+            "becas"
           ],
           "answer": 0,
           "ex": "«Trámites» son gestiones administrativas."
@@ -1727,55 +1457,25 @@ window.ISP10_UNITS[2] = {
       "example": "La profesora hizo hincapié en las tildes."
     },
     {
-      "category": "Gramática y pronunciación",
+      "category": "Gramática",
       "term": "el antecedente",
       "definition": "Elemento al que se refiere una palabra relativa.",
       "example": "En «el libro que leo», «el libro» es el antecedente."
     },
     {
-      "category": "Gramática y pronunciación",
+      "category": "Gramática",
       "term": "relativa especificativa",
       "definition": "Subordinada que delimita el referente del antecedente.",
       "example": "«Los alumnos que aprobaron» selecciona un grupo."
     },
     {
-      "category": "Gramática y pronunciación",
+      "category": "Gramática",
       "term": "relativa explicativa",
       "definition": "Subordinada que aporta información adicional sin restringir el referente.",
       "example": "«Lucía, que vive aquí, ...» presenta un inciso."
     },
     {
-      "category": "Gramática y pronunciación",
-      "term": "el diptongo",
-      "definition": "Dos vocales que pertenecen a una misma sílaba.",
-      "example": "«Tierra» contiene un diptongo."
-    },
-    {
-      "category": "Gramática y pronunciación",
-      "term": "el triptongo",
-      "definition": "Tres vocales que pertenecen a una misma sílaba.",
-      "example": "«Buey» contiene un triptongo ortográfico."
-    },
-    {
-      "category": "Gramática y pronunciación",
-      "term": "el hiato",
-      "definition": "Dos vocales contiguas que pertenecen a sílabas diferentes.",
-      "example": "«País» contiene un hiato."
-    },
-    {
-      "category": "Gramática y pronunciación",
-      "term": "la sinéresis",
-      "definition": "Unión silábica de vocales de una palabra que normalmente forman hiato.",
-      "example": "Puede producirse sinéresis al pronunciar «poeta»."
-    },
-    {
-      "category": "Gramática y pronunciación",
-      "term": "la sinalefa",
-      "definition": "Enlace silábico de vocales entre palabras contiguas.",
-      "example": "En el habla fluida puede haber sinalefa en «mi amiga»."
-    },
-    {
-      "category": "Gramática y pronunciación",
+      "category": "Gramática",
       "term": "el relativo posesivo",
       "definition": "Relativo que expresa posesión y concuerda con lo poseído.",
       "example": "«La escritora cuyo libro leí» usa «cuyo»."
