@@ -1,0 +1,128 @@
+/* ISP10 · Azul marino y magenta inspirados en el logotipo del EAP.
+   Solo cambia la presentación, no los materiales ni sus resultados. */
+:root{
+  --nav:#eff3f8;--nav-2:#e6edf5;--ink:#0a223a;--muted:#46586c;
+  --line:#d3dce6;--paper:#fbfcfe;--white:#ffffff;
+  --accent:#b00f77;--accent-light:#fceaf5;--teal:#0a223a;
+  --teal-light:#edf3f9;--blue-light:#e8f0f8;--yellow:#f9f0f7;
+}
+body{background:var(--paper);color:var(--ink)}
+a{color:#990d68}
+a:hover{ text-decoration-color:var(--accent)}
+button:focus-visible,a:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible{outline-color:var(--accent)!important}
+::selection{background:#f5c8e2;color:var(--ink)}
+
+/* Índice lateral */
+.sidebar{background:var(--nav);color:var(--ink);border-right:1px solid var(--line)}
+.brand{border-bottom-color:#bacbdc}
+.brand-link,.brand strong{color:var(--ink)}
+.brand-mark,.brand-mark span{color:var(--accent)!important}
+.brand-mark{border-right-color:#d1a9c5}
+.brand small{color:#485d70}
+.sidebar-heading{color:#445a70;border-bottom-color:#ccd8e5}
+.nav-link{color:#243c53;border-bottom-color:#d7e0ea}
+.nav-link:hover,.nav-link.active{color:#990d68}
+.nav-link.active::before{background:var(--accent)}
+.nav-icon{color:#526a81}
+.nav-link.active .nav-icon{color:var(--accent)}
+.nav-tail{color:#677b91}
+.nav-check{color:#186344}
+.sidebar-foot{border-top-color:#c8d5e3;color:#465b6e}
+
+/* Jerarquía y cabecera */
+.topbar{background:#fff;border-bottom-color:var(--line)}
+.topbar-trail,.topbar-trail span:last-child{color:#314c64}
+.trail-separator{color:#8393a6}
+.level-pill,.text-tool{color:#263f57}
+.level-dot{background:var(--accent)}
+.text-tool:hover{color:#990d68}
+.page-title,.section-heading h2,.content-heading,.lesson-block h2,.lesson-block h3,
+.rule-card h3,.reading-text h2,.exercise-panel h2,.reflection-panel h2,
+.route-next strong,.tile h3,.not-ready h2{color:var(--ink)}
+.eyebrow,.exercise-panel .exercise-kicker{color:#990d68}
+.lead{color:#3c5265}
+.section-heading{border-bottom-color:var(--ink)}
+.section-heading p,.module-index{color:#586b7c}
+
+/* Portada azul marino con acento magenta */
+.hero{background:#0a223a;color:#fff;border-top:4px solid #c51185;border-bottom:0;
+  padding:46px clamp(25px,3.7vw,50px) 50px}
+.hero::before{color:#fff;opacity:.09;right:27px}
+.hero h1{color:#fff}
+.hero h1 span{color:#ff9bd3!important}
+.hero p{color:#e6edf5}
+.hero .eyebrow{color:#ff9bd3}
+.hero-subtitle{color:#fff}
+.hero .button,.hero .button-light{background:#b00f77;color:#fff;border-color:#b00f77}
+.hero .button:hover,.hero .button-light:hover{background:#950c64;color:#fff;border-color:#950c64}
+
+/* Botones y entradas */
+.button,.button-small{background:var(--ink);color:#fff;border-color:var(--ink)}
+.button:hover,.button-light:hover{background:#1a4363;border-color:#1a4363;color:#fff}
+.button-outline{background:#fff;color:var(--ink);border-color:#a9b9ca}
+.button-outline:hover{background:#eaf1f8;color:var(--ink);border-color:#688199}
+.button-danger{background:#fff;color:#913a38;border-color:#d7aaa8}
+.button-danger:hover{background:#fff0ee;color:#913a38;border-color:#d7aaa8}
+.tile:hover{background:#f0f4f9!important}
+.tile-icon,.tile.warm .tile-icon,.tile.blue .tile-icon,.tile.gold .tile-icon{color:var(--accent)}
+.tile h3{color:var(--ink)}
+.tile p{color:#42566b}
+.tile-footer,.lesson-row .list-index,.lesson-row .list-tail{color:#990d68}
+.lesson-row:hover{background:#eef3f9}
+.lesson-row small{color:#495d70}
+.route-next:hover{background:#eef3f9!important}
+.route-next span,.route-next .arrow{color:#990d68}
+
+/* Explicaciones y ejemplos */
+.notice,.notice.warm{background:#eef3f9;border-left-color:var(--accent);color:#33495e}
+.notice.warm{background:#f9f0f7}
+.note-badge,.activity-tag,.tag-soft{background:#f7e3f0;color:#86105f}
+.rule-card{border-left-color:#b5c6d7}
+.example{background:#f0f4f9;border-left-color:var(--accent);color:#273e54}
+.example b{color:#990d68}
+.example .translation{color:#475e73}
+.compare-card{background:#fff;border-color:var(--line)}
+.compare-card h4{color:var(--ink)}
+.compare-card.danger h4{color:#990d68}
+.compare-card p{color:#283b4d}
+.content-table th{background:#eaf0f7;color:var(--ink)}
+.content-table td{color:#273b50}
+.meta-chip,.chapter-header .lead{color:#465c71}
+
+/* Glosario, lectura y formularios */
+.filter-chip{color:#253f58;border-color:#acbecf}
+.filter-chip:hover{background:#e7eef7}
+.filter-chip[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:#fff}
+.vocab-search,.answer-input,.reflection-box{background:#fff;border-color:#a9bacc;color:var(--ink)}
+.vocab-card strong{color:var(--ink)}
+.vocab-card p{color:#364d62}
+.vocab-card em{color:#990d68}
+.reading-text,.exercise-panel,.reflection-panel{background:#fff;border-color:var(--line)}
+.reading-text p,.lesson-block p,.rule-card p,.rule-card li{color:#26384a}
+.exercise-note{color:#40566b}
+.score-label{border-color:#aebdcb;color:#31485e}
+.question{border-top-color:#e0e7ef}
+.question-num{color:#990d68}
+.question-prompt{color:var(--ink)}
+.question-hint{color:#485e72}
+.option{background:#fff;border-color:#bac8d6;color:#253b51}
+.option:hover{background:#f0f5fa;border-color:#557793}
+.option:has(input:checked){background:#fbedf6;border-color:#a80d72;color:var(--ink)}
+.option input,.reflection-checklist input{accent-color:#b00f77}
+.vocab-search:focus,input:focus,textarea:focus,select:focus{border-color:var(--accent)!important;outline-color:#b00f7755}
+.feedback{background:#eaf4ec;border-left-color:#427e60;color:#23523c}
+.feedback.wrong{background:#fff0ee;border-left-color:#ae4543;color:#863534}
+.question.correct .question-num{color:#267044}
+.question.incorrect .question-num{color:#a43838}
+.exercise-summary{color:#315a49}
+.exercise-summary.low{color:#963e3a}
+.reflection-panel p,.reflection-checklist label,.reflection-panel .reflection-instructions,.reflection-panel .reflection-checklist-help{color:#293f53}
+.save-status{color:#395b69}
+.not-ready p,.source-note{color:#40576b}
+
+/* La impresión sigue utilizando fondo blanco. */
+@media print{
+  body,.hero,.reading-text,.exercise-panel,.reflection-panel{background:#fff;color:#111}
+  .hero{border-top-color:#555;border-bottom:1px solid #aaa}
+  .hero h1,.hero p,.hero .eyebrow{color:#111}
+}
