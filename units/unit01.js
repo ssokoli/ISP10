@@ -1,8 +1,6 @@
-/* ISP10 · Contenidos originales de apoyo a Nuevo Prisma B2, Unidad 1 (pp. 8–21).
- * Para añadir nuevas unidades: crear un archivo análogo, agregar su script a index.html
- * y registrar sus rutas en assets/app.js. Ninguna actividad reproduce literalmente el libro.
- */
-window.ISP10_DATA = {
+/* ISP10: Unidad 1 original */
+window.ISP10_UNITS=window.ISP10_UNITS||{};
+window.ISP10_UNITS[1] = {
   unit: {number:1,title:'Vidas anónimas',book:'Nuevo Prisma B2',pages:'8–21'},
   lessons:[
     {id:'formas',index:'01',title:'El subjuntivo: formas',short:'Presente y perfecto',icon:'✳',minutes:18,type:'Gramática'},

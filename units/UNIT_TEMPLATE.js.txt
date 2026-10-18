@@ -1,0 +1,11 @@
+window.ISP10_UNITS=window.ISP10_UNITS||{};
+window.ISP10_UNITS[2]={
+  unit:{number:2,title:'Título real de la unidad',book:'Nuevo Prisma B2',pages:'22–35'},
+  lessons:[{id:'gramatica',index:'01',title:'Gramática',short:'Explicaciones y práctica',icon:'✳',minutes:20,type:'Gramática'}],
+  pages:{gramatica:{
+    introduction:'Texto introductorio.',
+    blocks:'<section class="lesson-block"><h2>Explicación</h2><p>Contenido didáctico original.</p></section>',
+    exerciseTitle:'Ejercicios',exerciseNote:'Elige la opción correcta.',
+    questions:[{type:'choice',q:'¿Cuál es la respuesta?',options:['Correcta','Incorrecta'],answer:0,ex:'Explicación.'}]
+  }},vocabulary:[]
+};
