@@ -1,19 +1,10 @@
-/* ISP10 · Unidad 3 · Con ritmo. Material original de apoyo a Nuevo Prisma B2, pp. 36–49. */
+/* ISP10 · Unidad 3 · Con ritmo. */
 (() => {
   'use strict';
 
   const section = (title, body) => `<section class="lesson-block"><h2>${title}</h2>${body}</section>`;
   const choice = (q, options, answer, ex) => ({type: 'choice', q, options, answer, ex});
   const gap = (q, answers, ex) => ({type: 'gap', q, answers, ex});
-
-  const bookGuide = `<section class="lesson-block" aria-labelledby="manual-u3">
-    <h2 id="manual-u3">Cómo combinar la web y el manual</h2>
-    <p>Consulta la Unidad 3 del manual del curso (pp. 36–49). Empieza por el bloque 01 y sigue el orden del menú lateral. Lee los ejemplos, haz las actividades y pulsa «Corregir respuestas». Consulta el glosario del bloque 09 cuando lo necesites.</p>
-    <p>Encontrarás los audios del manual en <a href="https://eleteca.edinumen.es/">ELEteca</a>. Los ejercicios y borradores de esta web son prácticas de apoyo. Consulta en el aula del curso qué debes entregar.</p>
-    <details><summary>Ver páginas y actividades del programa de ISP10</summary>
-      <ul><li>p. 36, actividad 1</li><li>p. 38, actividades 3, 3.1 y 3.2</li><li>p. 39, actividades 1 y 2</li><li>p. 42, actividades 1 y 2</li><li>p. 43, actividad 3</li><li>p. 44, actividades 3.1 y 3.2</li><li>p. 45, actividades 4.3 y 4.4</li><li>p. 46, actividades 1 y 1.1</li><li>p. 47, actividad 2.1</li><li>p. 48, actividad 2.2</li></ul>
-    </details>
-  </section>`;
 
   const lessons = [
     {id: 'musica-bienestar', index: '01', title: 'Cómo expresar gustos y describir sensaciones', short: 'Gustos, sensaciones y estrategias de escucha', icon: '♫', minutes: 20, type: 'Léxico y destrezas'},
@@ -37,7 +28,6 @@
         <p>En la danza, «seguir el compás» es ajustar los movimientos a la pauta rítmica. Una «coreografía» organiza los movimientos de una pieza. El ballet clásico, la danza contemporánea y los bailes de salón ofrecen distintos puntos de partida para comparar técnica y expresión.</p>`) +
       section('Escucha y compara las reacciones', `
         <p>La <strong>musicoterapia</strong> utiliza la música y sus elementos con fines terapéuticos. La <strong>danzaterapia</strong> emplea el movimiento expresivo.</p>
-        <p><strong>En el manual.</strong> Abre la p. 38 y escucha la pista 15. En la primera escucha, identifica el tema. En la segunda, anota cómo define Jordi Jauset la musicoterapia y qué ejemplos da. Usa tus notas para las actividades 3 y 3.1.</p>
         <h3>Práctica con un diálogo inventado</h3>
         <p>En pareja, una persona abre el diálogo y lo lee en voz alta. La otra escucha sin mirar. Si trabajas a solas, lee el diálogo una vez y ciérralo. Después, responde con tus palabras. ¿Qué hicieron varias personas al oír la pieza rápida? ¿Qué dijo cada una de las dos participantes sobre la pieza lenta?</p>
         <details><summary>Abrir el diálogo de práctica</summary>
@@ -64,7 +54,7 @@
         <p>«A mi modo de ver» introduce tu perspectiva. «Según la autora» atribuye una idea a otra persona. Puedes expresar reservas con «yo diría que».</p>`) +
       section('Tesis, razón, ejemplo y evidencia', `
         <p>Imagina un foro donde alguien afirma que un estilo musical revela el carácter. Una <strong>tesis</strong> posible es que los gustos dependen en parte de la situación. Una <strong>razón</strong> sería que una misma persona elige música para actividades diferentes. Un <strong>ejemplo</strong> sería elegir salsa para bailar y música instrumental para leer.</p>
-        <p>En la p. 39 del manual, busca una opinión, una razón y un ejemplo al hacer las actividades 1 y 2. Subraya las expresiones que introducen esas ideas.</p><p>Un ejemplo concreto ilustra la razón. Si aportas una encuesta o citas a una persona experta, indica qué se estudió y hasta dónde llegan los resultados. Una asociación entre dos rasgos admite varias explicaciones.</p>`),
+        <p>Un ejemplo concreto ilustra la razón. Si aportas una encuesta o citas a una persona experta, indica qué se estudió y hasta dónde llegan los resultados. Una asociación entre dos rasgos admite varias explicaciones.</p>`),
       exerciseTitle: 'La postura y sus razones',
       questions: [
         gap('Completa en presente. «Considero que los recuerdos ____ (influir) en nuestras preferencias musicales».', ['influyen'], 'La opinión afirmativa presenta la proposición con indicativo.'),
@@ -78,7 +68,7 @@
       introduction: 'Organiza una postura escrita u oral con razones, un contraargumento y una conclusión.',
       blocks: section('Del tema a la conclusión', `
         <ol><li><strong>Introducción.</strong> Delimita el tema y explica por qué se discute.</li><li><strong>Tesis.</strong> Expresa en una frase la postura que defenderás. Puede aparecer en la introducción.</li><li><strong>Argumentación.</strong> Desarrolla cada razón con un ejemplo, un dato verificable o una fuente pertinente.</li><li><strong>Contraargumentación.</strong> Presenta una objeción plausible y responde a ella.</li><li><strong>Conclusión.</strong> Recupera tu postura y extrae una consecuencia o una propuesta.</li></ol>
-        <p>Escucha la pista 16 del manual. Anota la postura del hablante sobre las descargas ilegales de música y dos expresiones que usa para organizar su intervención.</p><p>Una pregunta retórica invita a reflexionar. Una cita de autoridad requiere una fuente identificable. Si usas porcentajes, precisa de dónde salen y qué población representan.</p>`) +
+        <p>Una pregunta retórica invita a reflexionar. Una cita de autoridad requiere una fuente identificable. Si usas porcentajes, precisa de dónde salen y qué población representan.</p>`) +
       section('Conectores y relaciones', `
         <div class="table-scroll"><table class="content-table"><thead><tr><th>Función</th><th>Recursos</th></tr></thead><tbody>
         <tr><td>Presentar y ordenar</td><td>Para empezar, en primer lugar, por otra parte</td></tr>
@@ -140,14 +130,14 @@
     'musica-cultura': {
       introduction: 'Compara tres caminos para darse a conocer y analiza cómo una canción puede representar realidades sociales.',
       blocks: section('Televisión, redes y calle', `
-        <p><strong>En el manual.</strong> Escucha la pista 17 y anota qué medio ayudó a cada cantante a darse a conocer. Después, compara tus notas con los perfiles de Bisbal y Alborán.</p><p><strong>David Bisbal</strong> quedó segundo en la primera edición de «Operación Triunfo». El concurso le abrió una vía hacia la grabación y los conciertos.</p>
+        <p><strong>David Bisbal</strong> quedó segundo en la primera edición de «Operación Triunfo». El concurso le abrió una vía hacia la grabación y los conciertos.</p>
         <p><strong>Pablo Alborán</strong> empezó a componer de joven y difundió interpretaciones en Internet. El «boca a boca» ayudó a que esos vídeos llegaran a más oyentes.</p>
         <p><strong>Macaco</strong>, nombre artístico de Daniel Carbonell, tocó en la calle en Barcelona y reunió a músicos de distintos orígenes. Su repertorio combina influencias como la rumba, el reggae y el funk.</p>
         <p>A partir de los tres perfiles, identifica cómo se dio a conocer cada artista. Luego escribe una semejanza y una diferencia entre Bisbal y Alborán.</p>
         <details><summary>Ver respuesta posible</summary><p>Bisbal ganó visibilidad con un concurso de televisión, Alborán difundió sus interpretaciones en Internet y Macaco tocó en la calle. Los dos aprovecharon un medio que les permitió llegar a un público más amplio. La televisión fue decisiva para Bisbal y los vídeos en Internet para Alborán.</p></details>`) +
       section('Una canción que cambia de escenario', `
         <p>En «Hijos de un mismo dios», Macaco yuxtapone escenas de distintos lugares. El desempleo, la violencia cotidiana, la desconexión política, la soledad en redes y la presión laboral sirven como puntos de partida para interpretar la canción.</p>
-        <p>En la p. 45 del manual, localiza la canción. Durante la escucha, anota los lugares que reconozcas y qué problema se plantea en cada escena.</p><h3>Dos escenas de práctica inspiradas en el tema de la canción</h3>
+        <h3>Dos escenas de práctica inspiradas en el tema de la canción</h3>
         <div class="example"><p><strong>A.</strong> Cada noche, Irene cena con el portátil abierto. Ha prometido tres veces apagarlo a las ocho, pero sigue contestando mensajes del trabajo hasta que su familia se va a dormir.</p><p><strong>B.</strong> En el barrio de Samir ha cerrado la última fábrica. Todos los lunes, Samir repasa las ofertas con su vecina. Esta semana solo han encontrado una oferta de trabajo. Samir tendría que mudarse a otra ciudad para aceptarla.</p></div>
         <p>Identifica el problema social de cada escena y señala un detalle que apoye tu interpretación. Si estas escenas formaran parte de una canción, ¿qué sonido cotidiano elegirías para cada una y por qué?</p>
         <details><summary>Ver respuesta posible</summary><p>La escena A muestra cómo el trabajo invade el tiempo familiar. Irene sigue contestando mensajes hasta que su familia se acuesta. La escena B sugiere desempleo y falta de oportunidades locales. Ha cerrado la fábrica y la única oferta exige mudarse. Podrían oírse notificaciones en A y, en B, el eco de la puerta metálica de la fábrica.</p></details>`),
@@ -187,7 +177,7 @@
     biografia: {
       introduction: 'Organiza una vida artística en etapas y explica cómo se relacionan la formación, el esfuerzo y los logros.',
       blocks: section('Una trayectoria en el Ballet Nacional de Cuba', `
-        <p><strong>En el manual.</strong> Escucha la entrevista de la pista 18. En la primera escucha, identifica cómo se inició en el ballet. En la segunda, anota cómo era su rutina, a qué tuvo que renunciar y qué escenarios recuerda.</p><p><strong>Viengsay Valdés</strong> practicaba gimnasia antes de empezar en el ballet. Su abuela la llevó a la escuela Alejo Carpentier y allí comenzó su formación. Cuenta cómo compaginaba las clases con el entrenamiento, a qué actividades de ocio tuvo que renunciar y qué actuaciones recuerda con especial emoción, entre ellas las de México y San Petersburgo.</p>
+        <p><strong>Viengsay Valdés</strong> practicaba gimnasia antes de empezar en el ballet. Su abuela la llevó a la escuela Alejo Carpentier y allí comenzó su formación. Cuenta cómo compaginaba las clases con el entrenamiento, a qué actividades de ocio tuvo que renunciar y qué actuaciones recuerda con especial emoción, entre ellas las de México y San Petersburgo.</p>
         <p>La reseña de «De acero y nube», de Carlos Tablada, aporta otra mirada sobre la bailarina. Una entrevista conserva la perspectiva de la persona entrevistada. Una biografía organiza los hechos y les da contexto. Una reseña, además, presenta o valora una obra.</p>
         <p>A partir del perfil anterior, ordena estos hitos y añade una frase sobre la rutina de la bailarina usando el imperfecto. <strong>A.</strong> Actuó en escenarios internacionales. <strong>B.</strong> Practicó gimnasia. <strong>C.</strong> Entró en la escuela Alejo Carpentier.</p>
         <details><summary>Ver respuesta</summary><p>El orden es B → C → A. Una frase posible es «Durante su formación, compaginaba las clases con el entrenamiento».</p></details>`) +
@@ -223,7 +213,7 @@
         <tr><td>Preposición + término</td><td>con la orquesta</td></tr>
         </tbody></table></div>`) +
       section('Lee y compara', `
-        <p>Después de practicar con los ejemplos de abajo, escucha la pista 19 del manual y detecta dos pausas que interrumpen grupos de palabras.</p><p>La barra marca una pausa posible. «Al terminar el ensayo / la cantante volvió a tocar con la orquesta.» Lee la frase a velocidad normal y repítela haciendo una pausa entre «con» y «la orquesta». Observa cómo cambia la fluidez.</p>
+        <p>La barra marca una pausa posible. «Al terminar el ensayo / la cantante volvió a tocar con la orquesta.» Lee la frase a velocidad normal y repítela haciendo una pausa entre «con» y «la orquesta». Observa cómo cambia la fluidez.</p>
         <h3>Detecta y corrige dos pausas</h3>
         <div class="example"><p>— Antes del ensayo / la directora habló con / el pianista.</p><p>— Al terminar / lo / llamaron para confirmar la hora.</p></div>
         <p>Lee el diálogo siguiendo las barras. Quita una barra de cada frase y explica qué palabras separaba. Si practicas en pareja, leed en voz alta ambas versiones.</p>
@@ -316,8 +306,7 @@
 
   window.ISP10_UNITS = window.ISP10_UNITS || {};
   window.ISP10_UNITS[3] = {
-    unit: {number: 3, title: 'Con ritmo', book: 'Nuevo Prisma B2', pages: '36–49'},
-    bookGuide,
+    unit: {number: 3, title: 'Con ritmo'},
     lessons,
     pages,
     vocabulary
