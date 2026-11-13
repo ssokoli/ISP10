@@ -1,0 +1,21 @@
+/* ISP10 · Recursos complementarios: conserva la paleta institucional y el diseño de la web. */
+.resources-page{max-width:1100px;margin:0 auto}
+.resources-page .chapter-header{margin-bottom:28px}
+.resources-intro{max-width:860px;color:#41586c;font-size:15.5px;line-height:1.75;margin:10px 0 20px}
+.resources-section{margin:38px 0 45px}
+.resources-page .section-heading{margin:0 0 14px}
+.resources-page .section-heading h2{font-size:23px}
+.resources-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px}
+.resource-card{display:flex;flex-direction:column;justify-content:space-between;gap:14px;border:1px solid var(--line);border-radius:15px;background:#fff;box-shadow:var(--shadow);padding:22px 23px;min-width:0}
+.resource-card h3{color:#0a223a;font-size:18px;line-height:1.35;margin:0 0 9px;letter-spacing:-.02em}
+.resource-card p{font-size:14.2px;line-height:1.7;margin:9px 0;color:#354d62}
+.resource-card .resource-meta{font-size:12.4px;color:#8b0e65;font-weight:750;margin:0 0 14px}
+.resource-card .resource-activity{padding:12px 13px;border-left:3px solid #b00f77;border-radius:0 8px 8px 0;background:#fbedf6;margin-top:16px;color:#31475a}
+.resource-card .resource-activity strong{color:#7c0b55}
+.resource-action{display:flex;align-items:center;justify-content:space-between;gap:8px;color:#fff;background:#0a223a;border-radius:8px;padding:10px 14px;text-decoration:none;font-size:13px;font-weight:750;align-self:flex-start;margin-top:auto}
+.resource-action:hover,.resource-action:focus-visible{background:#183f61;color:#fff;text-decoration:none}
+.resources-routine{max-width:820px}
+.resources-routine h3{font-size:19px;color:#0a223a}
+.resources-routine li{line-height:1.8}
+@media(max-width:700px){.resources-grid{grid-template-columns:1fr}.resource-card{padding:19px}.resources-page .section-heading h2{font-size:21px}}
+@media print{.resources-grid{grid-template-columns:1fr 1fr}.resource-card{box-shadow:none;break-inside:avoid}.resource-action{background:#fff;color:#000;padding-left:0}.resources-page .section-heading{break-after:avoid}}
