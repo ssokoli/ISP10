@@ -6,6 +6,15 @@
   const choice = (q, options, answer, ex) => ({type: 'choice', q, options, answer, ex});
   const gap = (q, answers, ex) => ({type: 'gap', q, answers, ex});
 
+  const bookGuide = `<section class="lesson-block" aria-labelledby="manual-u3">
+    <h2 id="manual-u3">Cómo combinar la web y el manual</h2>
+    <p>Abre <em>Nuevo Prisma B2</em> por la Unidad 3 (pp. 36–49). Empieza por el bloque 01 y sigue el orden del menú lateral. Lee los ejemplos, haz las actividades y pulsa «Corregir respuestas». Consulta el glosario del bloque 09 cuando lo necesites.</p>
+    <p>Encontrarás los audios del libro en <a href="https://eleteca.edinumen.es/">ELEteca</a>, dentro de los materiales de Nuevo Prisma B2. Los ejercicios y borradores de esta web son prácticas de apoyo. Consulta en el aula del curso qué debes entregar.</p>
+    <details><summary>Ver páginas y actividades del programa de ISP10</summary>
+      <ul><li>p. 36, actividad 1</li><li>p. 38, actividades 3, 3.1 y 3.2</li><li>p. 39, actividades 1 y 2</li><li>p. 42, actividades 1 y 2</li><li>p. 43, actividad 3</li><li>p. 44, actividades 3.1 y 3.2</li><li>p. 45, actividades 4.3 y 4.4</li><li>p. 46, actividades 1 y 1.1</li><li>p. 47, actividad 2.1</li><li>p. 48, actividad 2.2</li></ul>
+    </details>
+  </section>`;
+
   const lessons = [
     {id: 'musica-bienestar', index: '01', title: 'Cómo expresar gustos y describir sensaciones', short: 'Gustos, sensaciones y estrategias de escucha', icon: '♫', minutes: 20, type: 'Léxico y destrezas'},
     {id: 'opinar', index: '02', title: 'Cómo expresar y justificar una opinión', short: 'Expresar un punto de vista y distinguir razones de ejemplos', icon: '✦', minutes: 20, type: 'Gramática'},
@@ -26,11 +35,14 @@
         <p>Un <strong>género</strong> es un tipo de música, como la salsa o el flamenco. El <strong>ritmo</strong> organiza los sonidos en el tiempo y la <strong>melodía</strong> es la sucesión de notas que reconoces al tararear. Puedes hablar del ritmo de una canción, de lo que cuenta su letra o del modo en que se interpreta.</p>
         <div class="example">Las baladas me traen recuerdos. Para caminar prefiero algo movido. Cuando necesito concentrarme, me apetece escuchar música instrumental.</div>
         <p>En la danza, «seguir el compás» es ajustar los movimientos a la pauta rítmica. Una «coreografía» organiza los movimientos de una pieza. El ballet clásico, la danza contemporánea y los bailes de salón ofrecen distintos puntos de partida para comparar técnica y expresión.</p>`) +
-      section('Lee la entrevista y compara las reacciones', `
+      section('Escucha y compara las reacciones', `
         <p>La <strong>musicoterapia</strong> utiliza la música y sus elementos con fines terapéuticos. La <strong>danzaterapia</strong> emplea el movimiento expresivo.</p>
-        <p>Lee el diálogo y fíjate en dos cosas: qué hizo el grupo con la pieza rápida y cómo reaccionaron dos participantes a la pieza lenta. Si trabajáis en pareja, una persona puede leerlo en voz alta y la otra escuchar.</p><h3>Diálogo ficticio en un taller de música</h3>
+        <p><strong>En el manual.</strong> Abre la p. 38 y escucha la pista 15. En la primera escucha, identifica el tema. En la segunda, anota cómo define Jordi Jauset la musicoterapia y qué ejemplos da. Usa tus notas para las actividades 3 y 3.1.</p>
+        <h3>Práctica con un diálogo inventado</h3>
+        <p>En pareja, una persona abre el diálogo y lo lee en voz alta. La otra escucha sin mirar. Si trabajas a solas, lee el diálogo una vez y ciérralo. Después, responde con tus palabras. ¿Qué hicieron varias personas al oír la pieza rápida? ¿Qué dijo cada una de las dos participantes sobre la pieza lenta?</p>
+        <details><summary>Abrir el diálogo de práctica</summary>
         <div class="example"><p>— ¿Qué habéis observado en el taller de música?</p><p>— Con una pieza lenta, algunas personas prefirieron escuchar en silencio. Con otra más rápida, varias empezaron a marcar el pulso con las manos.</p><p>— ¿Reaccionó todo el grupo de la misma manera?</p><p>— Hubo reacciones distintas. Una participante dijo que la primera pieza le traía recuerdos tristes. Otra contó que le ayudaba a tranquilizarse.</p></div>
-        <p>Responde con tus propias palabras. ¿Qué hicieron varias personas al oír la pieza rápida? ¿Qué dijo cada una de las dos participantes sobre la pieza lenta? Después, abre «Ver respuesta».</p>
+        </details>
         <details><summary>Ver respuesta</summary><p>Varias personas marcaron el pulso con las manos al oír la pieza rápida. La pieza lenta le trajo recuerdos tristes a una participante y ayudó a otra a tranquilizarse.</p></details>
         `) +
       section('Práctica opcional', `<p>Piensa en dos canciones que conozcas. Para cada una, escribe cuándo la escucharías y por qué.</p><div class="example">Para caminar, elegiría una canción rápida porque me ayuda a mantener el paso. Para leer, pondría música instrumental porque me distrae menos.</div>`),
@@ -52,7 +64,7 @@
         <p>«A mi modo de ver» introduce tu perspectiva. «Según la autora» atribuye una idea a otra persona. Puedes expresar reservas con «yo diría que».</p>`) +
       section('Tesis, razón, ejemplo y evidencia', `
         <p>Imagina un foro donde alguien afirma que un estilo musical revela el carácter. Una <strong>tesis</strong> posible es que los gustos dependen en parte de la situación. Una <strong>razón</strong> sería que una misma persona elige música para actividades diferentes. Un <strong>ejemplo</strong> sería elegir salsa para bailar y música instrumental para leer.</p>
-        <p>Un ejemplo concreto ilustra la razón. Si aportas una encuesta o citas a una persona experta, indica qué se estudió y hasta dónde llegan los resultados. Una asociación entre dos rasgos admite varias explicaciones.</p>`),
+        <p>En la p. 39 del manual, busca una opinión, una razón y un ejemplo al hacer las actividades 1 y 2. Subraya las expresiones que introducen esas ideas.</p><p>Un ejemplo concreto ilustra la razón. Si aportas una encuesta o citas a una persona experta, indica qué se estudió y hasta dónde llegan los resultados. Una asociación entre dos rasgos admite varias explicaciones.</p>`),
       exerciseTitle: 'La postura y sus razones',
       questions: [
         gap('Completa en presente. «Considero que los recuerdos ____ (influir) en nuestras preferencias musicales».', ['influyen'], 'La opinión afirmativa presenta la proposición con indicativo.'),
@@ -66,7 +78,7 @@
       introduction: 'Organiza una postura escrita u oral con razones, un contraargumento y una conclusión.',
       blocks: section('Del tema a la conclusión', `
         <ol><li><strong>Introducción.</strong> Delimita el tema y explica por qué se discute.</li><li><strong>Tesis.</strong> Expresa en una frase la postura que defenderás. Puede aparecer en la introducción.</li><li><strong>Argumentación.</strong> Desarrolla cada razón con un ejemplo, un dato verificable o una fuente pertinente.</li><li><strong>Contraargumentación.</strong> Presenta una objeción plausible y responde a ella.</li><li><strong>Conclusión.</strong> Recupera tu postura y extrae una consecuencia o una propuesta.</li></ol>
-        <p>Una pregunta retórica invita a reflexionar. Una cita de autoridad requiere una fuente identificable. Si usas porcentajes, precisa de dónde salen y qué población representan.</p>`) +
+        <p>Escucha la pista 16 del manual. Anota la postura del hablante sobre las descargas ilegales de música y dos expresiones que usa para organizar su intervención.</p><p>Una pregunta retórica invita a reflexionar. Una cita de autoridad requiere una fuente identificable. Si usas porcentajes, precisa de dónde salen y qué población representan.</p>`) +
       section('Conectores y relaciones', `
         <div class="table-scroll"><table class="content-table"><thead><tr><th>Función</th><th>Recursos</th></tr></thead><tbody>
         <tr><td>Presentar y ordenar</td><td>Para empezar, en primer lugar, por otra parte</td></tr>
@@ -91,6 +103,7 @@
       ],
       writing: [{
         id: 'argumentacion',
+        instructions: 'Escribe en el recuadro y revisa el texto con las casillas de abajo. Puedes descargar el borrador. Las marcas se reinician al cambiar de página.',
         title: 'Una propuesta para el centro cultural',
         prompt: 'Redacta entre 150 y 180 palabras. ¿Debería el centro cultural reservar parte de su programación para artistas que todavía no tienen público? Formula una tesis, desarrolla dos razones, responde a una objeción y termina con una propuesta.',
         check: ['Mi tesis se entiende desde el principio.', 'Desarrollo dos razones y doy al menos un ejemplo concreto.', 'Respondo a una objeción plausible.', 'Los conectores expresan la relación adecuada entre las ideas.']
@@ -99,10 +112,10 @@
     acuerdo: {
       introduction: 'Responde a una opinión con el grado de acuerdo que quieres expresar y explica tu postura.',
       blocks: section('Tres maneras de responder', `
-        <div class="table-scroll"><table class="content-table"><thead><tr><th>Intención</th><th>Respuesta en contexto</th></tr></thead><tbody>
+        <div class="table-scroll"><table class="content-table"><thead><tr><th>Intención</th><th>Respuesta a «Los concursos de televisión ayudan a los músicos que empiezan»</th></tr></thead><tbody>
         <tr><td>Acuerdo</td><td>Comparto tu opinión. El concurso da visibilidad a quienes empiezan.</td></tr>
         <tr><td>Acuerdo parcial</td><td>Hasta cierto punto sí. Da visibilidad, pero la exposición dura poco.</td></tr>
-        <tr><td>Desacuerdo</td><td>Yo no lo veo así. La formación musical también cuenta fuera de la televisión.</td></tr>
+        <tr><td>Desacuerdo</td><td>Yo no lo veo así. La exposición es tan breve que muchos participantes siguen sin encontrar actuaciones.</td></tr>
         </tbody></table></div>
         <p>«En efecto» y «desde luego» suelen confirmar una idea. «Puede ser, pero…» deja espacio para una reserva. «¡Qué va!» expresa rechazo en un registro coloquial. En una intervención formal puedes decir «discrepo en ese punto» y explicar el motivo.</p>`) +
       section('Un intercambio con réplicas', `
@@ -114,10 +127,11 @@
         choice('«Puede ser, pero el festival también debe cuidar el descanso del vecindario». ¿Qué expresa la respuesta?', ['Acuerdo pleno', 'Acuerdo parcial', 'Rechazo sin matices'], 1, 'Acepta parte de la propuesta y formula una reserva.'),
         choice('En una reunión formal, ¿cómo discrepas y aportas una razón?', ['¡Qué va!', 'Claro, totalmente.', 'Discrepo en ese punto porque el presupuesto cubre una sola actuación.'], 2, 'La fórmula expresa desacuerdo en un registro formal y lo justifica.'),
         choice('¿Qué respuesta concede una ventaja y después señala un límite?', ['Entiendo que la televisión amplía el público, aunque la fama puede durar poco.', 'La televisión siempre perjudica a los músicos.', 'Estoy totalmente de acuerdo con todo.'], 0, 'Se reconoce el aumento de público y se matiza su duración.'),
-        gap('Completa con el presente de subjuntivo. «No estoy de acuerdo con que el festival ____ (cobrar) a los artistas por actuar».', ['cobre'], 'Se expresa rechazo a la medida con «estar de acuerdo con que» en negativo y subjuntivo.')
+        gap('Completa con el presente de subjuntivo. «No estoy de acuerdo con que el festival ____ (cobrar) a los artistas por actuar».', ['cobre'], '«Cobre» va en subjuntivo porque el hablante valora y rechaza la medida.')
       ],
       writing: [{
         id: 'debate',
+        instructions: 'Si te ayuda, prepara un guion. Ensaya en voz alta y cronometra tu intervención. Puedes grabarte con tu dispositivo y usar las casillas para revisarte. Las marcas se reinician al cambiar de página.',
         title: 'Defiende tu propuesta en voz alta',
         prompt: 'Prepara una intervención de 60 a 90 segundos. Una sala tiene presupuesto para un único concierto. ¿Contratarías a un artista conocido o a un grupo emergente? Reconoce una ventaja de la otra opción, explica tu reserva y justifica tu decisión.',
         check: ['Presento mi postura y doy una razón concreta.', 'Reconozco una ventaja de la otra opción.', 'Cierro con una propuesta que podría debatirse.']
@@ -126,15 +140,15 @@
     'musica-cultura': {
       introduction: 'Compara tres caminos para darse a conocer y analiza cómo una canción puede representar realidades sociales.',
       blocks: section('Televisión, redes y calle', `
-        <p><strong>David Bisbal</strong> ganó visibilidad en la primera edición de «Operación Triunfo», tras haber cantado en una orquesta. El concurso le abrió una vía hacia la grabación y los conciertos.</p>
+        <p><strong>En el manual.</strong> Escucha la pista 17 y anota qué medio ayudó a cada cantante a darse a conocer. Después, compara tus notas con los perfiles de Bisbal y Alborán.</p><p><strong>David Bisbal</strong> quedó segundo en la primera edición de «Operación Triunfo». El concurso le abrió una vía hacia la grabación y los conciertos.</p>
         <p><strong>Pablo Alborán</strong> empezó a componer de joven y difundió interpretaciones en Internet. El «boca a boca» ayudó a que esos vídeos llegaran a más oyentes.</p>
         <p><strong>Macaco</strong>, nombre artístico de Daniel Carbonell, tocó en la calle en Barcelona y reunió a músicos de distintos orígenes. Su repertorio combina influencias como la rumba, el reggae y el funk.</p>
         <p>A partir de los tres perfiles, identifica cómo se dio a conocer cada artista. Luego escribe una semejanza y una diferencia entre Bisbal y Alborán.</p>
-        <details><summary>Ver respuesta posible</summary><p>Bisbal ganó visibilidad con un concurso de televisión, Alborán difundió sus interpretaciones en Internet y Macaco tocó en la calle. Bisbal y Alborán ya tenían experiencia musical cuando llegaron a un público más amplio. La televisión fue decisiva para Bisbal y los vídeos en Internet para Alborán.</p></details>`) +
+        <details><summary>Ver respuesta posible</summary><p>Bisbal ganó visibilidad con un concurso de televisión, Alborán difundió sus interpretaciones en Internet y Macaco tocó en la calle. Los dos aprovecharon un medio que les permitió llegar a un público más amplio. La televisión fue decisiva para Bisbal y los vídeos en Internet para Alborán.</p></details>`) +
       section('Una canción que cambia de escenario', `
         <p>En «Hijos de un mismo dios», Macaco yuxtapone escenas de distintos lugares. El desempleo, la violencia cotidiana, la desconexión política, la soledad en redes y la presión laboral sirven como puntos de partida para interpretar la canción.</p>
-        <h3>Dos escenas originales</h3>
-        <div class="example"><p><strong>A.</strong> Cada noche, Irene cena con el portátil abierto. Ha prometido tres veces apagarlo a las ocho, pero sigue contestando mensajes del trabajo hasta que su familia se va a dormir.</p><p><strong>B.</strong> En el barrio de Samir ha cerrado la última fábrica. Todos los lunes, Samir repasa las ofertas con su vecina. Esta semana solo han encontrado un anuncio y pide mudarse a otra ciudad.</p></div>
+        <p>En la p. 45 del manual, localiza la canción. Durante la escucha, anota los lugares que reconozcas y qué problema se plantea en cada escena.</p><h3>Dos escenas de práctica inspiradas en el tema de la canción</h3>
+        <div class="example"><p><strong>A.</strong> Cada noche, Irene cena con el portátil abierto. Ha prometido tres veces apagarlo a las ocho, pero sigue contestando mensajes del trabajo hasta que su familia se va a dormir.</p><p><strong>B.</strong> En el barrio de Samir ha cerrado la última fábrica. Todos los lunes, Samir repasa las ofertas con su vecina. Esta semana solo han encontrado una oferta de trabajo. Samir tendría que mudarse a otra ciudad para aceptarla.</p></div>
         <p>Identifica el problema social de cada escena y señala un detalle que apoye tu interpretación. Si estas escenas formaran parte de una canción, ¿qué sonido cotidiano elegirías para cada una y por qué?</p>
         <details><summary>Ver respuesta posible</summary><p>La escena A muestra cómo el trabajo invade el tiempo familiar. Irene sigue contestando mensajes hasta que su familia se acuesta. La escena B sugiere desempleo y falta de oportunidades locales. Ha cerrado la fábrica y la única oferta exige mudarse. Podrían oírse notificaciones en A y, en B, el eco de la puerta metálica de la fábrica.</p></details>`),
       exerciseTitle: 'Trayectorias y lectura cultural',
@@ -173,7 +187,7 @@
     biografia: {
       introduction: 'Organiza una vida artística en etapas y explica cómo se relacionan la formación, el esfuerzo y los logros.',
       blocks: section('Una trayectoria en el Ballet Nacional de Cuba', `
-        <p><strong>Viengsay Valdés</strong> practicaba gimnasia antes de empezar en el ballet. Su abuela la llevó a la escuela Alejo Carpentier y allí comenzó su formación. Cuenta cómo compaginaba las clases con el entrenamiento, qué actividades tuvo que dejar y qué actuaciones recuerda con especial emoción, entre ellas las de México y San Petersburgo.</p>
+        <p><strong>En el manual.</strong> Escucha la entrevista de la pista 18. En la primera escucha, identifica cómo se inició en el ballet. En la segunda, anota cómo era su rutina, a qué tuvo que renunciar y qué escenarios recuerda.</p><p><strong>Viengsay Valdés</strong> practicaba gimnasia antes de empezar en el ballet. Su abuela la llevó a la escuela Alejo Carpentier y allí comenzó su formación. Cuenta cómo compaginaba las clases con el entrenamiento, a qué actividades de ocio tuvo que renunciar y qué actuaciones recuerda con especial emoción, entre ellas las de México y San Petersburgo.</p>
         <p>La reseña de «De acero y nube», de Carlos Tablada, aporta otra mirada sobre la bailarina. Una entrevista conserva la perspectiva de la persona entrevistada. Una biografía organiza los hechos y les da contexto. Una reseña, además, presenta o valora una obra.</p>
         <p>A partir del perfil anterior, ordena estos hitos y añade una frase sobre la rutina de la bailarina usando el imperfecto. <strong>A.</strong> Actuó en escenarios internacionales. <strong>B.</strong> Practicó gimnasia. <strong>C.</strong> Entró en la escuela Alejo Carpentier.</p>
         <details><summary>Ver respuesta</summary><p>El orden es B → C → A. Una frase posible es «Durante su formación, compaginaba las clases con el entrenamiento».</p></details>`) +
@@ -190,6 +204,7 @@
       ],
       writing: [{
         id: 'biografia',
+        instructions: 'Escribe en el recuadro y revisa el texto con las casillas de abajo. Puedes descargar el borrador. Las marcas se reinician al cambiar de página.',
         title: 'Escribe la biografía de un artista',
         prompt: 'Redacta entre 150 y 180 palabras sobre un artista de la música o de la danza que admires. Consulta una fuente e identifícala al final. Incluye sus inicios, un hito y su aportación. Cierra con una valoración personal razonada.',
         check: ['Organizo los hechos en etapas y cito una fuente.', 'Uso los pasados según el marco temporal y la perspectiva.', 'Apoyo mi valoración con un hecho de la trayectoria.']
@@ -208,7 +223,7 @@
         <tr><td>Preposición + término</td><td>con la orquesta</td></tr>
         </tbody></table></div>`) +
       section('Lee y compara', `
-        <p>La barra marca una pausa posible. «Al terminar el ensayo / la cantante volvió a tocar con la orquesta.» Lee la frase a velocidad normal y repítela haciendo una pausa entre «con» y «la orquesta». Observa cómo cambia la fluidez.</p>
+        <p>Después de practicar con los ejemplos de abajo, escucha la pista 19 del manual y detecta dos pausas que interrumpen grupos de palabras.</p><p>La barra marca una pausa posible. «Al terminar el ensayo / la cantante volvió a tocar con la orquesta.» Lee la frase a velocidad normal y repítela haciendo una pausa entre «con» y «la orquesta». Observa cómo cambia la fluidez.</p>
         <h3>Detecta y corrige dos pausas</h3>
         <div class="example"><p>— Antes del ensayo / la directora habló con / el pianista.</p><p>— Al terminar / lo / llamaron para confirmar la hora.</p></div>
         <p>Lee el diálogo siguiendo las barras. Quita una barra de cada frase y explica qué palabras separaba. Si practicas en pareja, leed en voz alta ambas versiones.</p>
@@ -237,7 +252,7 @@
     },
     repaso3: {
       introduction: 'Comprueba si puedes defender una idea, contar una trayectoria y leerla con pausas naturales.',
-      blocks: section('Antes de corregir', '<p>Localiza la intención comunicativa, la relación entre las ideas y el punto temporal de referencia. En la pregunta de lectura, comprueba qué palabras forman un grupo.</p><p>Tras corregir, vuelve al bloque correspondiente si necesitas revisar una explicación.</p>'),
+      blocks: section('Antes de corregir', '<p>Localiza la intención comunicativa, la relación entre las ideas y el punto temporal de referencia. En la pregunta de lectura, comprueba qué palabras forman un grupo.</p><p>Tras corregir, revisa <a href="#opinar">02 · Opinión</a>, <a href="#argumentar">03 · Argumentación</a>, <a href="#acuerdo">04 · Acuerdo</a>, <a href="#pasados">06 · Pasados</a>, <a href="#entonacion">08 · Entonación</a> o <a href="#vocabulario3">09 · Vocabulario</a> según la pregunta que quieras repasar.</p>'),
       exerciseTitle: 'Autoevaluación',
       questions: [
         gap('Completa en presente. «No me parece que una canción ____ (revelar) por sí sola el carácter de quien la escucha».', ['revele'], 'La opinión negada presenta esta proposición con subjuntivo.'),
@@ -302,6 +317,7 @@
   window.ISP10_UNITS = window.ISP10_UNITS || {};
   window.ISP10_UNITS[3] = {
     unit: {number: 3, title: 'Con ritmo', book: 'Nuevo Prisma B2', pages: '36–49'},
+    bookGuide,
     lessons,
     pages,
     vocabulary
