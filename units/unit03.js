@@ -25,7 +25,7 @@
       blocks: section('De los gustos a las sensaciones', `
         <p>Un <strong>género</strong> es un tipo de música, como la salsa o el flamenco. El <strong>ritmo</strong> organiza los sonidos en el tiempo y la <strong>melodía</strong> es la sucesión de notas que reconoces al tararear. Puedes hablar del ritmo de una canción, de lo que cuenta su letra o del modo en que se interpreta.</p>
         <div class="example">Las baladas me traen recuerdos. Para caminar prefiero algo movido. Cuando necesito concentrarme, me apetece escuchar música instrumental.</div>
-        <p>En la danza, <em>seguir el compás</em> es ajustar los movimientos a la pauta rítmica. Una <em>coreografía</em> organiza los movimientos de una pieza. El ballet clásico, la danza contemporánea y los bailes de salón ofrecen distintos puntos de partida para comparar técnica y expresión.</p>`) +
+        <p>En la danza, «seguir el compás» es ajustar los movimientos a la pauta rítmica. Una «coreografía» organiza los movimientos de una pieza. El ballet clásico, la danza contemporánea y los bailes de salón ofrecen distintos puntos de partida para comparar técnica y expresión.</p>`) +
       section('Lee la entrevista y compara las reacciones', `
         <p>La <strong>musicoterapia</strong> utiliza la música y sus elementos con fines terapéuticos. La <strong>danzaterapia</strong> emplea el movimiento expresivo.</p>
         <p>Lee el diálogo y fíjate en dos cosas: qué hizo el grupo con la pieza rápida y cómo reaccionaron dos participantes a la pieza lenta. Si trabajáis en pareja, una persona puede leerlo en voz alta y la otra escuchar.</p><h3>Diálogo ficticio en un taller de música</h3>
@@ -49,7 +49,7 @@
       blocks: section('Afirmar y cuestionar una idea', `
         <p>Para presentar una idea como propia puedes usar <strong>creo que</strong>, <strong>considero que</strong> o <strong>me parece que</strong>, normalmente con indicativo. Cuando rechazas o pones en duda esa idea con <strong>no creo que</strong>, <strong>no considero que</strong> o <strong>no me parece que</strong>, lo habitual es el subjuntivo.</p>
         <div class="example">Considero que el contexto <b>influye</b> en lo que escuchamos. No considero que un género musical <b>defina</b> el carácter de sus oyentes.</div>
-        <p><em>A mi modo de ver</em> introduce tu perspectiva. <em>Según la autora</em> atribuye una idea a otra persona. Puedes expresar reservas con <em>yo diría que</em>.</p>`) +
+        <p>«A mi modo de ver» introduce tu perspectiva. «Según la autora» atribuye una idea a otra persona. Puedes expresar reservas con «yo diría que».</p>`) +
       section('Tesis, razón, ejemplo y evidencia', `
         <p>Imagina un foro donde alguien afirma que un estilo musical revela el carácter. Una <strong>tesis</strong> posible es que los gustos dependen en parte de la situación. Una <strong>razón</strong> sería que una misma persona elige música para actividades diferentes. Un <strong>ejemplo</strong> sería elegir salsa para bailar y música instrumental para leer.</p>
         <p>Un ejemplo concreto ilustra la razón. Si aportas una encuesta o citas a una persona experta, indica qué se estudió y hasta dónde llegan los resultados. Una asociación entre dos rasgos admite varias explicaciones.</p>`),
@@ -104,7 +104,7 @@
         <tr><td>Acuerdo parcial</td><td>Hasta cierto punto sí. Da visibilidad, pero la exposición dura poco.</td></tr>
         <tr><td>Desacuerdo</td><td>Yo no lo veo así. La formación musical también cuenta fuera de la televisión.</td></tr>
         </tbody></table></div>
-        <p><em>En efecto</em> y <em>desde luego</em> suelen confirmar una idea. <em>Puede ser, pero…</em> deja espacio para una reserva. <em>¡Qué va!</em> expresa rechazo en un registro coloquial. En una intervención formal puedes decir <em>discrepo en ese punto</em> y explicar el motivo.</p>`) +
+        <p>«En efecto» y «desde luego» suelen confirmar una idea. «Puede ser, pero…» deja espacio para una reserva. «¡Qué va!» expresa rechazo en un registro coloquial. En una intervención formal puedes decir «discrepo en ese punto» y explicar el motivo.</p>`) +
       section('Un intercambio con réplicas', `
         <div class="example"><p>— Los festivales deberían reservar la mitad del cartel a grupos locales.</p><p>— Estoy de acuerdo en darles más espacio, aunque fijaría la cuota después de consultar a los organizadores.</p><p>— Entiendo la cautela. ¿Y si probamos la medida durante una edición y evaluamos la asistencia?</p></div>
         <p>Antes de rebatir, resume el punto concreto que has entendido. Después, aporta una razón y plantea una alternativa que tu interlocutor pueda valorar.</p>`),
@@ -126,13 +126,13 @@
     'musica-cultura': {
       introduction: 'Compara tres caminos para darse a conocer y analiza cómo una canción puede representar realidades sociales.',
       blocks: section('Televisión, redes y calle', `
-        <p><strong>David Bisbal</strong> ganó visibilidad en la primera edición de <em>Operación Triunfo</em>, tras haber cantado en una orquesta. El concurso le abrió una vía hacia la grabación y los conciertos.</p>
-        <p><strong>Pablo Alborán</strong> empezó a componer de joven y difundió interpretaciones en Internet. El <em>boca a boca</em> ayudó a que esos vídeos llegaran a más oyentes.</p>
+        <p><strong>David Bisbal</strong> ganó visibilidad en la primera edición de «Operación Triunfo», tras haber cantado en una orquesta. El concurso le abrió una vía hacia la grabación y los conciertos.</p>
+        <p><strong>Pablo Alborán</strong> empezó a componer de joven y difundió interpretaciones en Internet. El «boca a boca» ayudó a que esos vídeos llegaran a más oyentes.</p>
         <p><strong>Macaco</strong>, nombre artístico de Daniel Carbonell, tocó en la calle en Barcelona y reunió a músicos de distintos orígenes. Su repertorio combina influencias como la rumba, el reggae y el funk.</p>
         <p>A partir de los tres perfiles, identifica cómo se dio a conocer cada artista. Luego escribe una semejanza y una diferencia entre Bisbal y Alborán.</p>
         <details><summary>Ver respuesta posible</summary><p>Bisbal ganó visibilidad con un concurso de televisión, Alborán difundió sus interpretaciones en Internet y Macaco tocó en la calle. Bisbal y Alborán ya tenían experiencia musical cuando llegaron a un público más amplio. La televisión fue decisiva para Bisbal y los vídeos en Internet para Alborán.</p></details>`) +
       section('Una canción que cambia de escenario', `
-        <p>En <em>Hijos de un mismo dios</em>, Macaco yuxtapone escenas de distintos lugares. El desempleo, la violencia cotidiana, la desconexión política, la soledad en redes y la presión laboral sirven como puntos de partida para interpretar la canción.</p>
+        <p>En «Hijos de un mismo dios», Macaco yuxtapone escenas de distintos lugares. El desempleo, la violencia cotidiana, la desconexión política, la soledad en redes y la presión laboral sirven como puntos de partida para interpretar la canción.</p>
         <h3>Dos escenas originales</h3>
         <div class="example"><p><strong>A.</strong> Cada noche, Irene cena con el portátil abierto. Ha prometido tres veces apagarlo a las ocho, pero sigue contestando mensajes del trabajo hasta que su familia se va a dormir.</p><p><strong>B.</strong> En el barrio de Samir ha cerrado la última fábrica. Todos los lunes, Samir repasa las ofertas con su vecina. Esta semana solo han encontrado un anuncio y pide mudarse a otra ciudad.</p></div>
         <p>Identifica el problema social de cada escena y señala un detalle que apoye tu interpretación. Si estas escenas formaran parte de una canción, ¿qué sonido cotidiano elegirías para cada una y por qué?</p>
@@ -156,9 +156,9 @@
         <tr><td>Pretérito pluscuamperfecto</td><td>Hecho ya ocurrido en relación con un punto de referencia pasado.</td><td>Cuando debutó, ya <b>había bailado</b> en dos festivales.</td></tr>
         </tbody></table></div>`) +
       section('Cómo combinar los tiempos', `
-        <p>El indefinido puede hacer avanzar el relato y el imperfecto presentar las circunstancias. <em>El teatro estaba lleno cuando salió al escenario.</em> El pluscuamperfecto permite retroceder desde ese momento. <em>Antes de salir, ya había repasado la coreografía.</em></p>
-        <p><em>Hasta entonces nunca había actuado en esa sala</em> fija un límite en el pasado. <em>Apenas había terminado el ensayo cuando sonó el teléfono</em> presenta dos hechos muy próximos. El ensayo sigue siendo anterior a la llamada.</p>
-        <p>El reparto entre <em>he cantado</em> y <em>canté</em> varía entre regiones y hablantes. Algunos usan el simple con <em>hoy</em> y <em>esta semana</em>. Los ejercicios indican cuándo se pide el perfecto compuesto.</p>`),
+        <p>El indefinido puede hacer avanzar el relato y el imperfecto presentar las circunstancias. «El teatro estaba lleno cuando salió al escenario.» El pluscuamperfecto permite retroceder desde ese momento. «Antes de salir, ya había repasado la coreografía.»</p>
+        <p>«Hasta entonces nunca había actuado en esa sala» fija un límite en el pasado. «Apenas había terminado el ensayo cuando sonó el teléfono» presenta dos hechos muy próximos. El ensayo sigue siendo anterior a la llamada.</p>
+        <p>El reparto entre «he cantado» y «canté» varía entre regiones y hablantes. Algunos usan el simple con «hoy» y «esta semana». Los ejercicios indican cuándo se pide el perfecto compuesto.</p>`),
       exerciseTitle: 'Elige el punto de referencia',
       questions: [
         gap('Usa el perfecto compuesto para un balance vigente. «Hasta ahora, Alba ____ (componer) cuatro piezas para el grupo».', ['ha compuesto'], '«Ha compuesto» se forma con el presente de haber y el participio irregular «compuesto».'),
@@ -174,11 +174,11 @@
       introduction: 'Organiza una vida artística en etapas y explica cómo se relacionan la formación, el esfuerzo y los logros.',
       blocks: section('Una trayectoria en el Ballet Nacional de Cuba', `
         <p><strong>Viengsay Valdés</strong> practicaba gimnasia antes de empezar en el ballet. Su abuela la llevó a la escuela Alejo Carpentier y allí comenzó su formación. Cuenta cómo compaginaba las clases con el entrenamiento, qué actividades tuvo que dejar y qué actuaciones recuerda con especial emoción, entre ellas las de México y San Petersburgo.</p>
-        <p>La reseña de <em>De acero y nube</em>, de Carlos Tablada, aporta otra mirada sobre la bailarina. Una entrevista conserva la perspectiva de la persona entrevistada. Una biografía organiza los hechos y les da contexto. Una reseña, además, presenta o valora una obra.</p>
+        <p>La reseña de «De acero y nube», de Carlos Tablada, aporta otra mirada sobre la bailarina. Una entrevista conserva la perspectiva de la persona entrevistada. Una biografía organiza los hechos y les da contexto. Una reseña, además, presenta o valora una obra.</p>
         <p>A partir del perfil anterior, ordena estos hitos y añade una frase sobre la rutina de la bailarina usando el imperfecto. <strong>A.</strong> Actuó en escenarios internacionales. <strong>B.</strong> Practicó gimnasia. <strong>C.</strong> Entró en la escuela Alejo Carpentier.</p>
         <details><summary>Ver respuesta</summary><p>El orden es B → C → A. Una frase posible es «Durante su formación, compaginaba las clases con el entrenamiento».</p></details>`) +
       section('Escribir una biografía breve', `
-        <p>Empieza con la identidad de la persona y su campo. Escoge dos o tres hitos verificables y enlázalos con marcas temporales como <em>por entonces</em>, <em>años antes</em> o <em>a partir de ahí</em>. Explica qué hacía habitualmente, qué había hecho antes de un logro y qué impacto tiene hoy. Si incluyes tu valoración, apóyala en un hecho de la trayectoria.</p>
+        <p>Empieza con la identidad de la persona y su campo. Escoge dos o tres hitos verificables y enlázalos con marcas temporales como «por entonces», «años antes» o «a partir de ahí». Explica qué hacía habitualmente, qué había hecho antes de un logro y qué impacto tiene hoy. Si incluyes tu valoración, apóyala en un hecho de la trayectoria.</p>
         <div class="example"><p><strong>Modelo ficticio.</strong> Lucía Mena es coreógrafa. De niña ensayaba en un centro vecinal. Cuando estrenó su primera obra en 2016, ya había dirigido un grupo juvenil. Desde entonces ha creado talleres que acercan la danza a quienes nunca han subido a un escenario. Admiro esa labor porque sus talleres permiten participar a personas con experiencias muy distintas.</p></div>`),
       exerciseTitle: 'Lee y organiza la trayectoria',
       questions: [
@@ -208,7 +208,7 @@
         <tr><td>Preposición + término</td><td>con la orquesta</td></tr>
         </tbody></table></div>`) +
       section('Lee y compara', `
-        <p>La barra marca una pausa posible. <em>Al terminar el ensayo / la cantante volvió a tocar con la orquesta.</em> Lee la frase a velocidad normal y repítela haciendo una pausa entre <em>con</em> y <em>la orquesta</em>. Observa cómo cambia la fluidez.</p>
+        <p>La barra marca una pausa posible. «Al terminar el ensayo / la cantante volvió a tocar con la orquesta.» Lee la frase a velocidad normal y repítela haciendo una pausa entre «con» y «la orquesta». Observa cómo cambia la fluidez.</p>
         <h3>Detecta y corrige dos pausas</h3>
         <div class="example"><p>— Antes del ensayo / la directora habló con / el pianista.</p><p>— Al terminar / lo / llamaron para confirmar la hora.</p></div>
         <p>Lee el diálogo siguiendo las barras. Quita una barra de cada frase y explica qué palabras separaba. Si practicas en pareja, leed en voz alta ambas versiones.</p>
@@ -225,7 +225,7 @@
     vocabulario3: {
       introduction: 'Busca palabras y expresiones de la unidad y fíjate en las combinaciones que aparecen en los ejemplos.',
       blocks: section('Glosario', '<div id="vocab-app"></div>') +
-      section('Aprender por combinaciones', '<p>Anota el verbo o la preposición que acompaña a cada expresión. Por ejemplo, <em>seguir el compás</em>, <em>renunciar a las vacaciones</em> y <em>estar al corriente de las novedades</em>. Usa cada combinación en una frase propia.</p>'),
+      section('Aprender por combinaciones', '<p>Anota el verbo o la preposición que acompaña a cada expresión. Por ejemplo, «seguir el compás», «renunciar a las vacaciones» y «estar al corriente de las novedades». Usa cada combinación en una frase propia.</p>'),
       exerciseTitle: 'Léxico en contexto',
       questions: [
         choice('¿Qué significa «estar de capa caída» cuando se habla de la carrera de un grupo?', ['Estar de gira', 'Atravesar una etapa de declive', 'Ocultar su identidad'], 1, 'La expresión alude a una pérdida de éxito, ánimo o relevancia.'),
