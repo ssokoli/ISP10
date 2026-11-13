@@ -14,7 +14,7 @@ window.ISP10_UNITS[2] = {
     {
       "id": "relativas-modo",
       "index": "01",
-      "title": "Relativas: indicativo y subjuntivo",
+      "title": "Cómo elegir el modo en las oraciones de relativo",
       "short": "Referentes identificados, buscados o inexistentes",
       "icon": "✳",
       "minutes": 23,
@@ -23,7 +23,7 @@ window.ISP10_UNITS[2] = {
     {
       "id": "tipos-relativas",
       "index": "02",
-      "title": "Especificativas y explicativas",
+      "title": "Cómo distinguir las relativas por su función y puntuación",
       "short": "La coma cambia la interpretación",
       "icon": "❝",
       "minutes": 20,
@@ -32,7 +32,7 @@ window.ISP10_UNITS[2] = {
     {
       "id": "pronombres-relativos",
       "index": "03",
-      "title": "Que, quien, el que, lo que y cuyo",
+      "title": "Cómo elegir el pronombre relativo",
       "short": "Pronombres relativos y concordancia",
       "icon": "◎",
       "minutes": 28,
@@ -41,7 +41,7 @@ window.ISP10_UNITS[2] = {
     {
       "id": "adverbios-relativos",
       "index": "04",
-      "title": "Donde, cuando y como",
+      "title": "Cómo usar donde, cuando y como",
       "short": "Lugar, tiempo, manera y tildes",
       "icon": "⌖",
       "minutes": 20,
@@ -50,7 +50,7 @@ window.ISP10_UNITS[2] = {
     {
       "id": "motivacion",
       "index": "05",
-      "title": "Motivación y aprendizaje autónomo",
+      "title": "Cómo fijar objetivos y organizar el estudio",
       "short": "Objetivos, hábitos y estrategias",
       "icon": "✦",
       "minutes": 22,
@@ -59,7 +59,7 @@ window.ISP10_UNITS[2] = {
     {
       "id": "programas",
       "index": "06",
-      "title": "Opciones para aprender idiomas",
+      "title": "Cómo comparar opciones para aprender idiomas",
       "short": "Cursos, becas, intercambios y formación",
       "icon": "▦",
       "minutes": 22,
@@ -68,7 +68,7 @@ window.ISP10_UNITS[2] = {
     {
       "id": "movilidad",
       "index": "07",
-      "title": "Viajar, emigrar y expresar reservas",
+      "title": "Cómo expresar reservas sobre viajar o emigrar",
       "short": "Lectura, interculturalidad y argumentación",
       "icon": "◈",
       "minutes": 24,
@@ -77,7 +77,7 @@ window.ISP10_UNITS[2] = {
     {
       "id": "lectura",
       "index": "08",
-      "title": "Lectura y producción",
+      "title": "Cómo comprender un texto y responder por escrito",
       "short": "Comprender, escribir y argumentar",
       "icon": "▤",
       "minutes": 30,
@@ -86,7 +86,7 @@ window.ISP10_UNITS[2] = {
     {
       "id": "vocabulario2",
       "index": "09",
-      "title": "Vocabulario de la unidad 2",
+      "title": "Vocabulario para hablar de viajes y aprendizaje",
       "short": "Buscador por categorías y ejemplos",
       "icon": "☷",
       "minutes": 24,
@@ -95,7 +95,7 @@ window.ISP10_UNITS[2] = {
     {
       "id": "repaso2",
       "index": "10",
-      "title": "Autoevaluación de la unidad 2",
+      "title": "Repaso de relativas, léxico y comprensión",
       "short": "Integra gramática, léxico y comunicación",
       "icon": "✓",
       "minutes": 24,

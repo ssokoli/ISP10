@@ -7,16 +7,16 @@
   const gap = (q, answers, ex) => ({type: 'gap', q, answers, ex});
 
   const lessons = [
-    {id: 'musica-bienestar', index: '01', title: 'Música, danza y bienestar', short: 'Gustos, sensaciones y estrategias de escucha', icon: '♫', minutes: 20, type: 'Léxico y destrezas'},
+    {id: 'musica-bienestar', index: '01', title: 'Cómo expresar gustos y describir sensaciones', short: 'Gustos, sensaciones y estrategias de escucha', icon: '♫', minutes: 20, type: 'Léxico y destrezas'},
     {id: 'opinar', index: '02', title: 'Cómo expresar y justificar una opinión', short: 'Expresar un punto de vista y distinguir razones de ejemplos', icon: '✦', minutes: 20, type: 'Gramática'},
-    {id: 'argumentar', index: '03', title: 'Construir una argumentación', short: 'Tesis, conectores y respuesta a objeciones', icon: '▤', minutes: 30, type: 'Gramática y destrezas'},
-    {id: 'acuerdo', index: '04', title: 'Acuerdo y desacuerdo', short: 'Matizar una postura y debatir sobre la fama musical', icon: '❝', minutes: 25, type: 'Comunicación'},
-    {id: 'musica-cultura', index: '05', title: 'Trayectorias musicales y canción social', short: 'David Bisbal, Pablo Alborán y Macaco', icon: '♫', minutes: 25, type: 'Cultura y destrezas'},
-    {id: 'pasados', index: '06', title: 'Los pasados del indicativo', short: 'Cuatro tiempos para contar una trayectoria', icon: '◷', minutes: 25, type: 'Gramática'},
-    {id: 'biografia', index: '07', title: 'Viengsay Valdés y la biografía', short: 'Del entrenamiento al escenario', icon: '◈', minutes: 30, type: 'Cultura y destrezas'},
-    {id: 'entonacion', index: '08', title: 'Entonación y pausas', short: 'Leer en voz alta respetando los grupos sintácticos', icon: '♪', minutes: 20, type: 'Fonética'},
-    {id: 'vocabulario3', index: '09', title: 'Vocabulario de la unidad 3', short: 'Música, danza, carácter y expresiones coloquiales', icon: '☷', minutes: 20, type: 'Léxico'},
-    {id: 'repaso3', index: '10', title: 'Autoevaluación de la unidad 3', short: 'Argumentación, pasados, léxico y pronunciación', icon: '✓', minutes: 20, type: 'Evaluación'}
+    {id: 'argumentar', index: '03', title: 'Cómo estructurar un argumento y responder a objeciones', short: 'Tesis, conectores y respuesta a objeciones', icon: '▤', minutes: 30, type: 'Gramática y destrezas'},
+    {id: 'acuerdo', index: '04', title: 'Cómo expresar acuerdo, acuerdo parcial y desacuerdo', short: 'Matizar una postura y debatir sobre la fama musical', icon: '❝', minutes: 25, type: 'Comunicación'},
+    {id: 'musica-cultura', index: '05', title: 'Cómo comparar trayectorias e interpretar una canción', short: 'David Bisbal, Pablo Alborán y Macaco', icon: '♫', minutes: 25, type: 'Cultura y destrezas'},
+    {id: 'pasados', index: '06', title: 'Cómo elegir entre los tiempos del pasado', short: 'Cuatro tiempos para contar una trayectoria', icon: '◷', minutes: 25, type: 'Gramática'},
+    {id: 'biografia', index: '07', title: 'Cómo escribir una biografía', short: 'Del entrenamiento al escenario', icon: '◈', minutes: 30, type: 'Cultura y destrezas'},
+    {id: 'entonacion', index: '08', title: 'Cómo colocar las pausas al leer en voz alta', short: 'Leer en voz alta respetando los grupos sintácticos', icon: '♪', minutes: 20, type: 'Fonética'},
+    {id: 'vocabulario3', index: '09', title: 'Vocabulario para hablar de música, danza y carácter', short: 'Música, danza, carácter y expresiones coloquiales', icon: '☷', minutes: 20, type: 'Léxico'},
+    {id: 'repaso3', index: '10', title: 'Repaso de argumentación, pasados y pronunciación', short: 'Argumentación, pasados, léxico y pronunciación', icon: '✓', minutes: 20, type: 'Evaluación'}
   ];
 
   const pages = {

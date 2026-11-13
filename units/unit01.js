@@ -3,13 +3,13 @@ window.ISP10_UNITS=window.ISP10_UNITS||{};
 window.ISP10_UNITS[1] = {
   unit: {number:1,title:'Vidas anónimas',book:'Nuevo Prisma B2',pages:'8–21'},
   lessons:[
-    {id:'formas',index:'01',title:'El subjuntivo: formas',short:'Presente y perfecto',icon:'✳',minutes:18,type:'Gramática'},
-    {id:'deseos',index:'02',title:'Expresar deseos',short:'Deseos, peticiones y objetivos',icon:'✦',minutes:20,type:'Gramática'},
-    {id:'hipotesis',index:'03',title:'Hipótesis y probabilidad',short:'Indicar distintos grados de certeza',icon:'≈',minutes:20,type:'Gramática'},
-    {id:'valoraciones',index:'04',title:'Opinar, valorar y sentir',short:'Indicativo y subjuntivo',icon:'❝',minutes:23,type:'Gramática'},
-    {id:'vocabulario',index:'05',title:'Vocabulario temático',short:'Solidaridad, viajes, trabajo y libros',icon:'☷',minutes:25,type:'Léxico'},
-    {id:'lectura',index:'06',title:'Leer, escribir y debatir',short:'Comprensión y expresión',icon:'▤',minutes:30,type:'Destrezas'},
-    {id:'repaso',index:'07',title:'Autoevaluación final',short:'Todos los contenidos de la unidad',icon:'✓',minutes:25,type:'Evaluación'}
+    {id:'formas',index:'01',title:'Cómo formar el subjuntivo presente y perfecto',short:'Presente y perfecto',icon:'✳',minutes:18,type:'Gramática'},
+    {id:'deseos',index:'02',title:'Cómo expresar deseos, peticiones y finalidades',short:'Deseos, peticiones y objetivos',icon:'✦',minutes:20,type:'Gramática'},
+    {id:'hipotesis',index:'03',title:'Cómo expresar hipótesis y grados de certeza',short:'Indicar distintos grados de certeza',icon:'≈',minutes:20,type:'Gramática'},
+    {id:'valoraciones',index:'04',title:'Cómo opinar y expresar valoraciones y emociones',short:'Indicativo y subjuntivo',icon:'❝',minutes:23,type:'Gramática'},
+    {id:'vocabulario',index:'05',title:'Vocabulario para hablar de experiencias',short:'Solidaridad, viajes, trabajo y libros',icon:'☷',minutes:25,type:'Léxico'},
+    {id:'lectura',index:'06',title:'Cómo comentar una lectura y defender una postura',short:'Comprensión y expresión',icon:'▤',minutes:30,type:'Destrezas'},
+    {id:'repaso',index:'07',title:'Repaso de subjuntivo, léxico y comprensión',short:'Todos los contenidos de la unidad',icon:'✓',minutes:25,type:'Evaluación'}
   ],
   pages: {
     formas: {
