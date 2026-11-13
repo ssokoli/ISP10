@@ -1,0 +1,29 @@
+.greek-hint {
+  padding: 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  text-align: inherit;
+  display: inline;
+  text-decoration: underline dotted #990d68;
+  text-underline-offset: 0.18em;
+}
+.greek-hint:hover, .greek-hint[aria-expanded="true"] { color: #870b5a; }
+.greek-hint:focus-visible { outline: 2px solid #870b5a; outline-offset: 2px; }
+.greek-translation {
+  position: fixed;
+  z-index: 100;
+  max-width: min(22rem, calc(100vw - 16px));
+  padding: 7px 11px;
+  border-radius: 6px;
+  background: #0a223a;
+  color: #fff;
+  font: 500 0.9rem/1.4 system-ui, sans-serif;
+  box-shadow: 0 3px 12px #0003;
+  pointer-events: none;
+}
+@media print {
+  .greek-hint { text-decoration: none; }
+  .greek-translation { display: none; }
+}
