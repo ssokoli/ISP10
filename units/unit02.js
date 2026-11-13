@@ -953,7 +953,7 @@ window.ISP10_UNITS[2] = {
     },
     "repaso2": {
       "introduction": "Comprueba lo aprendido con una prueba final: contexto, forma y uso comunicativo.",
-      "blocks": "<section class=\"lesson-block\"><h2>Revisión final de la unidad</h2><p>Esta autoevaluación combina oraciones de relativo, puntuación, pronombres y adverbios relativos, léxico del aprendizaje y formulación de reservas. Todas las preguntas incluyen un contexto explícito.</p><div class=\"notice warm\"><strong>Antes de corregir:</strong> revisa el contexto de cada frase. En preguntas con respuestas escritas se especifica la forma solicitada. Este test complementa las actividades del manual; no sustituye sus audios ni los ejercicios que dependan de ellos.</div></section>",
+      "blocks": "<section class=\"lesson-block\"><h2>Revisión final de la unidad</h2><p>Esta autoevaluación combina oraciones de relativo, puntuación, pronombres y adverbios relativos, léxico del aprendizaje y formulación de reservas. Todas las preguntas incluyen un contexto explícito.</p><div class=\"notice warm\"><strong>Antes de corregir:</strong> revisa el contexto de cada frase. En preguntas con respuestas escritas se especifica la forma solicitada.</div></section>",
       "exerciseTitle": "Practica: autoevaluación de la unidad 2",
       "exerciseNote": "Elige la opción que corresponde exactamente al contexto indicado. En las respuestas abiertas, respeta las tildes.",
       "questions": [

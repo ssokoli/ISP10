@@ -27,7 +27,11 @@
         <div class="example">Las baladas me traen recuerdos. Para caminar prefiero algo movido. Cuando necesito concentrarme, me apetece escuchar música instrumental.</div>
         <p>En la danza, <em>seguir el compás</em> es ajustar los movimientos a la pauta rítmica. Una <em>coreografía</em> organiza los movimientos de una pieza. El ballet clásico, la danza contemporánea y los bailes de salón ofrecen distintos puntos de partida para comparar técnica y expresión.</p>`) +
       section('Escuchar una entrevista', `
-        <p>En la pista 15 del manual, identifica primero el tema de cada pregunta. En una segunda escucha, apunta cómo define el entrevistado la <strong>musicoterapia</strong> y qué ejemplos ofrece. Al resumir, atribuye las afirmaciones a quien las hace. La <strong>danzaterapia</strong> emplea el movimiento expresivo con fines terapéuticos.</p>
+        <p>La <strong>musicoterapia</strong> utiliza la música y sus elementos con fines terapéuticos. La <strong>danzaterapia</strong> emplea el movimiento expresivo.</p>
+        <h3>Entrevista simulada para leer en pareja</h3>
+        <div class="example"><p>— ¿Qué habéis observado en el taller de música?</p><p>— Con una pieza lenta, algunas personas prefirieron escuchar en silencio. Con otra más rápida, varias empezaron a marcar el pulso con las manos.</p><p>— ¿Reaccionó todo el grupo de la misma manera?</p><p>— Hubo reacciones distintas. Una participante dijo que la primera pieza le traía recuerdos tristes. Otra contó que le ayudaba a tranquilizarse.</p></div>
+        <p>Una persona lee el diálogo y la otra escucha sin mirar. Quien escucha apunta qué cambió entre las dos piezas y cómo reaccionaron las dos participantes. Luego intercambiad los papeles. Si trabajas a solas, lee el diálogo una vez y responde de memoria.</p>
+        <details><summary>Ver respuesta</summary><p>Cambió la velocidad. Varias personas marcaron el pulso con la segunda pieza. La primera entristeció a una participante al traerle recuerdos y tranquilizó a otra.</p></details>
         <p>Para practicar en casa, compara cómo percibes dos piezas con ritmos distintos. Describe tu experiencia con un ejemplo concreto y explica en qué contexto elegirías cada una.</p>`),
       exerciseTitle: 'Gustos, baile y escucha',
       questions: [
@@ -70,7 +74,10 @@
         <tr><td>Atribuir y concluir</td><td>Según, en opinión de, en definitiva, en conclusión</td></tr>
         </tbody></table></div>
         <div class="example"><p><strong>Modelo breve.</strong> Propongo dedicar cinco minutos de clase a una canción. Un estribillo breve facilita la repetición de una expresión nueva. Además, comparar interpretaciones genera conversación. Es cierto que algunas grabaciones son difíciles de seguir. Por eso conviene elegir un fragmento claro y preparar una pregunta de escucha. En definitiva, la canción merece un lugar en clase cuando responde a un objetivo concreto.</p></div>
-        <p>En la pista 16, anota la postura del hablante sobre las descargas no autorizadas, dos razones y su petición final. Distingue su opinión de los datos que habría que comprobar.</p>`),
+        <h3>Una propuesta sobre el acceso a la música</h3>
+        <div class="example"><p>Las salas municipales deberían publicar grabaciones gratuitas de algunos conciertos con permiso de los artistas. Así podrían escucharlos quienes viven lejos y los grupos llegarían a nuevos públicos. Es cierto que grabar cuesta dinero. Por eso propongo empezar con una actuación al mes y evaluar su alcance.</p></div>
+        <p>Identifica la tesis, las dos razones, la objeción y la medida final. Después, redacta una respuesta que añada otra objeción y una forma de resolverla.</p>
+        <details><summary>Ver respuesta y réplica posible</summary><p>La tesis es publicar grabaciones gratuitas con permiso de los artistas. Las razones son facilitar el acceso a quienes viven lejos y ampliar el público de los grupos. La objeción es el coste de grabar. La medida final es probar con una actuación mensual y evaluar su alcance.</p><p>Réplica posible. Algunas bandas podrían preferir que su repertorio completo solo se escuche en directo. Se podría acordar con ellas qué piezas publicar.</p></details>`),
       exerciseTitle: 'Organiza y conecta las ideas',
       questions: [
         choice('¿Qué frase es una tesis que puede defenderse?', ['La música en la ciudad', 'El centro cultural debería ceder una sala semanal a grupos principiantes.', 'Por ejemplo, el grupo del barrio.'], 1, 'La tesis enuncia una postura sobre una medida concreta.'),
@@ -120,10 +127,14 @@
         <p><strong>David Bisbal</strong> ganó visibilidad en la primera edición de <em>Operación Triunfo</em>, tras haber cantado en una orquesta. El concurso le abrió una vía hacia la grabación y los conciertos.</p>
         <p><strong>Pablo Alborán</strong> empezó a componer de joven y difundió interpretaciones en Internet. El <em>boca a boca</em> ayudó a que esos vídeos llegaran a más oyentes.</p>
         <p><strong>Macaco</strong>, nombre artístico de Daniel Carbonell, tocó en la calle en Barcelona y reunió a músicos de distintos orígenes. Su repertorio combina influencias como la rumba, el reggae y el funk.</p>
-        <p>Con la pista 17, toma notas sobre los inicios, el medio que dio visibilidad a cada cantante y un momento de consolidación. Formula después una semejanza y una diferencia entre las dos trayectorias.</p>`) +
+        <p>A partir de los tres perfiles, identifica cómo se dio a conocer cada artista. Luego escribe una semejanza y una diferencia entre Bisbal y Alborán.</p>
+        <details><summary>Ver respuesta posible</summary><p>Bisbal ganó visibilidad con un concurso de televisión, Alborán difundió sus interpretaciones en Internet y Macaco tocó en la calle. Bisbal y Alborán ya tenían experiencia musical cuando llegaron a un público más amplio. La televisión fue decisiva para Bisbal y los vídeos en Internet para Alborán.</p></details>`) +
       section('Una canción que cambia de escenario', `
         <p>En <em>Hijos de un mismo dios</em>, Macaco yuxtapone escenas de distintos lugares. El desempleo, la violencia cotidiana, la desconexión política, la soledad en redes y la presión laboral sirven como puntos de partida para interpretar la canción.</p>
-        <p>Elige dos escenas del manual. Anota quién aparece, qué problema se sugiere y qué detalle te permite inferirlo. Al escuchar la canción, presta atención a la repetición y a los sonidos cotidianos. Como práctica de español, resume cada escena con tus propias palabras y discute en qué medida la música cambia tu interpretación.</p>`),
+        <h3>Dos escenas originales</h3>
+        <div class="example"><p><strong>A.</strong> Cada noche, Irene cena con el portátil abierto. Ha prometido tres veces apagarlo a las ocho, pero sigue contestando mensajes del trabajo hasta que su familia se va a dormir.</p><p><strong>B.</strong> En el barrio de Samir ha cerrado la última fábrica. Todos los lunes, Samir repasa las ofertas con su vecina. Esta semana solo han encontrado un anuncio y pide mudarse a otra ciudad.</p></div>
+        <p>Identifica el problema social de cada escena y señala un detalle que apoye tu interpretación. Si estas escenas formaran parte de una canción, ¿qué sonido cotidiano elegirías para cada una y por qué?</p>
+        <details><summary>Ver respuesta posible</summary><p>La escena A muestra cómo el trabajo invade el tiempo familiar. Irene sigue contestando mensajes hasta que su familia se acuesta. La escena B sugiere desempleo y falta de oportunidades locales. Ha cerrado la fábrica y la única oferta exige mudarse. Podrían oírse notificaciones en A y, en B, el eco de la puerta metálica de la fábrica.</p></details>`),
       exerciseTitle: 'Trayectorias y lectura cultural',
       questions: [
         choice('¿Qué medio dio a David Bisbal la visibilidad destacada en esta lección?', ['Un concurso televisivo', 'Un grupo formado en la calle', 'Vídeos caseros como primera vía de difusión'], 0, 'Su paso por Operación Triunfo amplió su público.'),
@@ -160,9 +171,10 @@
     biografia: {
       introduction: 'Organiza una vida artística en etapas y explica cómo se relacionan la formación, el esfuerzo y los logros.',
       blocks: section('Una trayectoria en el Ballet Nacional de Cuba', `
-        <p>En la entrevista de la unidad, <strong>Viengsay Valdés</strong> recuerda que practicaba gimnasia antes de empezar en el ballet. Su abuela la llevó a la escuela Alejo Carpentier y allí comenzó su formación. Cuenta cómo compaginaba las clases con el entrenamiento, qué actividades tuvo que dejar y qué actuaciones recuerda con especial emoción.</p>
+        <p><strong>Viengsay Valdés</strong> practicaba gimnasia antes de empezar en el ballet. Su abuela la llevó a la escuela Alejo Carpentier y allí comenzó su formación. Cuenta cómo compaginaba las clases con el entrenamiento, qué actividades tuvo que dejar y qué actuaciones recuerda con especial emoción, entre ellas las de México y San Petersburgo.</p>
         <p>La reseña de <em>De acero y nube</em>, de Carlos Tablada, aporta otra mirada sobre la bailarina. Una entrevista conserva la perspectiva de la persona entrevistada. Una biografía organiza los hechos y les da contexto. Una reseña, además, presenta o valora una obra.</p>
-        <p>Con la pista 18, haz una línea de tiempo con tres etapas. Separa los hitos que menciona Valdés de lo que recuerda sobre su rutina, sus renuncias y su vínculo con Cuba.</p>`) +
+        <p>A partir del perfil anterior, ordena estos hitos y añade una frase sobre la rutina de la bailarina usando el imperfecto. <strong>A.</strong> Actuó en escenarios internacionales. <strong>B.</strong> Practicó gimnasia. <strong>C.</strong> Entró en la escuela Alejo Carpentier.</p>
+        <details><summary>Ver respuesta</summary><p>El orden es B → C → A. Una frase posible es «Durante su formación, compaginaba las clases con el entrenamiento».</p></details>`) +
       section('Escribir una biografía breve', `
         <p>Empieza con la identidad de la persona y su campo. Escoge dos o tres hitos verificables y enlázalos con marcas temporales como <em>por entonces</em>, <em>años antes</em> o <em>a partir de ahí</em>. Explica qué hacía habitualmente, qué había hecho antes de un logro y qué impacto tiene hoy. Si incluyes tu valoración, apóyala en un hecho de la trayectoria.</p>
         <div class="example"><p><strong>Modelo ficticio.</strong> Lucía Mena es coreógrafa. De niña ensayaba en un centro vecinal. Cuando estrenó su primera obra en 2016, ya había dirigido un grupo juvenil. Desde entonces ha creado talleres que acercan la danza a quienes nunca han subido a un escenario. Admiro esa labor porque sus talleres permiten participar a personas con experiencias muy distintas.</p></div>`),
@@ -195,7 +207,10 @@
         </tbody></table></div>`) +
       section('Lee y compara', `
         <p>La barra marca una pausa posible. <em>Al terminar el ensayo / la cantante volvió a tocar con la orquesta.</em> Lee la frase a velocidad normal y repítela haciendo una pausa entre <em>con</em> y <em>la orquesta</em>. Observa cómo cambia la fluidez.</p>
-        <p>Con la pista 19 del manual, anota las pausas que te sorprenden y vuelve a escuchar para identificar las palabras separadas. Después, en pareja, leed una frase con una pausa natural y repetidla cortando un grupo. La otra persona identifica el corte.</p>`),
+        <h3>Detecta y corrige dos pausas</h3>
+        <div class="example"><p>— Antes del ensayo / la directora habló con / el pianista.</p><p>— Al terminar / lo / llamaron para confirmar la hora.</p></div>
+        <p>Lee el diálogo siguiendo las barras. Quita una barra de cada frase y explica qué palabras separaba. Si practicas en pareja, leed en voz alta ambas versiones.</p>
+        <details><summary>Ver respuesta</summary><p>Las lecturas propuestas son «Antes del ensayo / la directora habló con el pianista» y «Al terminar / lo llamaron para confirmar la hora». Los cortes originales separaban la preposición de su término y el pronombre átono del verbo.</p></details>`),
       exerciseTitle: 'Marca una pausa posible',
       questions: [
         choice('La barra indica una pausa. ¿Qué lectura mantiene juntas las agrupaciones?', ['Tras el / concierto, lo grabaron.', 'Tras el concierto / lo grabaron.', 'Tras el concierto, lo / grabaron.'], 1, 'La pausa puede cerrar el complemento inicial. «El concierto» y «lo grabaron» permanecen unidos.'),
