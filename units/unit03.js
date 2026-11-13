@@ -8,8 +8,8 @@
 
   const bookGuide = `<section class="lesson-block" aria-labelledby="manual-u3">
     <h2 id="manual-u3">Cómo combinar la web y el manual</h2>
-    <p>Abre <em>Nuevo Prisma B2</em> por la Unidad 3 (pp. 36–49). Empieza por el bloque 01 y sigue el orden del menú lateral. Lee los ejemplos, haz las actividades y pulsa «Corregir respuestas». Consulta el glosario del bloque 09 cuando lo necesites.</p>
-    <p>Encontrarás los audios del libro en <a href="https://eleteca.edinumen.es/">ELEteca</a>, dentro de los materiales de Nuevo Prisma B2. Los ejercicios y borradores de esta web son prácticas de apoyo. Consulta en el aula del curso qué debes entregar.</p>
+    <p>Consulta la Unidad 3 del manual del curso (pp. 36–49). Empieza por el bloque 01 y sigue el orden del menú lateral. Lee los ejemplos, haz las actividades y pulsa «Corregir respuestas». Consulta el glosario del bloque 09 cuando lo necesites.</p>
+    <p>Encontrarás los audios del manual en <a href="https://eleteca.edinumen.es/">ELEteca</a>. Los ejercicios y borradores de esta web son prácticas de apoyo. Consulta en el aula del curso qué debes entregar.</p>
     <details><summary>Ver páginas y actividades del programa de ISP10</summary>
       <ul><li>p. 36, actividad 1</li><li>p. 38, actividades 3, 3.1 y 3.2</li><li>p. 39, actividades 1 y 2</li><li>p. 42, actividades 1 y 2</li><li>p. 43, actividad 3</li><li>p. 44, actividades 3.1 y 3.2</li><li>p. 45, actividades 4.3 y 4.4</li><li>p. 46, actividades 1 y 1.1</li><li>p. 47, actividad 2.1</li><li>p. 48, actividad 2.2</li></ul>
     </details>
