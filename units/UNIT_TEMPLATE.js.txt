@@ -1,6 +1,6 @@
 window.ISP10_UNITS=window.ISP10_UNITS||{};
 window.ISP10_UNITS[2]={
-  unit:{number:2,title:'Título real de la unidad',book:'Nuevo Prisma B2',pages:'22–35'},
+  unit:{number:2,title:'Título real de la unidad'},
   lessons:[{id:'gramatica',index:'01',title:'Gramática',short:'Explicaciones y práctica',icon:'✳',minutes:20,type:'Gramática'}],
   pages:{gramatica:{
     introduction:'Texto introductorio.',
