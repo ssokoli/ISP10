@@ -3,11 +3,8 @@
   'use strict';
 
   const glossary = Object.fromEntries(`abre horizontes|ανοίγει ορίζοντες
-alcance|εύρος
 alojamiento|διαμονή
-antecedente|προηγούμενη λέξη ή φράση αναφοράς
 antecede|προηγείται
-apenas|μόλις
 apodo|παρατσούκλι
 aporta|προσφέρει
 arrasar|σημειώνω τεράστια επιτυχία
@@ -22,8 +19,6 @@ borrador|προσχέδιο
 cabe|είναι δυνατό
 cadencia|ρυθμός, ρυθμική ροή
 campaña|εκστρατεία
-carrera|σταδιοδρομία
-cerrado|ολοκληρωμένο
 certeza|βεβαιότητα
 coloquial|της καθημερινής ομιλίας
 cometer errores|κάνω λάθη
@@ -34,11 +29,11 @@ componer|συνθέτω
 con ahínco|με ζήλο
 con el fin de|με σκοπό να
 con tal de que|με την προϋπόθεση ότι
-concesión|παραχώρηση, μερική αποδοχή
+concesión|παραχώρηση στην επιχειρηματολογία
 conector|συνδετική λέξη ή φράση
 consolidación|εδραίωση
 constancia|συνέπεια, επιμονή
-contraargumentación|διατύπωση και εξέταση αντεπιχειρημάτων
+contraargumentación|διατύπωση αντεπιχειρημάτων
 contraargumento|αντεπιχείρημα
 contribuir|συμβάλλω
 coreografía|χορογραφία
@@ -66,24 +61,20 @@ en efecto|πράγματι
 encuesta|έρευνα με ερωτηματολόγιο
 ensayaba|έκανε πρόβα
 ensayar|κάνω πρόβα
-enunciado|εκφώνηση, διατύπωση
 escasez|έλλειψη
 estar al corriente de|είμαι ενήμερος για
 estancia|παραμονή
-estancias|παραμονές
+estancias|περίοδοι παραμονής
 estar de capa caída|περνάω περίοδο παρακμής
 estribillo|ρεφρέν
 estreno|πρεμιέρα
-expreso|ρητός
 financiación|χρηματοδότηση
 fomentar|ενθαρρύνω, προωθώ
-grabar|ηχογραφώ, καταγράφω
 hasta cierto punto|μέχρι ενός σημείου
 hecho delimitado|γεγονός με καθορισμένα χρονικά όρια
 hito|ορόσημο
 hitos|ορόσημα
-indefinido|αόριστος
-inferir|συνάγω
+inferir|βγάζω συμπέρασμα από τα συμφραζόμενα
 inmigrar|μεταναστεύω σε μια χώρα
 intercambio|ανταλλαγή
 interlocutor|συνομιλητής
@@ -98,11 +89,8 @@ marcar el pulso|κρατώ τον ρυθμό
 marcaron el pulso|κράτησαν τον ρυθμό
 marco temporal|χρονικό πλαίσιο
 matices|αποχρώσεις
-matizar|διατυπώνω με αποχρώσεις
-matrícula|εγγραφή
+matizar|προσθέτω μια διευκρίνιση ή επιφύλαξη
 me apetece|έχω όρεξη
-movido|ζωηρός, με γρήγορο ρυθμό
-movilidad|μετακίνηση
 musicoterapia|μουσικοθεραπεία
 no comerse una rosca|δεν καταφέρνω τίποτα
 objeción|αντίρρηση
@@ -110,7 +98,6 @@ obstáculo|εμπόδιο
 otorgar|χορηγώ
 permanecer en el anonimato|παραμένω στην αφάνεια
 perseverancia|επιμονή
-plantea|θέτει
 plantear|θέτω, προτείνω
 pluscuamperfecto|υπερσυντέλικος
 ponderar|σταθμίζω
@@ -137,7 +124,6 @@ resumir|συνοψίζω
 ritmo|ρυθμός
 seguir el compás|ακολουθώ τον ρυθμό
 sello|σφραγίδα
-señala|επισημαίνει
 señalar|επισημαίνω
 sin embargo|ωστόσο
 situar|τοποθετώ
@@ -147,7 +133,6 @@ tararear|σιγοτραγουδώ
 tarareas|σιγοτραγουδάς
 terquedad|ξεροκεφαλιά
 tesón|επιμονή
-tesis|κεντρική θέση
 tilde|γραπτός τόνος
 trayecto|διαδρομή
 trayectoria|πορεία
@@ -157,14 +142,14 @@ una beca|μια υποτροφία
 valoración|αξιολόγηση
 vínculo|δεσμός
 vínculos|δεσμοί
-visibilidad|αναγνωρισιμότητα
+visibilidad|προβολή
 vocación|κλίση
 yogurín|πιτσιρικάς
-yuxtapone|παραθέτει δίπλα δίπλα
+yuxtapone|παραθέτει τη μία δίπλα στην άλλη
 a mi modo de ver|κατά τη γνώμη μου
 puede ser, pero|ίσως, αλλά
 hasta cierto punto sí|ως έναν βαθμό, ναι
-qué va|ούτε κατά διάνοια
+qué va|καθόλου, με τίποτα
 estar de acuerdo|συμφωνώ
 a partir de ahí|από εκεί και πέρα
 a distancia|εξ αποστάσεως
@@ -177,11 +162,56 @@ admiten pausa|επιτρέπουν παύση
 tiempos compuestos|σύνθετοι χρόνοι
 forma verbal|ρηματικός τύπος
 perífrasis verbal|περίφραση ρήματος
-guion|σενάριο, σχεδιάγραμμα
 hallar|βρίσκω
 ajustar|προσαρμόζω
 agrupación|ομάδα λέξεων
-apoyar una idea|στηρίζω μια ιδέα`.split('\n').map(row => row.split('|')));
+apoyar una idea|στηρίζω μια ιδέα
+un año cerrado|ένα έτος που έχει ήδη τελειώσει
+año cerrado|έτος που έχει ήδη τελειώσει
+una fecha cerrada|μια συγκεκριμένη ημερομηνία στο παρελθόν
+han cerrado la puerta|έχουν κλείσει την πόρτα
+hayan cerrado la puerta|να έχουν κλείσει την πόρτα
+ha cerrado la última fábrica|έχει κλείσει το τελευταίο εργοστάσιο
+ha cerrado la fábrica|έχει κλείσει το εργοστάσιο
+apenas entendía|με το ζόρι καταλάβαινε
+apenas había terminado|μόλις είχε τελειώσει
+apenas había empezado|μόλις είχε αρχίσει
+una carrera de cuatro años|τετραετείς σπουδές
+la carrera de un grupo|η καλλιτεχνική πορεία ενός συγκροτήματος
+consolidar una carrera|εδραιώνω την επαγγελματική μου πορεία
+cuya tesis se publicó|της οποίας δημοσιεύτηκε η διατριβή
+una tesis posible|μια πιθανή κεντρική θέση
+defender la tesis|υποστηρίζω την κεντρική θέση
+alcance del dato|όρια του συμπεράσματος που επιτρέπει το στοιχείο
+evaluar su alcance|αξιολογώ σε πόσο κόσμο φτάνει
+antecedente expreso|ρητά δηλωμένος όρος αναφοράς
+antecedente|όρος αναφοράς της αναφορικής πρότασης
+tipo de enunciado|είδος εκφωνήματος
+enunciado afirmativamente|διατυπωμένο καταφατικά
+el enunciado deja el orden abierto|η πρόταση δεν διευκρινίζει τη σειρά
+grabar una maqueta|ηχογραφώ ένα ντέμο
+grabar cuesta dinero|η ηχογράφηση κοστίζει
+el coste de grabar|το κόστος ηχογράφησης
+algo movido|κάτι με ζωηρό ρυθμό
+matrícula|εγγραφή σε μάθημα
+guion|σενάριο
+pretérito indefinido|απλός αόριστος στα ισπανικά
+el indefinido|ο απλός αόριστος στα ισπανικά
+marca temporal|χρονικός δείκτης
+complemento inicial|συμπλήρωμα στην αρχή της πρότασης
+relevancia actual|σημασία στο παρόν
+programas de movilidad|προγράμματα κινητικότητας
+programa de movilidad|πρόγραμμα κινητικότητας
+experiencias de movilidad|εμπειρίες μετακίνησης ή διαμονής σε άλλον τόπο
+cursos compatibles con su carrera|μαθήματα συμβατά με τις σπουδές του
+la alumna cuya tesis se publicó|η φοιτήτρια της οποίας δημοσιεύτηκε η διατριβή
+cuya la tesis|λανθασμένη σύνταξη για το «της οποίας η διατριβή»
+identifica la tesis|εντόπισε την κεντρική θέση
+formula una tesis|διατύπωσε μια κεντρική θέση
+qué frase es una tesis|ποια φράση αποτελεί κεντρική θέση
+reconoce una objeción|αναγνωρίζει μια αντίρρηση
+marco del relato|χρονικό πλαίσιο της αφήγησης
+fecha cerrada|συγκεκριμένη ημερομηνία στο παρελθόν`.split('\n').map(row => row.split('|')));
   const terms = Object.keys(glossary).sort((a, b) => b.length - a.length);
   const expression = new RegExp('(?<![\\p{L}\\p{M}])(?:' + terms.join('|') + ')(?![\\p{L}\\p{M}])', 'giu');
 
