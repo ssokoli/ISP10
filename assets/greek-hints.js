@@ -36,7 +36,6 @@ constancia|συνέπεια, επιμονή
 contraargumentación|διατύπωση αντεπιχειρημάτων
 contraargumento|αντεπιχείρημα
 contribuir|συμβάλλω
-coreografía|χορογραφία
 coste|κόστος
 cotidiano|καθημερινός
 cursar estudios|σπουδάζω
