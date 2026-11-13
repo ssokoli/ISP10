@@ -8,7 +8,7 @@
 
   const lessons = [
     {id: 'musica-bienestar', index: '01', title: 'Música, danza y bienestar', short: 'Gustos, sensaciones y estrategias de escucha', icon: '♫', minutes: 20, type: 'Léxico y destrezas'},
-    {id: 'opinar', index: '02', title: 'Música, personalidad y opinión', short: 'Expresar un punto de vista y distinguir razones de ejemplos', icon: '✦', minutes: 20, type: 'Gramática'},
+    {id: 'opinar', index: '02', title: 'Cómo expresar y justificar una opinión', short: 'Expresar un punto de vista y distinguir razones de ejemplos', icon: '✦', minutes: 20, type: 'Gramática'},
     {id: 'argumentar', index: '03', title: 'Construir una argumentación', short: 'Tesis, conectores y respuesta a objeciones', icon: '▤', minutes: 30, type: 'Gramática y destrezas'},
     {id: 'acuerdo', index: '04', title: 'Acuerdo y desacuerdo', short: 'Matizar una postura y debatir sobre la fama musical', icon: '❝', minutes: 25, type: 'Comunicación'},
     {id: 'musica-cultura', index: '05', title: 'Trayectorias musicales y canción social', short: 'David Bisbal, Pablo Alborán y Macaco', icon: '♫', minutes: 25, type: 'Cultura y destrezas'},
