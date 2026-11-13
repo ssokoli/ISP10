@@ -21,24 +21,26 @@
 
   const pages = {
     'musica-bienestar': {
-      introduction: 'Describe cómo escuchas música, qué te aporta y cómo cambia tu experiencia según el contexto.',
+      introduction: 'Aprende a describir qué música eliges, en qué situación y por qué. Después, lee el diálogo y contesta las cinco preguntas.',
       blocks: section('De los gustos a las sensaciones', `
         <p>Un <strong>género</strong> es un tipo de música, como la salsa o el flamenco. El <strong>ritmo</strong> organiza los sonidos en el tiempo y la <strong>melodía</strong> es la sucesión de notas que reconoces al tararear. Puedes hablar del ritmo de una canción, de lo que cuenta su letra o del modo en que se interpreta.</p>
         <div class="example">Las baladas me traen recuerdos. Para caminar prefiero algo movido. Cuando necesito concentrarme, me apetece escuchar música instrumental.</div>
         <p>En la danza, <em>seguir el compás</em> es ajustar los movimientos a la pauta rítmica. Una <em>coreografía</em> organiza los movimientos de una pieza. El ballet clásico, la danza contemporánea y los bailes de salón ofrecen distintos puntos de partida para comparar técnica y expresión.</p>`) +
-      section('Escuchar una entrevista', `
+      section('Lee la entrevista y compara las reacciones', `
         <p>La <strong>musicoterapia</strong> utiliza la música y sus elementos con fines terapéuticos. La <strong>danzaterapia</strong> emplea el movimiento expresivo.</p>
-        <h3>Entrevista simulada para leer en pareja</h3>
+        <p>Lee el diálogo y fíjate en dos cosas: qué hizo el grupo con la pieza rápida y cómo reaccionaron dos participantes a la pieza lenta. Si trabajáis en pareja, una persona puede leerlo en voz alta y la otra escuchar.</p><h3>Diálogo ficticio en un taller de música</h3>
         <div class="example"><p>— ¿Qué habéis observado en el taller de música?</p><p>— Con una pieza lenta, algunas personas prefirieron escuchar en silencio. Con otra más rápida, varias empezaron a marcar el pulso con las manos.</p><p>— ¿Reaccionó todo el grupo de la misma manera?</p><p>— Hubo reacciones distintas. Una participante dijo que la primera pieza le traía recuerdos tristes. Otra contó que le ayudaba a tranquilizarse.</p></div>
-        <p>Una persona lee el diálogo y la otra escucha sin mirar. Quien escucha apunta qué cambió entre las dos piezas y cómo reaccionaron las dos participantes. Luego intercambiad los papeles. Si trabajas a solas, lee el diálogo una vez y responde de memoria.</p>
-        <details><summary>Ver respuesta</summary><p>Cambió la velocidad. Varias personas marcaron el pulso con la segunda pieza. La primera entristeció a una participante al traerle recuerdos y tranquilizó a otra.</p></details>
-        <p>Para practicar en casa, compara cómo percibes dos piezas con ritmos distintos. Describe tu experiencia con un ejemplo concreto y explica en qué contexto elegirías cada una.</p>`),
-      exerciseTitle: 'Gustos, baile y escucha',
+        <p>Responde con tus propias palabras. ¿Qué hicieron varias personas al oír la pieza rápida? ¿Qué dijo cada una de las dos participantes sobre la pieza lenta? Después, abre «Ver respuesta».</p>
+        <details><summary>Ver respuesta</summary><p>Varias personas marcaron el pulso con las manos al oír la pieza rápida. La pieza lenta le trajo recuerdos tristes a una participante y ayudó a otra a tranquilizarse.</p></details>
+        `) +
+      section('Práctica opcional', `<p>Piensa en dos canciones que conozcas. Para cada una, escribe cuándo la escucharías y por qué.</p><div class="example">Para caminar, elegiría una canción rápida porque me ayuda a mantener el paso. Para leer, pondría música instrumental porque me distrae menos.</div>`),
+      exerciseTitle: 'Comprueba lo aprendido',
+      exerciseNote: 'Contesta las cinco preguntas. Puedes volver a leer el diálogo para responder la pregunta 4. Al terminar, pulsa «Corregir respuestas».',
       questions: [
         choice('¿Qué elemento reconoces cuando tarareas la sucesión de notas de una canción?', ['La letra', 'La melodía', 'El género'], 1, 'La melodía es una sucesión reconocible de notas.'),
         choice('Todos los bailarines ajustan sus pasos a la pauta rítmica. ¿Qué hacen?', ['Cambian de género', 'Componen la letra', 'Siguen el compás'], 2, 'Seguir el compás implica ajustar los movimientos a la pauta rítmica.'),
         gap('Completa con un sustantivo que empiece por «auto-». «La valoración que una persona hace de sí misma se llama ____».', ['autoestima'], 'Autoestima designa la valoración de uno mismo.'),
-        choice('¿Qué nota distingue claramente una afirmación del entrevistado de tu propia conclusión?', ['El entrevistado sostiene que algunas piezas le ayudan a relajarse.', 'Toda música relaja a todo el mundo.', 'La entrevista demuestra que cualquier pieza produce el mismo efecto.'], 0, 'La expresión «el entrevistado sostiene» atribuye la afirmación a su fuente.'),
+        choice('Según el diálogo, ¿qué dijo una de las participantes sobre la pieza lenta?', ['Le ayudó a tranquilizarse.', 'La animó a marcar el pulso con las manos.', 'Produjo la misma reacción en todo el grupo.'], 0, 'Una participante dijo que la pieza lenta la ayudó a tranquilizarse. A otra le trajo recuerdos tristes.'),
         choice('¿Qué frase vincula una preferencia musical con una situación concreta?', ['La música tiene ritmo.', 'Cuando corro, elijo canciones rápidas porque me ayudan a mantener el paso.', 'Existen muchos estilos.'], 1, 'La frase identifica un contexto, una preferencia y su motivo.')
       ]
     },
@@ -294,7 +296,7 @@
   ].map(([category, term, definition, example]) => ({category, term, definition, example}));
 
   for (const page of Object.values(pages)) {
-    page.exerciseNote = 'Elige una opción o escribe la forma solicitada. Pulsa «Corregir respuestas» para ver la explicación.';
+    page.exerciseNote ??= 'Elige una opción o escribe la forma solicitada. Pulsa «Corregir respuestas» para ver la explicación.';
   }
 
   window.ISP10_UNITS = window.ISP10_UNITS || {};
