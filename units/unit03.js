@@ -1,593 +1,314 @@
-/* ISP10 · Unidad 3 · Compartir un edificio. */
+/* ISP10 · Unidad 3 · Con ritmo. */
 (() => {
   'use strict';
+
+  const section = (title, body) => `<section class="lesson-block"><h2>${title}</h2>${body}</section>`;
+  const choice = (q, options, answer, ex) => ({type: 'choice', q, options, answer, ex});
+  const gap = (q, answers, ex) => ({type: 'gap', q, answers, ex});
+
+  const lessons = [
+    {id: 'musica-bienestar', index: '01', title: 'Cómo expresar gustos y describir sensaciones', short: 'Gustos, sensaciones y estrategias de escucha', icon: '♫', minutes: 20, type: 'Léxico y destrezas'},
+    {id: 'opinar', index: '02', title: 'Cómo expresar y justificar una opinión', short: 'Expresar un punto de vista y distinguir razones de ejemplos', icon: '✦', minutes: 20, type: 'Gramática'},
+    {id: 'argumentar', index: '03', title: 'Cómo estructurar un argumento y responder a objeciones', short: 'Tesis, conectores y respuesta a objeciones', icon: '▤', minutes: 30, type: 'Gramática y destrezas'},
+    {id: 'acuerdo', index: '04', title: 'Cómo expresar acuerdo, acuerdo parcial y desacuerdo', short: 'Matizar una postura y debatir sobre la fama musical', icon: '❝', minutes: 25, type: 'Comunicación'},
+    {id: 'musica-cultura', index: '05', title: 'Cómo comparar trayectorias e interpretar una canción', short: 'David Bisbal, Pablo Alborán y Macaco', icon: '♫', minutes: 25, type: 'Cultura y destrezas'},
+    {id: 'pasados', index: '06', title: 'Cómo elegir entre los tiempos del pasado', short: 'Cuatro tiempos para contar una trayectoria', icon: '◷', minutes: 25, type: 'Gramática'},
+    {id: 'biografia', index: '07', title: 'Cómo escribir una biografía', short: 'Del entrenamiento al escenario', icon: '◈', minutes: 30, type: 'Cultura y destrezas'},
+    {id: 'entonacion', index: '08', title: 'Cómo colocar las pausas al leer en voz alta', short: 'Leer en voz alta respetando los grupos sintácticos', icon: '♪', minutes: 20, type: 'Fonética'},
+    {id: 'vocabulario3', index: '09', title: 'Vocabulario para hablar de música, danza y carácter', short: 'Música, danza, carácter y expresiones coloquiales', icon: '☷', minutes: 20, type: 'Léxico'},
+    {id: 'repaso3', index: '10', title: 'Repaso de argumentación, pasados y pronunciación', short: 'Argumentación, pasados, léxico y pronunciación', icon: '✓', minutes: 20, type: 'Evaluación'}
+  ];
+
+  const pages = {
+    'musica-bienestar': {
+      introduction: 'Aprende a describir qué música eliges, en qué situación y por qué. Después, lee el diálogo y contesta las cinco preguntas.',
+      blocks: section('De los gustos a las sensaciones', `
+        <p>Un <strong>género</strong> es un tipo de música, como la salsa o el flamenco. El <strong>ritmo</strong> organiza los sonidos en el tiempo y la <strong>melodía</strong> es la sucesión de notas que reconoces al tararear. Puedes hablar del ritmo de una canción, de lo que cuenta su letra o del modo en que se interpreta.</p>
+        <div class="example">Las baladas me traen recuerdos. Para caminar prefiero algo movido. Cuando necesito concentrarme, me apetece escuchar música instrumental.</div>
+        <p>En la danza, «seguir el compás» es ajustar los movimientos a la pauta rítmica. Una «coreografía» organiza los movimientos de una pieza. El ballet clásico, la danza contemporánea y los bailes de salón ofrecen distintos puntos de partida para comparar técnica y expresión.</p>`) +
+      section('Escucha y compara las reacciones', `
+        <p>La <strong>musicoterapia</strong> utiliza la música y sus elementos con fines terapéuticos. La <strong>danzaterapia</strong> emplea el movimiento expresivo.</p>
+        <h3>Práctica con un diálogo inventado</h3>
+        <p>En pareja, una persona abre el diálogo y lo lee en voz alta. La otra escucha sin mirar. Si trabajas a solas, lee el diálogo una vez y ciérralo. Después, responde con tus palabras. ¿Qué hicieron varias personas al oír la pieza rápida? ¿Qué dijo cada una de las dos participantes sobre la pieza lenta?</p>
+        <details><summary>Abrir el diálogo de práctica</summary>
+        <div class="example"><p>— ¿Qué habéis observado en el taller de música?</p><p>— Con una pieza lenta, algunas personas prefirieron escuchar en silencio. Con otra más rápida, varias empezaron a marcar el pulso con las manos.</p><p>— ¿Reaccionó todo el grupo de la misma manera?</p><p>— Hubo reacciones distintas. Una participante dijo que la primera pieza le traía recuerdos tristes. Otra contó que le ayudaba a tranquilizarse.</p></div>
+        </details>
+        <details><summary>Ver respuesta</summary><p>Varias personas marcaron el pulso con las manos al oír la pieza rápida. La pieza lenta le trajo recuerdos tristes a una participante y ayudó a otra a tranquilizarse.</p></details>
+        `) +
+      section('Práctica opcional', `<p>Piensa en dos canciones que conozcas. Para cada una, escribe cuándo la escucharías y por qué.</p><div class="example">Para caminar, elegiría una canción rápida porque me ayuda a mantener el paso. Para leer, pondría música instrumental porque me distrae menos.</div>`),
+      exerciseTitle: 'Comprueba lo aprendido',
+      exerciseNote: 'Contesta las cinco preguntas. Puedes volver a leer el diálogo para responder la pregunta 4. Al terminar, pulsa «Corregir respuestas».',
+      questions: [
+        choice('¿Qué elemento reconoces cuando tarareas la sucesión de notas de una canción?', ['La letra', 'La melodía', 'El género'], 1, 'La melodía es una sucesión reconocible de notas.'),
+        choice('Todos los bailarines ajustan sus pasos a la pauta rítmica. ¿Qué hacen?', ['Cambian de género', 'Componen la letra', 'Siguen el compás'], 2, 'Seguir el compás implica ajustar los movimientos a la pauta rítmica.'),
+        gap('Completa con un sustantivo que empiece por «auto-». «La valoración que una persona hace de sí misma se llama ____».', ['autoestima'], 'Autoestima designa la valoración de uno mismo.'),
+        choice('Según el diálogo, ¿qué dijo una de las participantes sobre la pieza lenta?', ['Le ayudó a tranquilizarse.', 'La animó a marcar el pulso con las manos.', 'Produjo la misma reacción en todo el grupo.'], 0, 'Una participante dijo que la pieza lenta la ayudó a tranquilizarse. A otra le trajo recuerdos tristes.'),
+        choice('¿Qué frase vincula una preferencia musical con una situación concreta?', ['La música tiene ritmo.', 'Cuando corro, elijo canciones rápidas porque me ayudan a mantener el paso.', 'Existen muchos estilos.'], 1, 'La frase identifica un contexto, una preferencia y su motivo.')
+      ]
+    },
+    opinar: {
+      introduction: 'Formula una postura sobre música y personalidad y apóyala con razones que puedas explicar.',
+      blocks: section('Afirmar y cuestionar una idea', `
+        <p>Para presentar una idea como propia puedes usar <strong>creo que</strong>, <strong>considero que</strong> o <strong>me parece que</strong>, normalmente con indicativo. Cuando rechazas o pones en duda esa idea con <strong>no creo que</strong>, <strong>no considero que</strong> o <strong>no me parece que</strong>, lo habitual es el subjuntivo.</p>
+        <div class="example">Considero que el contexto <b>influye</b> en lo que escuchamos. No considero que un género musical <b>defina</b> el carácter de sus oyentes.</div>
+        <p>«A mi modo de ver» introduce tu perspectiva. «Según la autora» atribuye una idea a otra persona. Puedes expresar reservas con «yo diría que».</p>`) +
+      section('Tesis, razón, ejemplo y evidencia', `
+        <p>Imagina un foro donde alguien afirma que un estilo musical revela el carácter. Una <strong>tesis</strong> posible es que los gustos dependen en parte de la situación. Una <strong>razón</strong> sería que una misma persona elige música para actividades diferentes. Un <strong>ejemplo</strong> sería elegir salsa para bailar y música instrumental para leer.</p>
+        <p>Un ejemplo concreto ilustra la razón. Si aportas una encuesta o citas a una persona experta, indica qué se estudió y hasta dónde llegan los resultados. Una asociación entre dos rasgos admite varias explicaciones.</p>`),
+      exerciseTitle: 'La postura y sus razones',
+      questions: [
+        gap('Completa en presente. «Considero que los recuerdos ____ (influir) en nuestras preferencias musicales».', ['influyen'], 'La opinión afirmativa presenta la proposición con indicativo.'),
+        gap('Completa en presente. «No creo que una lista de reproducción ____ (definir) la personalidad de nadie».', ['defina'], 'La opinión negada presenta esta proposición en subjuntivo.'),
+        choice('¿Qué expresión atribuye la idea a una fuente?', ['A mi modo de ver', 'Según la investigadora', 'Yo diría que'], 1, '«Según la investigadora» identifica la procedencia de la idea.'),
+        choice('«Ana escucha jazz para cocinar y rock para entrenar». ¿Qué función cumple tras una razón general sobre los contextos de escucha?', ['Cita literal', 'Conclusión', 'Ejemplo'], 2, 'La conducta de Ana ilustra una idea mediante un caso particular.'),
+        choice('En una encuesta de un curso, varios aficionados al jazz se describen como reservados. ¿Qué conclusión respeta el alcance del dato?', ['En ese curso, varios encuestados dieron ambas respuestas.', 'El jazz vuelve reservadas a las personas.', 'Todos los aficionados al jazz son reservados.'], 0, 'El dato describe a participantes concretos y permite informar de esa coincidencia.')
+      ]
+    },
+    argumentar: {
+      introduction: 'Organiza una postura escrita u oral con razones, un contraargumento y una conclusión.',
+      blocks: section('Del tema a la conclusión', `
+        <ol><li><strong>Introducción.</strong> Delimita el tema y explica por qué se discute.</li><li><strong>Tesis.</strong> Expresa en una frase la postura que defenderás. Puede aparecer en la introducción.</li><li><strong>Argumentación.</strong> Desarrolla cada razón con un ejemplo, un dato verificable o una fuente pertinente.</li><li><strong>Contraargumentación.</strong> Presenta una objeción plausible y responde a ella.</li><li><strong>Conclusión.</strong> Recupera tu postura y extrae una consecuencia o una propuesta.</li></ol>
+        <p>Una pregunta retórica invita a reflexionar. Una cita de autoridad requiere una fuente identificable. Si usas porcentajes, precisa de dónde salen y qué población representan.</p>`) +
+      section('Conectores y relaciones', `
+        <div class="table-scroll"><table class="content-table"><thead><tr><th>Función</th><th>Recursos</th></tr></thead><tbody>
+        <tr><td>Presentar y ordenar</td><td>Para empezar, en primer lugar, por otra parte</td></tr>
+        <tr><td>Añadir y ejemplificar</td><td>Además, asimismo, por ejemplo</td></tr>
+        <tr><td>Causa y consecuencia</td><td>Puesto que, ya que, por tanto, de ahí que + subjuntivo</td></tr>
+        <tr><td>Contraste y concesión</td><td>Sin embargo, en cambio, si bien, aunque</td></tr>
+        <tr><td>Atribuir y concluir</td><td>Según, en opinión de, en definitiva, en conclusión</td></tr>
+        </tbody></table></div>
+        <div class="example"><p><strong>Modelo breve.</strong> Propongo dedicar cinco minutos de clase a una canción. Un estribillo breve facilita la repetición de una expresión nueva. Además, comparar interpretaciones genera conversación. Es cierto que algunas grabaciones son difíciles de seguir. Por eso conviene elegir un fragmento claro y preparar una pregunta de escucha. En definitiva, la canción merece un lugar en clase cuando responde a un objetivo concreto.</p></div>
+        <h3>Una propuesta sobre el acceso a la música</h3>
+        <div class="example"><p>Las salas municipales deberían publicar grabaciones gratuitas de algunos conciertos con permiso de los artistas. Así podrían escucharlos quienes viven lejos y los grupos llegarían a nuevos públicos. Es cierto que grabar cuesta dinero. Por eso propongo empezar con una actuación al mes y evaluar su alcance.</p></div>
+        <p>Identifica la tesis, las dos razones, la objeción y la medida final. Después, redacta una respuesta que añada otra objeción y una forma de resolverla.</p>
+        <details><summary>Ver respuesta y réplica posible</summary><p>La tesis es publicar grabaciones gratuitas con permiso de los artistas. Las razones son facilitar el acceso a quienes viven lejos y ampliar el público de los grupos. La objeción es el coste de grabar. La medida final es probar con una actuación mensual y evaluar su alcance.</p><p>Réplica posible. Algunas bandas podrían preferir que su repertorio completo solo se escuche en directo. Se podría acordar con ellas qué piezas publicar.</p></details>`),
+      exerciseTitle: 'Organiza y conecta las ideas',
+      questions: [
+        choice('¿Qué frase es una tesis que puede defenderse?', ['La música en la ciudad', 'El centro cultural debería ceder una sala semanal a grupos principiantes.', 'Por ejemplo, el grupo del barrio.'], 1, 'La tesis enuncia una postura sobre una medida concreta.'),
+        choice('Completa con un conector de adición. «La sala tiene buena acústica. ____, es accesible en autobús».', ['Sin embargo', 'Por consiguiente', 'Además'], 2, 'El acceso en autobús añade una ventaja independiente.'),
+        choice('Completa con un conector de contraste. «La entrada era gratuita. ____, acudió muy poca gente».', ['Sin embargo', 'Asimismo', 'Por ejemplo'], 0, 'La asistencia escasa contrasta con la expectativa que genera la gratuidad.'),
+        choice('Completa con un conector de consecuencia. «El grupo amplió el aforo y pudo ofrecer más entradas. ____, bajó el número de personas en lista de espera».', ['En cambio', 'Por tanto', 'Por ejemplo'], 1, 'La lista de espera se redujo como consecuencia de la mayor disponibilidad.'),
+        gap('Completa en presente. «Hay poca luz en el escenario, de ahí que el equipo ____ (pedir) focos nuevos».', ['pida'], 'La construcción «de ahí que» introduce la consecuencia con subjuntivo.'),
+        choice('«Es cierto que ampliar el horario cuesta dinero. Podríamos empezar con una prueba mensual». ¿Qué hace el autor?', ['Define el tema', 'Añade un dato estadístico', 'Reconoce una objeción y ofrece una respuesta'], 2, 'La primera frase concede una dificultad y la segunda propone cómo afrontarla.')
+      ],
+      writing: [{
+        id: 'argumentacion',
+        instructions: 'Escribe en el recuadro y revisa el texto con las casillas de abajo. Puedes descargar el borrador. Las marcas se reinician al cambiar de página.',
+        title: 'Una propuesta para el centro cultural',
+        prompt: 'Redacta entre 150 y 180 palabras. ¿Debería el centro cultural reservar parte de su programación para artistas que todavía no tienen público? Formula una tesis, desarrolla dos razones, responde a una objeción y termina con una propuesta.',
+        check: ['Mi tesis se entiende desde el principio.', 'Desarrollo dos razones y doy al menos un ejemplo concreto.', 'Respondo a una objeción plausible.', 'Los conectores expresan la relación adecuada entre las ideas.']
+      }]
+    },
+    acuerdo: {
+      introduction: 'Responde a una opinión con el grado de acuerdo que quieres expresar y explica tu postura.',
+      blocks: section('Tres maneras de responder', `
+        <div class="table-scroll"><table class="content-table"><thead><tr><th>Intención</th><th>Respuesta a «Los concursos de televisión ayudan a los músicos que empiezan»</th></tr></thead><tbody>
+        <tr><td>Acuerdo</td><td>Comparto tu opinión. El concurso da visibilidad a quienes empiezan.</td></tr>
+        <tr><td>Acuerdo parcial</td><td>Hasta cierto punto sí. Da visibilidad, pero la exposición dura poco.</td></tr>
+        <tr><td>Desacuerdo</td><td>Yo no lo veo así. La exposición es tan breve que muchos participantes siguen sin encontrar actuaciones.</td></tr>
+        </tbody></table></div>
+        <p>«En efecto» y «desde luego» suelen confirmar una idea. «Puede ser, pero…» deja espacio para una reserva. «¡Qué va!» expresa rechazo en un registro coloquial. En una intervención formal puedes decir «discrepo en ese punto» y explicar el motivo.</p>`) +
+      section('Un intercambio con réplicas', `
+        <div class="example"><p>— Los festivales deberían reservar la mitad del cartel a grupos locales.</p><p>— Estoy de acuerdo en darles más espacio, aunque fijaría la cuota después de consultar a los organizadores.</p><p>— Entiendo la cautela. ¿Y si probamos la medida durante una edición y evaluamos la asistencia?</p></div>
+        <p>Antes de rebatir, resume el punto concreto que has entendido. Después, aporta una razón y plantea una alternativa que tu interlocutor pueda valorar.</p>`),
+      exerciseTitle: 'Reconoce y matiza la postura',
+      questions: [
+        choice('«En efecto, los ensayos abiertos pueden atraer público nuevo». ¿Qué expresa «en efecto»?', ['Acuerdo', 'Acuerdo parcial', 'Desacuerdo'], 0, 'Confirma la idea anterior.'),
+        choice('«Puede ser, pero el festival también debe cuidar el descanso del vecindario». ¿Qué expresa la respuesta?', ['Acuerdo pleno', 'Acuerdo parcial', 'Rechazo sin matices'], 1, 'Acepta parte de la propuesta y formula una reserva.'),
+        choice('En una reunión formal, ¿cómo discrepas y aportas una razón?', ['¡Qué va!', 'Claro, totalmente.', 'Discrepo en ese punto porque el presupuesto cubre una sola actuación.'], 2, 'La fórmula expresa desacuerdo en un registro formal y lo justifica.'),
+        choice('¿Qué respuesta concede una ventaja y después señala un límite?', ['Entiendo que la televisión amplía el público, aunque la fama puede durar poco.', 'La televisión siempre perjudica a los músicos.', 'Estoy totalmente de acuerdo con todo.'], 0, 'Se reconoce el aumento de público y se matiza su duración.'),
+        gap('Completa con el presente de subjuntivo. «No estoy de acuerdo con que el festival ____ (cobrar) a los artistas por actuar».', ['cobre'], '«Cobre» va en subjuntivo porque el hablante valora y rechaza la medida.')
+      ],
+      writing: [{
+        id: 'debate',
+        instructions: 'Si te ayuda, prepara un guion. Ensaya en voz alta y cronometra tu intervención. Puedes grabarte con tu dispositivo y usar las casillas para revisarte. Las marcas se reinician al cambiar de página.',
+        title: 'Defiende tu propuesta en voz alta',
+        prompt: 'Prepara una intervención de 60 a 90 segundos. Una sala tiene presupuesto para un único concierto. ¿Contratarías a un artista conocido o a un grupo emergente? Reconoce una ventaja de la otra opción, explica tu reserva y justifica tu decisión.',
+        check: ['Presento mi postura y doy una razón concreta.', 'Reconozco una ventaja de la otra opción.', 'Cierro con una propuesta que podría debatirse.']
+      }]
+    },
+    'musica-cultura': {
+      introduction: 'Compara tres caminos para darse a conocer y analiza cómo una canción puede representar realidades sociales.',
+      blocks: section('Televisión, redes y calle', `
+        <p><strong>David Bisbal</strong> quedó segundo en la primera edición de «Operación Triunfo». El concurso le abrió una vía hacia la grabación y los conciertos.</p>
+        <p><strong>Pablo Alborán</strong> empezó a componer de joven y difundió interpretaciones en Internet. El «boca a boca» ayudó a que esos vídeos llegaran a más oyentes.</p>
+        <p><strong>Macaco</strong>, nombre artístico de Daniel Carbonell, tocó en la calle en Barcelona y reunió a músicos de distintos orígenes. Su repertorio combina influencias como la rumba, el reggae y el funk.</p>
+        <p>A partir de los tres perfiles, identifica cómo se dio a conocer cada artista. Luego escribe una semejanza y una diferencia entre Bisbal y Alborán.</p>
+        <details><summary>Ver respuesta posible</summary><p>Bisbal ganó visibilidad con un concurso de televisión, Alborán difundió sus interpretaciones en Internet y Macaco tocó en la calle. Los dos aprovecharon un medio que les permitió llegar a un público más amplio. La televisión fue decisiva para Bisbal y los vídeos en Internet para Alborán.</p></details>`) +
+      section('Una canción que cambia de escenario', `
+        <p>En «Hijos de un mismo dios», Macaco yuxtapone escenas de distintos lugares. El desempleo, la violencia cotidiana, la desconexión política, la soledad en redes y la presión laboral sirven como puntos de partida para interpretar la canción.</p>
+        <h3>Dos escenas de práctica inspiradas en el tema de la canción</h3>
+        <div class="example"><p><strong>A.</strong> Cada noche, Irene cena con el portátil abierto. Ha prometido tres veces apagarlo a las ocho, pero sigue contestando mensajes del trabajo hasta que su familia se va a dormir.</p><p><strong>B.</strong> En el barrio de Samir ha cerrado la última fábrica. Todos los lunes, Samir repasa las ofertas con su vecina. Esta semana solo han encontrado una oferta de trabajo. Samir tendría que mudarse a otra ciudad para aceptarla.</p></div>
+        <p>Identifica el problema social de cada escena y señala un detalle que apoye tu interpretación. Si estas escenas formaran parte de una canción, ¿qué sonido cotidiano elegirías para cada una y por qué?</p>
+        <details><summary>Ver respuesta posible</summary><p>La escena A muestra cómo el trabajo invade el tiempo familiar. Irene sigue contestando mensajes hasta que su familia se acuesta. La escena B sugiere desempleo y falta de oportunidades locales. Ha cerrado la fábrica y la única oferta exige mudarse. Podrían oírse notificaciones en A y, en B, el eco de la puerta metálica de la fábrica.</p></details>`),
+      exerciseTitle: 'Trayectorias y lectura cultural',
+      questions: [
+        choice('¿Qué medio dio a David Bisbal la visibilidad destacada en esta lección?', ['Un concurso televisivo', 'Un grupo formado en la calle', 'Vídeos caseros como primera vía de difusión'], 0, 'Su paso por Operación Triunfo amplió su público.'),
+        choice('¿Qué experiencia distingue la trayectoria de Pablo Alborán en esta comparación?', ['Formar una banda callejera en las Ramblas', 'Difundir interpretaciones propias en Internet', 'Entrar en una academia de un concurso televisivo'], 1, 'Los vídeos en Internet ayudaron a difundir sus primeras interpretaciones.'),
+        choice('¿Qué artista reunió a músicos de distintos orígenes tras tocar en la calle en Barcelona?', ['David Bisbal', 'Pablo Alborán', 'Macaco'], 2, 'Macaco empezó como músico callejero y formó un grupo multicultural.'),
+        choice('Una escena muestra a alguien con muchos contactos en redes que lleva semanas sin visitar a nadie. ¿Qué lectura se apoya mejor en ese detalle?', ['Falta de oportunidades laborales', 'Distancia entre la conexión digital y el trato personal', 'Dificultad para aprender una coreografía'], 1, 'La diferencia entre el número de contactos y la falta de encuentros sugiere soledad.'),
+        gap('Completa la expresión que significa difusión de persona a persona. «La grabación se hizo conocida gracias al boca a ____».', ['boca'], 'El boca a boca es la difusión mediante recomendaciones personales.')
+      ]
+    },
+    pasados: {
+      introduction: 'Elige el tiempo según el marco temporal y la relación que el hecho guarda con otros momentos.',
+      blocks: section('Cuatro perspectivas sobre el pasado', `
+        <div class="table-scroll"><table class="content-table"><thead><tr><th>Tiempo</th><th>Uso en una trayectoria</th><th>Ejemplo</th></tr></thead><tbody>
+        <tr><td>Pretérito perfecto compuesto</td><td>Experiencia sin fecha concreta, balance vigente o hecho situado en un período que el hablante presenta como abierto.</td><td>En lo que va de temporada, <b>ha actuado</b> tres veces.</td></tr>
+        <tr><td>Pretérito indefinido o perfecto simple</td><td>Hecho o etapa presentada como completa, con duración o momento delimitados.</td><td><b>Debutó</b> en 2018. <b>Trabajó</b> allí dos años.</td></tr>
+        <tr><td>Pretérito imperfecto</td><td>Descripción, hábito, simultaneidad o acción en curso en el marco del relato.</td><td>De niña <b>ensayaba</b> a diario. Aquel día <b>practicaba</b> cuando recibió la noticia.</td></tr>
+        <tr><td>Pretérito pluscuamperfecto</td><td>Hecho ya ocurrido en relación con un punto de referencia pasado.</td><td>Cuando debutó, ya <b>había bailado</b> en dos festivales.</td></tr>
+        </tbody></table></div>`) +
+      section('Cómo combinar los tiempos', `
+        <p>El indefinido puede hacer avanzar el relato y el imperfecto presentar las circunstancias. «El teatro estaba lleno cuando salió al escenario.» El pluscuamperfecto permite retroceder desde ese momento. «Antes de salir, ya había repasado la coreografía.»</p>
+        <p>«Hasta entonces nunca había actuado en esa sala» fija un límite en el pasado. «Apenas había terminado el ensayo cuando sonó el teléfono» presenta dos hechos muy próximos. El ensayo sigue siendo anterior a la llamada.</p>
+        <p>El reparto entre «he cantado» y «canté» varía entre regiones y hablantes. Algunos usan el simple con «hoy» y «esta semana». Los ejercicios indican cuándo se pide el perfecto compuesto.</p>`),
+      exerciseTitle: 'Elige el punto de referencia',
+      questions: [
+        gap('Usa el perfecto compuesto para un balance vigente. «Hasta ahora, Alba ____ (componer) cuatro piezas para el grupo».', ['ha compuesto'], '«Ha compuesto» se forma con el presente de haber y el participio irregular «compuesto».'),
+        gap('Presenta el debut como un hito fechado. «En 2018, Alba ____ (debutar) en un teatro de Cádiz».', ['debutó'], 'El indefinido presenta el debut como un hecho completo en un año cerrado.'),
+        gap('Presenta el hábito como fondo de la historia. «De niña, Alba ____ (ensayar) los sábados con su padre».', ['ensayaba'], 'El imperfecto presenta el hábito sin delimitar su final.'),
+        gap('Marca la acción anterior al debut. «Cuando debutó, Alba ya ____ (grabar) una maqueta».', ['había grabado'], 'La grabación ya había ocurrido cuando se produjo el debut.'),
+        choice('«La compañía actuó en Sevilla durante tres meses en 2022». ¿Qué perspectiva adopta el hablante?', ['Acción simultánea en curso', 'Etapa completa con duración delimitada', 'Experiencia abierta hasta hoy'], 1, 'El indefinido presenta la estancia como un período completo.'),
+        choice('¿Qué ocurrió primero en «Apenas había empezado la función cuando se apagaron las luces»?', ['Empezó la función.', 'Se apagaron las luces.', 'El enunciado deja el orden abierto.'], 0, 'El comienzo de la función es el hecho anterior, aunque la separación temporal sea muy corta.'),
+        choice('«Era una sala pequeña y el público conversaba cuando salió el guitarrista». ¿Qué verbo introduce el acontecimiento que hace avanzar la escena?', ['era', 'conversaba', 'salió'], 2, '«Salió» presenta el acontecimiento. Los imperfectos describen el entorno.')
+      ]
+    },
+    biografia: {
+      introduction: 'Organiza una vida artística en etapas y explica cómo se relacionan la formación, el esfuerzo y los logros.',
+      blocks: section('Una trayectoria en el Ballet Nacional de Cuba', `
+        <p><strong>Viengsay Valdés</strong> practicaba gimnasia antes de empezar en el ballet. Su abuela la llevó a la escuela Alejo Carpentier y allí comenzó su formación. Cuenta cómo compaginaba las clases con el entrenamiento, a qué actividades de ocio tuvo que renunciar y qué actuaciones recuerda con especial emoción, entre ellas las de México y San Petersburgo.</p>
+        <p>La reseña de «De acero y nube», de Carlos Tablada, aporta otra mirada sobre la bailarina. Una entrevista conserva la perspectiva de la persona entrevistada. Una biografía organiza los hechos y les da contexto. Una reseña, además, presenta o valora una obra.</p>
+        <p>A partir del perfil anterior, ordena estos hitos y añade una frase sobre la rutina de la bailarina usando el imperfecto. <strong>A.</strong> Actuó en escenarios internacionales. <strong>B.</strong> Practicó gimnasia. <strong>C.</strong> Entró en la escuela Alejo Carpentier.</p>
+        <details><summary>Ver respuesta</summary><p>El orden es B → C → A. Una frase posible es «Durante su formación, compaginaba las clases con el entrenamiento».</p></details>`) +
+      section('Escribir una biografía breve', `
+        <p>Empieza con la identidad de la persona y su campo. Escoge dos o tres hitos verificables y enlázalos con marcas temporales como «por entonces», «años antes» o «a partir de ahí». Explica qué hacía habitualmente, qué había hecho antes de un logro y qué impacto tiene hoy. Si incluyes tu valoración, apóyala en un hecho de la trayectoria.</p>
+        <div class="example"><p><strong>Modelo ficticio.</strong> Lucía Mena es coreógrafa. De niña ensayaba en un centro vecinal. Cuando estrenó su primera obra en 2016, ya había dirigido un grupo juvenil. Desde entonces ha creado talleres que acercan la danza a quienes nunca han subido a un escenario. Admiro esa labor porque sus talleres permiten participar a personas con experiencias muy distintas.</p></div>`),
+      exerciseTitle: 'Lee y organiza la trayectoria',
+      questions: [
+        choice('Según la lección, ¿qué experiencia de Valdés precedió a su formación en ballet?', ['La composición musical', 'La gimnasia', 'La dirección de una compañía'], 1, 'Valdés recuerda que ya practicaba gimnasia antes de empezar en el ballet.'),
+        choice('¿Qué dato del modelo pertenece a la rutina de infancia de Lucía?', ['Ensayaba en un centro vecinal.', 'Estrenó su primera obra en 2016.', 'Ha creado talleres desde el estreno.'], 0, '«De niña ensayaba» introduce un hábito como fondo de la trayectoria.'),
+        choice('¿Qué hizo Lucía antes del estreno de 2016?', ['Fundó todos sus talleres actuales.', 'Dejó el centro vecinal en 2016.', 'Dirigió un grupo juvenil.'], 2, 'El pluscuamperfecto «había dirigido» sitúa esa actividad antes del estreno.'),
+        choice('¿Qué frase separa con claridad la valoración del hecho que la apoya?', ['Está claro que es la mejor artista de su época.', 'Admiro su trabajo porque sus talleres abren la danza a personas sin experiencia.', 'Es admirable porque todo el mundo la admira.'], 1, 'La valoración se presenta como propia y se vincula a una aportación concreta.'),
+        gap('Completa con el verbo que significa dejar voluntariamente algo. «Para seguir en la compañía tuvo que ____ a parte de sus vacaciones».', ['renunciar'], 'La construcción es «renunciar a» algo.')
+      ],
+      writing: [{
+        id: 'biografia',
+        instructions: 'Escribe en el recuadro y revisa el texto con las casillas de abajo. Puedes descargar el borrador. Las marcas se reinician al cambiar de página.',
+        title: 'Escribe la biografía de un artista',
+        prompt: 'Redacta entre 150 y 180 palabras sobre un artista de la música o de la danza que admires. Consulta una fuente e identifícala al final. Incluye sus inicios, un hito y su aportación. Cierra con una valoración personal razonada.',
+        check: ['Organizo los hechos en etapas y cito una fuente.', 'Uso los pasados según el marco temporal y la perspectiva.', 'Apoyo mi valoración con un hecho de la trayectoria.']
+      }]
+    },
+    entonacion: {
+      introduction: 'Localiza dónde puedes respirar y qué palabras conviene mantener juntas en una lectura neutra.',
+      blocks: section('Grupos que se pronuncian juntos', `
+        <p>En una lectura fluida, solemos pronunciar juntas las palabras estrechamente relacionadas. Una pausa en medio del grupo puede romper el sentido. La intención expresiva, una vacilación o una corrección espontánea pueden alterar el patrón.</p>
+        <div class="table-scroll"><table class="content-table"><thead><tr><th>Agrupación</th><th>Ejemplos originales</th></tr></thead><tbody>
+        <tr><td>Artículo + nombre, nombre + adjetivo, adjetivo + nombre</td><td>la pista, música suave, breve pausa</td></tr>
+        <tr><td>Verbo + adverbio, adverbio + verbo</td><td>suena bien, no canta</td></tr>
+        <tr><td>Pronombre átono + verbo</td><td>lo grabaron</td></tr>
+        <tr><td>Adverbio + adjetivo, adverbio + adverbio</td><td>muy suave, bastante lejos</td></tr>
+        <tr><td>Tiempo compuesto, perífrasis verbal</td><td>había ensayado, volvió a tocar</td></tr>
+        <tr><td>Preposición + término</td><td>con la orquesta</td></tr>
+        </tbody></table></div>`) +
+      section('Lee y compara', `
+        <p>La barra marca una pausa posible. «Al terminar el ensayo / la cantante volvió a tocar con la orquesta.» Lee la frase a velocidad normal y repítela haciendo una pausa entre «con» y «la orquesta». Observa cómo cambia la fluidez.</p>
+        <h3>Detecta y corrige dos pausas</h3>
+        <div class="example"><p>— Antes del ensayo / la directora habló con / el pianista.</p><p>— Al terminar / lo / llamaron para confirmar la hora.</p></div>
+        <p>Lee el diálogo siguiendo las barras. Quita una barra de cada frase y explica qué palabras separaba. Si practicas en pareja, leed en voz alta ambas versiones.</p>
+        <details><summary>Ver respuesta</summary><p>Las lecturas propuestas son «Antes del ensayo / la directora habló con el pianista» y «Al terminar / lo llamaron para confirmar la hora». Los cortes originales separaban la preposición de su término y el pronombre átono del verbo.</p></details>`),
+      exerciseTitle: 'Marca una pausa posible',
+      questions: [
+        choice('La barra indica una pausa. ¿Qué lectura mantiene juntas las agrupaciones?', ['Tras el / concierto, lo grabaron.', 'Tras el concierto / lo grabaron.', 'Tras el concierto, lo / grabaron.'], 1, 'La pausa puede cerrar el complemento inicial. «El concierto» y «lo grabaron» permanecen unidos.'),
+        choice('¿Qué unidad se divide con la pausa en «Ya había / ensayado»?', ['Preposición y término', 'Artículo y nombre', 'Auxiliar y participio de un tiempo compuesto'], 2, '«Había ensayado» forma un pluscuamperfecto.'),
+        choice('¿Qué lectura conserva la perífrasis «volvió a cantar»?', ['Al final del acto / volvió a cantar.', 'Al final del acto volvió / a cantar.', 'Al final del acto volvió a / cantar.'], 0, 'La pausa se coloca tras el complemento inicial y deja intacta la perífrasis.'),
+        choice('¿Qué grupo se rompe en «con / su banda»?', ['Nombre y adjetivo', 'Preposición y término', 'Pronombre átono y verbo'], 1, '«Su banda» es el término de la preposición «con».'),
+        choice('¿Qué corte separa un adverbio del adjetivo que modifica?', ['Cuando llegó / el público aplaudió.', 'Se oía muy / bajo en la sala.', 'Eligieron una melodía muy / suave.'], 2, 'En «muy suave», «muy» modifica al adjetivo «suave». En «se oía muy bajo», «bajo» funciona como adverbio.')
+      ]
+    },
+    vocabulario3: {
+      introduction: 'Busca palabras y expresiones de la unidad y fíjate en las combinaciones que aparecen en los ejemplos.',
+      blocks: section('Glosario', '<div id="vocab-app"></div>') +
+      section('Aprender por combinaciones', '<p>Anota el verbo o la preposición que acompaña a cada expresión. Por ejemplo, «seguir el compás», «renunciar a las vacaciones» y «estar al corriente de las novedades». Usa cada combinación en una frase propia.</p>'),
+      exerciseTitle: 'Léxico en contexto',
+      questions: [
+        choice('¿Qué significa «estar de capa caída» cuando se habla de la carrera de un grupo?', ['Estar de gira', 'Atravesar una etapa de declive', 'Ocultar su identidad'], 1, 'La expresión alude a una pérdida de éxito, ánimo o relevancia.'),
+        choice('«El dúo arrasó en el festival». ¿Qué implica en ese contexto?', ['Tuvo mucho éxito.', 'Actuó en secreto.', 'Canceló su actuación.'], 0, 'Arrasar se usa coloquialmente para hablar de un éxito contundente.'),
+        choice('¿Quién está al corriente de las novedades?', ['Quien evita hablar de ellas.', 'Quien las inventa.', 'Quien está informado sobre ellas.'], 2, '«Estar al corriente de» significa estar informado.'),
+        choice('«Se presentó a varias audiciones y no se comió una rosca». ¿Qué significa?', ['Consiguió un papel pequeño.', 'No consiguió ningún resultado favorable.', 'Solo pudo cantar en un ensayo.'], 1, '«No comerse una rosca» expresa, coloquialmente, falta de éxito.'),
+        gap('Completa con la preposición que falta. «Estoy al corriente ____ los cambios en el programa».', ['de'], 'La expresión habitual es «estar al corriente de» algo.')
+      ]
+    },
+    repaso3: {
+      introduction: 'Comprueba si puedes defender una idea, contar una trayectoria y leerla con pausas naturales.',
+      blocks: section('Antes de corregir', '<p>Localiza la intención comunicativa, la relación entre las ideas y el punto temporal de referencia. En la pregunta de lectura, comprueba qué palabras forman un grupo.</p><p>Tras corregir, revisa <a href="#opinar">02 · Opinión</a>, <a href="#argumentar">03 · Argumentación</a>, <a href="#acuerdo">04 · Acuerdo</a>, <a href="#pasados">06 · Pasados</a>, <a href="#entonacion">08 · Entonación</a> o <a href="#vocabulario3">09 · Vocabulario</a> según la pregunta que quieras repasar.</p>'),
+      exerciseTitle: 'Autoevaluación',
+      questions: [
+        gap('Completa en presente. «No me parece que una canción ____ (revelar) por sí sola el carácter de quien la escucha».', ['revele'], 'La opinión negada presenta esta proposición con subjuntivo.'),
+        choice('¿Qué fórmula introduce un punto de vista ajeno?', ['En definitiva', 'En opinión del jurado', 'A mi modo de ver'], 1, 'La opinión se atribuye al jurado.'),
+        choice('¿Qué respuesta expresa acuerdo parcial?', ['No lo veo así en absoluto.', 'Comparto plenamente tu opinión.', 'Coincido en lo del precio, aunque discrepo sobre el horario.'], 2, 'Acepta un aspecto y expresa desacuerdo con otro.'),
+        gap('Marca la acción anterior. «Cuando anunciaron el concierto, el grupo ya ____ (firmar) el contrato».', ['había firmado'], 'La firma es anterior al anuncio, ambos situados en el pasado.'),
+        gap('Presenta la acción como un hito fechado. «En junio de 2021 la compañía ____ (estrenar) su primera obra».', ['estrenó'], 'El indefinido sitúa el estreno completo en una fecha cerrada.'),
+        choice('¿En qué frase la barra marca una pausa compatible con una lectura neutra?', ['Después del recital / la artista habló con el público.', 'Después del recital la / artista habló con el público.', 'Después del recital la artista habló con / el público.'], 0, 'La pausa tras «Después del recital» deja intactos el artículo con el nombre y la preposición con su término.'),
+        choice('¿Qué expresión alude a destacar más allá del anonimato?', ['Estar al corriente', 'Dar el salto a la fama', 'Perder el compás'], 1, '«Dar el salto a la fama» indica que una persona pasa a ser muy conocida.'),
+        choice('¿Qué frase cierra una argumentación con una propuesta?', ['Por ejemplo, el concierto del sábado.', 'Según el equipo técnico, faltan dos micrófonos.', 'En definitiva, propongo probar el nuevo horario durante un mes.'], 2, 'El conector señala el cierre y la frase formula una medida concreta.')
+      ]
+    }
+  };
+
+  const vocabulary = [
+    ['Música', 'ritmo', 'Organización temporal de los sonidos.', 'El ritmo se aceleró al final de la pieza.'],
+    ['Música', 'melodía', 'Sucesión de notas que se percibe como una unidad.', 'Todavía recuerdo la melodía del anuncio.'],
+    ['Música', 'estribillo', 'Parte de una canción que se repite.', 'El público cantó el estribillo con la banda.'],
+    ['Música', 'interpretar', 'Ejecutar una pieza musical con la voz o un instrumento.', 'El dúo interpretó una rumba en directo.'],
+    ['Música', 'componer', 'Crear una obra musical.', 'Empezó a componer canciones a los doce años.'],
+    ['Música', 'banda sonora', 'Música que acompaña una obra audiovisual o, en sentido figurado, un momento de la vida.', 'Esa canción es la banda sonora de mis veranos.'],
+    ['Música', 'musicoterapia', 'Uso terapéutico de la música y sus elementos.', 'La entrevista aborda distintas formas de musicoterapia.'],
+    ['Música', 'músico callejero', 'Artista que toca o canta en la vía pública.', 'Un músico callejero tocaba al salir del metro.'],
+    ['Música', 'reclutar', 'Reunir o incorporar personas para un fin.', 'La asociación reclutó músicos para el desfile.'],
+    ['Danza y bienestar', 'coreografía', 'Organización de los movimientos de una pieza de danza.', 'La coreografía termina con todo el grupo en círculo.'],
+    ['Danza y bienestar', 'seguir el compás', 'Ajustarse a la pauta rítmica de una pieza.', 'Seguimos el compás con las palmas.'],
+    ['Danza y bienestar', 'cadencia', 'Ritmo o sucesión regular de sonidos o movimientos.', 'La bailarina cambió la cadencia de sus pasos.'],
+    ['Danza y bienestar', 'danzaterapia', 'Uso terapéutico de la danza y el movimiento expresivo.', 'El artículo presenta un taller de danzaterapia.'],
+    ['Danza y bienestar', 'forma física', 'Condición corporal para realizar una actividad.', 'El entrenamiento ayuda a mantener la forma física.'],
+    ['Danza y bienestar', 'bienestar', 'Estado en el que una persona se siente bien en el plano físico o mental.', 'El paseo forma parte de su rutina de bienestar.'],
+    ['Danza y bienestar', 'autoestima', 'Valoración de uno mismo.', 'El reconocimiento de sus avances reforzó su autoestima.'],
+    ['Danza y bienestar', 'tensión', 'Estado de presión física o emocional.', 'Salió a caminar para aliviar la tensión.'],
+    ['Carácter y trayectoria', 'tesón', 'Firmeza y constancia para alcanzar un objetivo.', 'Con tesón, el grupo preparó la obra en pocos meses.'],
+    ['Carácter y trayectoria', 'ahínco', 'Intensidad y empeño con que se hace algo.', 'Ensayaron con ahínco antes del estreno.'],
+    ['Carácter y trayectoria', 'perseverancia', 'Constancia para continuar a pesar de las dificultades.', 'Su perseverancia le permitió terminar la formación.'],
+    ['Carácter y trayectoria', 'terquedad', 'Tendencia a mantener una idea con obstinación.', 'Su terquedad complicó el acuerdo sobre el repertorio.'],
+    ['Carácter y trayectoria', 'iniciativa', 'Capacidad de empezar una acción o proponer algo por cuenta propia.', 'Tuvo la iniciativa de organizar un concierto abierto.'],
+    ['Carácter y trayectoria', 'introvertido', 'Que tiende a reservar su mundo interior.', 'Es introvertida y prefiere conversar en grupos pequeños.'],
+    ['Carácter y trayectoria', 'renunciar a', 'Dejar algo voluntariamente o desistir de conseguirlo.', 'Renunció a varias actuaciones para terminar sus estudios.'],
+    ['Carácter y trayectoria', 'consolidar una carrera', 'Dar estabilidad y reconocimiento a una trayectoria profesional.', 'La gira contribuyó a consolidar su carrera.'],
+    ['Carácter y trayectoria', 'apodo', 'Nombre informal que se da a alguien en lugar de su nombre habitual.', 'El público lo conocía por su apodo.'],
+    ['Carácter y trayectoria', 'dar el salto a la fama', 'Pasar a ser ampliamente conocido.', 'Dio el salto a la fama tras una actuación en televisión.'],
+    ['Carácter y trayectoria', 'permanecer en el anonimato', 'Seguir sin darse a conocer públicamente.', 'La compositora prefirió permanecer en el anonimato.'],
+    ['Expresiones coloquiales', 'estar de capa caída', 'Atravesar una etapa de pérdida de ánimo, prestigio o éxito.', 'Tras dos giras canceladas, la banda estaba de capa caída.'],
+    ['Expresiones coloquiales', 'estar al corriente de', 'Estar informado sobre algo.', 'Estoy al corriente de los cambios de horario.'],
+    ['Expresiones coloquiales', 'arrasar', 'Tener un éxito contundente.', 'La cantante arrasó en la final del concurso.'],
+    ['Expresiones coloquiales', 'no comerse una rosca', 'No conseguir el éxito que se busca. Expresión coloquial.', 'Hizo tres audiciones y no se comió una rosca.'],
+    ['Expresiones coloquiales', 'yogurín', 'Persona muy joven. Puede sonar afectuoso o despectivo según el contexto.', 'Sus compañeros lo llamaban yogurín por ser el menor del grupo.'],
+    ['Expresiones coloquiales', 'listillo', 'Persona que presume de lista o intenta sacar ventaja. Suele ser despectivo.', 'Un listillo quiso colarse en la fila.'],
+    ['Expresiones coloquiales', 'boca a boca', 'Difusión de información por recomendaciones personales.', 'El boca a boca llenó la sala el segundo día.'],
+    ['Argumentación', 'a mi modo de ver', 'Fórmula que introduce una opinión propia.', 'A mi modo de ver, conviene ensayar con público.'],
+    ['Argumentación', 'hasta cierto punto', 'Expresión que limita el alcance del acuerdo o de una afirmación.', 'Estoy de acuerdo hasta cierto punto.'],
+    ['Argumentación', 'sin embargo', 'Conector que introduce un contraste.', 'La pieza era difícil. Sin embargo, la interpretaron con soltura.'],
+    ['Argumentación', 'por consiguiente', 'Conector que presenta una consecuencia.', 'Se agotaron las entradas. Por consiguiente, ofrecieron otra fecha.'],
+    ['Argumentación', 'en definitiva', 'Fórmula que introduce una conclusión o síntesis.', 'En definitiva, la sala necesita un horario más amplio.']
+  ].map(([category, term, definition, example]) => ({category, term, definition, example}));
+
+  for (const page of Object.values(pages)) {
+    page.exerciseNote ??= 'Elige una opción o escribe la forma solicitada. Pulsa «Corregir respuestas» para ver la explicación.';
+  }
+
   window.ISP10_UNITS = window.ISP10_UNITS || {};
   window.ISP10_UNITS[3] = {
-    "unit": {
-      "number": 3,
-      "title": "Compartir un edificio",
-      "intro": "Lee avisos, pide colaboración y negocia acuerdos en una comunidad de vecinos. Empieza por el bloque 01 y termina redactando un aviso para el portal."
-    },
-    "lessons": [
-      {
-        "id": "avisos-comunidad",
-        "title": "Leer avisos de una comunidad",
-        "short": "Distinguir hechos, plazos y excepciones",
-        "icon": "▤",
-        "minutes": 15,
-        "index": "01"
-      },
-      {
-        "id": "describir-incidencias",
-        "title": "Describir una incidencia con precisión",
-        "short": "Observaciones, alcance y consecuencias",
-        "icon": "◈",
-        "minutes": 15,
-        "index": "02"
-      },
-      {
-        "id": "pedir-colaboracion",
-        "title": "Pedir colaboración con tacto",
-        "short": "Peticiones, razones y fórmulas de cortesía",
-        "icon": "❝",
-        "minutes": 20,
-        "index": "03"
-      },
-      {
-        "id": "condiciones-alternativas",
-        "title": "Plantear condiciones y alternativas",
-        "short": "Si, siempre que y en caso de que",
-        "icon": "✦",
-        "minutes": 20,
-        "index": "04"
-      },
-      {
-        "id": "transmitir-mensajes",
-        "title": "Transmitir mensajes a otras personas",
-        "short": "Estilo indirecto y referencias de tiempo",
-        "icon": "↗",
-        "minutes": 20,
-        "index": "05"
-      },
-      {
-        "id": "negociar-espacios",
-        "title": "Negociar el uso de un espacio común",
-        "short": "Prioridades, concesiones y propuestas concretas",
-        "icon": "⇄",
-        "minutes": 20,
-        "index": "06"
-      },
-      {
-        "id": "mediar-entre-vecinos",
-        "title": "Explicar a otra persona lo esencial",
-        "short": "Mediación y adaptación de un aviso",
-        "icon": "◎",
-        "minutes": 20,
-        "index": "07"
-      },
-      {
-        "id": "intervenir-reunion",
-        "title": "Tomar la palabra y aclarar malentendidos",
-        "short": "Turnos, reformulación y confirmación",
-        "icon": "♪",
-        "minutes": 15,
-        "index": "08"
-      },
-      {
-        "id": "lexico-convivencia",
-        "title": "Usar el vocabulario de la convivencia",
-        "short": "Expresiones frecuentes en avisos y reuniones",
-        "icon": "☷",
-        "minutes": 15,
-        "index": "09"
-      },
-      {
-        "id": "reto-patio-comun",
-        "title": "Resolver un caso de convivencia",
-        "short": "Actividad final de lectura, mediación y escritura",
-        "icon": "✓",
-        "minutes": 25,
-        "index": "10"
-      }
-    ],
-    "pages": {
-      "avisos-comunidad": {
-        "introduction": "Lee un aviso del edificio ficticio de la plaza del Olmo y decide qué harías en cada situación.",
-        "blocks": "<section class=\"lesson-block\"><h2>Aviso en el portal</h2><div class=\"example\"><p>El martes, entre las 9:00 y las 13:00, se cortará el agua para reparar una tubería. Antes de las nueve, llenad una jarra si vais a quedaros en casa. El ascensor seguirá funcionando. Si a las 13:30 todavía no hay agua, avisad a la administración e indicad vuestro piso. El personal de mantenimiento avisará en el portal si cambian los horarios.</p></div><p>Antes de contestar, separa en tres columnas lo que ocurrirá, lo que se pide hacer y lo que solo se hará si se cumple una condición.</p></section>",
-        "exerciseTitle": "Comprueba lo aprendido",
-        "exerciseNote": "Contesta las tres preguntas y pulsa «Corregir respuestas».",
-        "questions": [
-          {
-            "type": "choice",
-            "q": "¿Qué servicio seguirá disponible durante la reparación?",
-            "options": [
-              "El agua",
-              "El ascensor",
-              "La atención presencial"
-            ],
-            "answer": 1,
-            "ex": "El aviso dice que el ascensor seguirá funcionando."
-          },
-          {
-            "type": "choice",
-            "q": "Son las 13:40 y sigue sin haber agua. ¿Qué debes hacer?",
-            "options": [
-              "Esperar hasta el día siguiente",
-              "Avisar al personal del ascensor",
-              "Avisar a la administración e indicar tu piso"
-            ],
-            "answer": 2,
-            "ex": "La condición para avisar se cumple a partir de las 13:30."
-          },
-          {
-            "type": "choice",
-            "q": "¿Para qué sirve «si vais a quedaros en casa»?",
-            "options": [
-              "Indica a quién se dirige la sugerencia de llenar una jarra.",
-              "Fija la hora del corte.",
-              "Explica la causa de la avería."
-            ],
-            "answer": 0,
-            "ex": "La recomendación interesa especialmente a quienes estarán en casa durante el corte."
-          }
-        ]
-      },
-      "describir-incidencias": {
-        "introduction": "Redacta un aviso que permita a otra persona localizar el problema y decidir qué hacer.",
-        "blocks": "<section class=\"lesson-block\"><h2>Una observación que se puede comprobar</h2><p>Indica dónde ocurre el problema, desde cuándo y en qué condiciones aparece. Añade qué impide hacer. Si desconoces la causa, describe lo que observas y formula cualquier explicación como hipótesis.</p><div class=\"example\">Desde el lunes, la puerta del patio se atasca al cerrarse. Esta mañana ha quedado entreabierta durante veinte minutos. Quizá el pestillo esté desalineado. ¿Podéis revisar el cierre?</div><p>Reescribe «Esto vuelve a fallar» como si hablaras de la luz de la escalera. Añade dos detalles que permitirían comprobar el fallo.</p></section>",
-        "exerciseTitle": "Comprueba lo aprendido",
-        "exerciseNote": "Contesta las tres preguntas y pulsa «Corregir respuestas».",
-        "questions": [
-          {
-            "type": "choice",
-            "q": "¿Qué mensaje permite localizar y reproducir el fallo?",
-            "options": [
-              "La luz se apaga a los cinco segundos en el rellano del segundo.",
-              "Otra vez lo mismo con las luces.",
-              "Hay un problema eléctrico grave."
-            ],
-            "answer": 0,
-            "ex": "El mensaje identifica el lugar y el tiempo que tarda en apagarse la luz."
-          },
-          {
-            "type": "choice",
-            "q": "¿Qué frase presenta una causa como hipótesis?",
-            "options": [
-              "El rellano está a oscuras.",
-              "Tal vez haya fallado el temporizador.",
-              "El fallo empezó ayer."
-            ],
-            "answer": 1,
-            "ex": "«Tal vez» y el subjuntivo presentan la explicación como posible."
-          },
-          {
-            "type": "choice",
-            "q": "¿Qué dato describe una consecuencia para los vecinos?",
-            "options": [
-              "Hay un interruptor junto al ascensor.",
-              "La bombilla parpadea.",
-              "Al apagarse la luz, cuesta distinguir los peldaños."
-            ],
-            "answer": 2,
-            "ex": "La frase explica cómo afecta el fallo a quien usa la escalera."
-          }
-        ]
-      },
-      "pedir-colaboracion": {
-        "introduction": "Adapta una petición al canal y a la persona que puede atenderla.",
-        "blocks": "<section class=\"lesson-block\"><h2>Una petición concreta</h2><p>En un mensaje a alguien con quien te tuteas, puedes usar <em>¿podrías…?</em>. A la administración puedes escribir <em>¿podrían…?</em> o <em>les agradecería que…</em>. Esta última fórmula se construye aquí con imperfecto de subjuntivo.</p><div class=\"example\"><p>Hola, Leo. ¿Podrías dejar libre la entrada del patio esta tarde? A las cinco viene una técnica con un carro.</p><p>Buenos días. Les agradecería que confirmaran antes del viernes si se puede acceder al patio desde la calle.</p></div><p>Escribe dos versiones de una petición para cambiar la hora de una visita. Dirige una a un vecino y otra a la empresa que hará la visita.</p></section>",
-        "exerciseTitle": "Comprueba lo aprendido",
-        "exerciseNote": "Contesta las tres preguntas y pulsa «Corregir respuestas».",
-        "questions": [
-          {
-            "type": "gap",
-            "q": "Completa con el imperfecto de subjuntivo. «Les agradecería que me ____ (enviar) el horario».",
-            "answers": [
-              "enviaran",
-              "enviasen"
-            ],
-            "ex": "Ambas terminaciones del imperfecto de subjuntivo son válidas."
-          },
-          {
-            "type": "choice",
-            "q": "¿Qué petición indica qué hacer y explica por qué?",
-            "options": [
-              "A ver si dejáis de hacer eso.",
-              "Necesito hablar con vosotros.",
-              "¿Podéis dejar libre el pasillo? Mañana llevarán muebles al tercero."
-            ],
-            "answer": 2,
-            "ex": "La petición identifica la acción y explica para qué se necesita."
-          },
-          {
-            "type": "choice",
-            "q": "¿Qué fórmula se dirige a una sola persona a la que tuteas?",
-            "options": [
-              "¿Podrías confirmar la hora?",
-              "¿Podrían confirmar la hora?",
-              "Les ruego que confirmen la hora."
-            ],
-            "answer": 0,
-            "ex": "«Podrías» corresponde a la segunda persona del singular."
-          }
-        ]
-      },
-      "condiciones-alternativas": {
-        "introduction": "Explica cuándo sería viable una propuesta y qué opción quedaría si surge un problema.",
-        "blocks": "<section class=\"lesson-block\"><h2>Dos planes para el patio</h2><div class=\"example\"><p>Si mañana llueve, la reunión será en el portal. Podemos reunirnos en el patio siempre que dejemos libre el paso. En caso de que venga mucha gente, reservaremos la sala del centro vecinal.</p></div><p>Para una condición futura que presentas como posible, puedes usar <em>si</em> con presente de indicativo: <em>si llueve</em>. Cuando <em>siempre que</em> significa «con la condición de que», lleva subjuntivo, igual que <em>en caso de que</em>.</p><p>Imagina que quieres organizar un intercambio de libros. Escribe una condición para usar el portal y un plan alternativo si falta espacio.</p></section>",
-        "exerciseTitle": "Comprueba lo aprendido",
-        "exerciseNote": "Contesta las tres preguntas y pulsa «Corregir respuestas».",
-        "questions": [
-          {
-            "type": "gap",
-            "q": "Completa en presente de indicativo. «Si ____ (llover), moveremos las cajas al portal».",
-            "answers": [
-              "llueve"
-            ],
-            "ex": "La condición futura se expresa aquí con «si» y presente de indicativo."
-          },
-          {
-            "type": "gap",
-            "q": "Completa en presente de subjuntivo. «Podemos usar la sala siempre que ____ (dejar, nosotros) todo en orden».",
-            "answers": [
-              "dejemos"
-            ],
-            "ex": "«Siempre que» introduce una condición para usar la sala."
-          },
-          {
-            "type": "choice",
-            "q": "¿Qué oración ofrece un plan alternativo?",
-            "options": [
-              "La sala tiene dos puertas.",
-              "Si no cabemos en el portal, nos reuniremos por videollamada.",
-              "Habrá una reunión a las seis."
-            ],
-            "answer": 1,
-            "ex": "La videollamada es la alternativa si el primer espacio no basta."
-          }
-        ]
-      },
-      "transmitir-mensajes": {
-        "introduction": "Resume lo que alguien ha dicho y adapta las referencias al momento en que lo cuentas.",
-        "blocks": "<section class=\"lesson-block\"><h2>Del chat a la reunión</h2><p>El lunes por la mañana, Nuria escribió: «Hoy no puedo abrir el patio. Mañana dejaré la llave en recepción». El miércoles, Leo explicó: «Nuria dijo que aquel día no podía abrir el patio y que dejaría la llave en recepción al día siguiente».</p><p>En este relato retrospectivo, <em>puedo</em> pasa a <em>podía</em> y <em>dejaré</em> a <em>dejaría</em>. Adapta <em>hoy</em> y <em>mañana</em> si contar el mensaje más tarde cambia su significado. Para transmitir una petición, puedes usar <em>pidió que</em> con imperfecto de subjuntivo: «Pidió que esperáramos en el portal».</p><p>Transforma «Estoy fuera y volveré mañana». Imagina que transmites el mensaje dos días después.</p></section>",
-        "exerciseTitle": "Comprueba lo aprendido",
-        "exerciseNote": "Contesta las tres preguntas y pulsa «Corregir respuestas».",
-        "questions": [
-          {
-            "type": "choice",
-            "q": "El mensaje de Nuria se escribió el lunes. ¿A qué día se refería con «mañana»?",
-            "options": [
-              "Al lunes",
-              "Al martes",
-              "Al miércoles"
-            ],
-            "answer": 1,
-            "ex": "«Mañana» se interpreta desde el día en que Nuria escribió el mensaje."
-          },
-          {
-            "type": "gap",
-            "q": "Completa con el condicional. «El lunes, Nuria dijo que ____ (dejar) la llave en recepción al día siguiente».",
-            "answers": [
-              "dejaría"
-            ],
-            "ex": "El condicional presenta una acción posterior a lo que dijo el lunes."
-          },
-          {
-            "type": "choice",
-            "q": "¿Qué frase transmite una petición?",
-            "options": [
-              "Nuria dijo que el patio estaba cerrado.",
-              "Nuria preguntó a qué hora abría el patio.",
-              "Nuria pidió que cerráramos el patio."
-            ],
-            "answer": 2,
-            "ex": "«Pidió que cerráramos» comunica la acción que quería que hiciéramos."
-          }
-        ]
-      },
-      "negociar-espacios": {
-        "introduction": "Distingue las necesidades de cada persona y busca un acuerdo que se pueda probar.",
-        "blocks": "<section class=\"lesson-block\"><h2>Dos usos para el patio</h2><div class=\"example\"><p>Eva: Necesito un sitio para dejar la bici durante el día. No cabe en casa.</p><p>Adil: Me preocupa que las bicicletas estrechen el paso. Mi padre usa un andador.</p><p>Eva: ¿Y si marcamos una zona junto a la pared y comprobamos que el paso quede libre? Podemos probarlo una semana.</p></div><p>Una necesidad explica qué importa. Una propuesta concreta dice quién hará qué, dónde y durante cuánto tiempo. Una prueba con fecha de revisión permite comprobar si la solución funciona.</p><p>Imagina que una familia quiere instalar una mesa de intercambio de libros en el portal. Formula una objeción concreta y una propuesta que permita probar la idea.</p></section>",
-        "exerciseTitle": "Comprueba lo aprendido",
-        "exerciseNote": "Contesta las tres preguntas y pulsa «Corregir respuestas».",
-        "questions": [
-          {
-            "type": "choice",
-            "q": "¿Qué necesidad señala Adil?",
-            "options": [
-              "Tener un sitio para guardar su bicicleta.",
-              "Mantener el paso accesible para su padre.",
-              "Pintar la pared del patio."
-            ],
-            "answer": 1,
-            "ex": "Le preocupa que su padre pueda pasar con el andador."
-          },
-          {
-            "type": "choice",
-            "q": "¿Qué elemento hace que la propuesta sea reversible?",
-            "options": [
-              "Se puede probar durante una semana.",
-              "Eva usa la bicicleta de día.",
-              "La pared está en el patio."
-            ],
-            "answer": 0,
-            "ex": "El plazo permite evaluar el cambio antes de mantenerlo."
-          },
-          {
-            "type": "choice",
-            "q": "¿Cuál sería un criterio concreto para evaluar la prueba?",
-            "options": [
-              "Que todos piensen igual.",
-              "Que la idea parezca moderna.",
-              "Que se pueda pasar con un andador sin mover ninguna bicicleta."
-            ],
-            "answer": 2,
-            "ex": "El criterio permite comprobar si se ha resuelto la dificultad planteada."
-          }
-        ]
-      },
-      "mediar-entre-vecinos": {
-        "introduction": "Convierte un aviso formal en un mensaje breve para alguien que necesita saber cómo actuar.",
-        "blocks": "<section class=\"lesson-block\"><h2>Aviso de recogida de objetos</h2><div class=\"example\">La recogida de muebles tendrá lugar el jueves entre las 18:00 y las 20:00 en la entrada del garaje. Cada vivienda podrá dejar dos objetos. Los electrodomésticos quedan excluidos. Para solicitar ayuda para bajar un mueble, avise a la portería antes del miércoles a las 12:00.</div><p>Tu vecina Rosa tiene una silla y una nevera. También necesita ayuda para bajar la silla. Elige la información útil para ella. Puedes cambiar el registro y el orden sin cambiar el contenido.</p><details><summary>Ver un mensaje posible</summary><p>Hola, Rosa. Puedes dejar la silla el jueves, de seis a ocho de la tarde, en la entrada del garaje. La nevera queda fuera de esta recogida. Pide ayuda en portería antes del miércoles a mediodía.</p></details></section>",
-        "exerciseTitle": "Comprueba lo aprendido",
-        "exerciseNote": "Contesta las tres preguntas y pulsa «Corregir respuestas».",
-        "questions": [
-          {
-            "type": "choice",
-            "q": "¿Qué objeto puede dejar Rosa en esta recogida?",
-            "options": [
-              "La nevera",
-              "La silla",
-              "Los dos"
-            ],
-            "answer": 1,
-            "ex": "La silla es un mueble. El aviso excluye los electrodomésticos."
-          },
-          {
-            "type": "choice",
-            "q": "¿Cuándo debe pedir ayuda?",
-            "options": [
-              "Antes del miércoles a las 12:00",
-              "El jueves a las 18:00",
-              "Después de bajar la silla"
-            ],
-            "answer": 0,
-            "ex": "El aviso fija ese plazo para solicitar ayuda."
-          },
-          {
-            "type": "choice",
-            "q": "¿Qué versión mantiene el sentido de «entre las 18:00 y las 20:00»?",
-            "options": [
-              "A partir de las ocho de la tarde",
-              "A las seis de la mañana",
-              "De seis a ocho de la tarde"
-            ],
-            "answer": 2,
-            "ex": "La versión mantiene las dos horas y el tramo del día."
-          }
-        ],
-        "writing": [
-          {
-            "id": "mensaje-rosa",
-            "title": "Adapta el aviso a otro vecino",
-            "prompt": "Tu vecino Bruno quiere dejar tres sillas y puede bajarlas sin ayuda. Escríbele un mensaje de 40 a 60 palabras. Explícale qué puede hacer y cuándo, usando solo la información del aviso.",
-            "check": [
-              "Incluyo el lugar y el horario.",
-              "Explico el límite por vivienda.",
-              "Uso un tono adecuado para un mensaje entre vecinos."
-            ],
-            "instructions": "Escribe en el recuadro. Usa las casillas para revisar tu texto. Puedes descargarlo para conservar una copia."
-          }
-        ]
-      },
-      "intervenir-reunion": {
-        "introduction": "Practica tres intervenciones breves para que una reunión avance con claridad.",
-        "blocks": "<section class=\"lesson-block\"><h2>De la duda al acuerdo</h2><div class=\"example\"><p>— ¿Puedo añadir algo? Falta decidir quién guarda la llave.</p><p>— Cuando dices «recepción», ¿te refieres a la portería del edificio?</p><p>— Entonces, la llave se queda en portería y podemos recogerla hasta las ocho. ¿Lo he entendido bien?</p></div><p>La primera intervención pide turno, la segunda aclara una palabra y la tercera confirma el acuerdo. Lee el diálogo en voz alta y cambia el lugar, el objeto y la hora. Después, prueba a decirlo sin leer. Puedes practicar a solas.</p></section>",
-        "exerciseTitle": "Comprueba lo aprendido",
-        "exerciseNote": "Contesta las tres preguntas y pulsa «Corregir respuestas».",
-        "questions": [
-          {
-            "type": "choice",
-            "q": "¿Qué fórmula sirve para pedir turno?",
-            "options": [
-              "¿Puedo añadir algo?",
-              "Entonces, cerramos a las ocho.",
-              "¿Te refieres al portal?"
-            ],
-            "answer": 0,
-            "ex": "La pregunta abre espacio para intervenir sin cortar el intercambio."
-          },
-          {
-            "type": "choice",
-            "q": "¿Qué pregunta aclara la referencia de una palabra?",
-            "options": [
-              "¿Puedo hablar primero?",
-              "Cuando dices «sala», ¿te refieres a la del sótano?",
-              "¿A quién le toca escribir el acta?"
-            ],
-            "answer": 1,
-            "ex": "La pregunta identifica qué lugar designa «sala»."
-          },
-          {
-            "type": "choice",
-            "q": "¿Qué intervención comprueba que se ha entendido el acuerdo?",
-            "options": [
-              "Eso es imposible.",
-              "Queda otro punto.",
-              "Entonces, abrimos el sábado a las diez. ¿Es así?"
-            ],
-            "answer": 2,
-            "ex": "La persona reformula el acuerdo y pide confirmación."
-          }
-        ]
-      },
-      "lexico-convivencia": {
-        "introduction": "Busca las expresiones del glosario y úsalas en situaciones nuevas.",
-        "blocks": "<section class=\"lesson-block\"><h2>Glosario</h2><div id=\"vocab-app\"></div><p>Busca «hacerse cargo». Usa la expresión para explicar quién asume una tarea en una reunión. Después, busca «dar parte» y redacta un mensaje de una línea sobre una incidencia.</p></section>",
-        "exerciseTitle": "Comprueba lo aprendido",
-        "exerciseNote": "Contesta las tres preguntas y pulsa «Corregir respuestas».",
-        "questions": [
-          {
-            "type": "gap",
-            "q": "Completa con la preposición que falta. «Marta se hará cargo ____ la reserva».",
-            "answers": [
-              "de"
-            ],
-            "ex": "La construcción es «hacerse cargo de algo»."
-          },
-          {
-            "type": "choice",
-            "q": "En un edificio, ¿qué significa «dar parte de una avería»?",
-            "options": [
-              "Informar de la avería a quien corresponda.",
-              "Repartir el coste de la reparación.",
-              "Decidir cómo se produjo."
-            ],
-            "answer": 0,
-            "ex": "«Dar parte de» significa comunicar formalmente un hecho o una incidencia."
-          },
-          {
-            "type": "choice",
-            "q": "¿Qué quiere decir «dejar constancia del acuerdo»?",
-            "options": [
-              "Aplazar la decisión",
-              "Cambiar el acuerdo en privado",
-              "Registrar lo acordado para poder consultarlo"
-            ],
-            "answer": 2,
-            "ex": "Una nota o un acta permite comprobar más adelante qué se acordó."
-          }
-        ]
-      },
-      "reto-patio-comun": {
-        "introduction": "Aplica lo aprendido y redacta un aviso completo a partir de un acuerdo.",
-        "blocks": "<section class=\"lesson-block\"><h2>El caso de la mesa de intercambio</h2><p>La comunidad prueba durante dos sábados una mesa de intercambio de libros en el portal, de 10:00 a 12:00. Clara colocará la mesa junto a la pared. Si dificulta el paso, Diego la llevará al patio. Quien deje libros deberá volver a las 12:00 para recoger los que queden. Al acabar el segundo sábado, la comunidad revisará la prueba.</p><p>Primero identifica qué se ha decidido, quién hace cada tarea y qué ocurrirá si hay un problema. Responde las preguntas y luego redacta el aviso.</p></section>",
-        "exerciseTitle": "Comprueba lo aprendido",
-        "exerciseNote": "Contesta las tres preguntas y pulsa «Corregir respuestas».",
-        "questions": [
-          {
-            "type": "choice",
-            "q": "¿En qué caso se trasladará la mesa al patio?",
-            "options": [
-              "Si sobran libros.",
-              "Si la mesa dificulta el paso.",
-              "Siempre después de las diez."
-            ],
-            "answer": 1,
-            "ex": "El traslado está previsto para mantener el paso libre."
-          },
-          {
-            "type": "choice",
-            "q": "¿Quién recoge a las 12:00 los libros que nadie se ha llevado?",
-            "options": [
-              "Diego recoge todos.",
-              "Clara recoge todos.",
-              "Cada persona recoge los libros que haya dejado."
-            ],
-            "answer": 2,
-            "ex": "El texto asigna la recogida a quien deja los libros."
-          },
-          {
-            "type": "choice",
-            "q": "¿Qué frase transmite fielmente la duración del acuerdo?",
-            "options": [
-              "Se probará dos sábados y luego se revisará.",
-              "Será todos los sábados a partir de ahora.",
-              "El segundo sábado se cancelará la mesa."
-            ],
-            "answer": 0,
-            "ex": "El acuerdo establece una prueba de dos sábados y una revisión posterior."
-          }
-        ],
-        "writing": [
-          {
-            "id": "aviso-intercambio",
-            "title": "Redacta el aviso para el portal",
-            "prompt": "Escribe un aviso de 90 a 120 palabras. Incluye el horario, el lugar previsto, el plan alternativo, las responsabilidades y el momento de revisión. Si te falta alguna fecha concreta, conserva la formulación del caso.",
-            "check": [
-              "Se entiende cuándo, dónde y cuánto dura la prueba.",
-              "La condición del traslado es clara.",
-              "He indicado quién coloca, traslada y recoge.",
-              "El aviso se entiende sin haber asistido a la reunión."
-            ],
-            "instructions": "Escribe en el recuadro. Usa las casillas para revisar tu texto. Puedes descargarlo para conservar una copia."
-          }
-        ]
-      }
-    },
-    "vocabulary": [
-      {
-        "category": "Espacios",
-        "term": "portal",
-        "definition": "Entrada común de un edificio.",
-        "example": "Nos vemos en el portal a las seis."
-      },
-      {
-        "category": "Espacios",
-        "term": "rellano",
-        "definition": "Espacio al que se llega al terminar un tramo de escalera.",
-        "example": "La luz del rellano se apaga sola."
-      },
-      {
-        "category": "Espacios",
-        "term": "portería",
-        "definition": "Lugar desde el que se atiende la entrada del edificio.",
-        "example": "Dejaron la llave en portería."
-      },
-      {
-        "category": "Espacios",
-        "term": "dejar libre el paso",
-        "definition": "Evitar que un objeto dificulte la circulación.",
-        "example": "Pon las cajas junto a la pared para dejar libre el paso."
-      },
-      {
-        "category": "Mantenimiento",
-        "term": "avería",
-        "definition": "Fallo que impide que algo funcione bien.",
-        "example": "La avería afecta a los dos ascensores."
-      },
-      {
-        "category": "Mantenimiento",
-        "term": "atascarse",
-        "definition": "Quedarse bloqueado y dejar de moverse con normalidad.",
-        "example": "La puerta se atasca cuando hace frío."
-      },
-      {
-        "category": "Mantenimiento",
-        "term": "dar parte de",
-        "definition": "Comunicar formalmente una incidencia a quien corresponda.",
-        "example": "Dimos parte de la avería por correo."
-      },
-      {
-        "category": "Acuerdos",
-        "term": "hacerse cargo de",
-        "definition": "Asumir una tarea o responsabilidad.",
-        "example": "Luis se hará cargo de avisar a los vecinos."
-      },
-      {
-        "category": "Acuerdos",
-        "term": "dejar constancia de",
-        "definition": "Registrar algo para poder comprobarlo después.",
-        "example": "Dejaron constancia del acuerdo en el acta."
-      },
-      {
-        "category": "Acuerdos",
-        "term": "llegar a un acuerdo",
-        "definition": "Encontrar una decisión que las partes aceptan.",
-        "example": "Llegaron a un acuerdo sobre el horario."
-      },
-      {
-        "category": "Acuerdos",
-        "term": "poner a prueba",
-        "definition": "Comprobar si una idea funciona en la práctica.",
-        "example": "Van a poner a prueba la nueva distribución."
-      },
-      {
-        "category": "Acuerdos",
-        "term": "fijar un plazo",
-        "definition": "Establecer el tiempo disponible para hacer algo.",
-        "example": "Fijaron un plazo de una semana para enviar propuestas."
-      }
-    ]
+    unit: {number: 3, title: 'Con ritmo'},
+    lessons,
+    pages,
+    vocabulary
   };
 })();
