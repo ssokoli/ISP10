@@ -217,6 +217,7 @@ fecha cerrada|συγκεκριμένη ημερομηνία στο παρελθ�
   function addHints(main) {
     const sections = main.querySelectorAll('.lesson-block');
     if (!sections.length) return;
+    const explicit = new Set(Array.from(main.querySelectorAll('.lesson-block .greek-hint'), button => button.textContent.toLowerCase()));
     const seen = new Set();
     for (const section of sections) {
       const walker = document.createTreeWalker(section, NodeFilter.SHOW_TEXT);
@@ -230,7 +231,7 @@ fecha cerrada|συγκεκριμένη ημερομηνία στο παρελθ�
         let end = 0;
         for (const match of node.data.matchAll(expression)) {
           const word = match[0].toLowerCase();
-          if (seen.has(word)) continue;
+          if (explicit.has(word) || seen.has(word)) continue;
           seen.add(word);
           fragment.append(node.data.slice(end, match.index));
           const button = document.createElement('button');
@@ -250,7 +251,7 @@ fecha cerrada|συγκεκριμένη ημερομηνία στο παρελθ�
         }
       }
     }
-    if (seen.size) {
+    if (seen.size || explicit.size) {
       const note = document.createElement('p');
       note.className = 'exercise-note';
       note.textContent = 'Las expresiones subrayadas tienen traducción al griego. Pasa el ratón por encima, tócalas o pulsa Intro al seleccionarlas con el teclado.';
