@@ -57,7 +57,7 @@ window.ISP10_UNITS[3] = {
       "title": "Cómo elegir entre los tiempos del pasado",
       "short": "Cuatro tiempos para contar una trayectoria",
       "icon": "◷",
-      "minutes": 25,
+      "minutes": 45,
       "type": "Gramática"
     },
     {
@@ -572,115 +572,312 @@ window.ISP10_UNITS[3] = {
       "exerciseNote": "Elige una opción o escribe la forma solicitada. Pulsa «Corregir respuestas» para ver la explicación."
     },
     "pasados": {
-      "introduction": "Elige el tiempo según el marco temporal y la relación que el hecho guarda con otros momentos.",
-      "blocks": "<section class=\"lesson-block\"><h2>Cuatro perspectivas sobre el pasado</h2>\n        <div class=\"table-scroll\"><table class=\"content-table\"><thead><tr><th>Tiempo</th><th>Uso en una trayectoria</th><th>Ejemplo</th></tr></thead><tbody>\n        <tr><td>Pretérito perfecto compuesto</td><td>Experiencia sin fecha concreta, balance vigente o hecho situado en un período que el hablante presenta como abierto.</td><td>En lo que va de temporada, <b>ha actuado</b> tres veces.</td></tr>\n        <tr><td>Pretérito indefinido o perfecto simple</td><td>Hecho o etapa presentada como completa, con duración o momento delimitados.</td><td><b>Debutó</b> en 2018. <b>Trabajó</b> allí dos años.</td></tr>\n        <tr><td>Pretérito imperfecto</td><td>Descripción, hábito, simultaneidad o acción en curso en el marco del relato.</td><td>De niña <b>ensayaba</b> a diario. Aquel día <b>practicaba</b> cuando recibió la noticia.</td></tr>\n        <tr><td>Pretérito pluscuamperfecto</td><td>Hecho ya ocurrido en relación con un punto de referencia pasado.</td><td>Cuando debutó, ya <b>había bailado</b> en dos festivales.</td></tr>\n        </tbody></table></div></section><section class=\"lesson-block\"><h2>Cómo combinar los tiempos</h2>\n        <p>El indefinido puede hacer avanzar el relato y el imperfecto presentar las circunstancias. «El teatro estaba lleno cuando salió al escenario.» El pluscuamperfecto permite retroceder desde ese momento. «Antes de salir, ya había repasado la coreografía.»</p>\n        <p>«Hasta entonces nunca había actuado en esa sala» fija un límite en el pasado. «Apenas había terminado el ensayo cuando sonó el teléfono» presenta dos hechos muy próximos. El ensayo sigue siendo anterior a la llamada.</p>\n        <p>El reparto entre «he cantado» y «canté» varía entre regiones y hablantes. Algunos usan el simple con «hoy» y «esta semana». Los ejercicios indican cuándo se pide el perfecto compuesto.</p></section><section class=\"lesson-block\"><h2>Decide qué información quieres destacar</h2><p>En un relato, elegir un tiempo verbal supone seleccionar una perspectiva. Compara: «Cuando empezó el concierto, las personas <strong>buscaban</strong> sus asientos» describe una acción en curso como contexto. «Cuando empezó el concierto, las personas <strong>buscaron</strong> sus asientos» presenta esa búsqueda como un acontecimiento del relato. Ambas oraciones pueden ser gramaticales, pero no dicen exactamente lo mismo.</p><p>En los ejercicios siguientes, el enunciado especifica expresamente si se pide <em>descripción</em>, <em>hito</em> o <em>anterioridad</em>. Recuerda que la distribución del perfecto compuesto y del simple presenta diferencias regionales legítimas.</p></section>",
-      "exerciseTitle": "Elige el punto de referencia",
+      "introduction": "Distingue el marco temporal y la perspectiva del hablante para contar, interpretar y reescribir una trayectoria artística.",
+      "blocks": "<section class=\"lesson-block\"><h2>El punto de referencia cambia la historia</h2><p>Al contar una trayectoria puedes mirar hacia atrás desde <strong>ahora</strong> o situarte <strong>dentro de una escena pasada</strong>. Después decide si presentas un hecho como un conjunto delimitado, si describes lo que ocurría en ese momento o si retrocedes a algo anterior.</p>\n<ul>\n<li><strong>Perfecto compuesto.</strong> Balance, experiencia o resultado evaluado desde el presente. «Hasta hoy <strong>ha grabado</strong> tres discos».</li>\n<li><strong>Indefinido o perfecto simple.</strong> Hecho o etapa vistos como un todo en el pasado. «<strong>Grabó</strong> su primer disco en 2019».</li>\n<li><strong>Imperfecto.</strong> Estado, hábito o proceso visto desde dentro de la escena. «Por entonces <strong>grababa</strong> en casa».</li>\n<li><strong>Pluscuamperfecto.</strong> Hecho anterior a otro punto del pasado. «Cuando firmó el contrato, ya <strong>había grabado</strong> una maqueta».</li>\n</ul></section><section class=\"lesson-block\"><h2>Perfecto compuesto e indefinido</h2><p>El <strong>perfecto compuesto</strong> se forma con el presente de <em>haber</em> y un participio invariable: «las músicas <strong>han compuesto</strong> dos piezas». Puede dar un <strong>balance</strong> («En lo que va de gira hemos dado cinco conciertos»), expresar una <strong>experiencia</strong> hasta el presente («Nunca he tocado al aire libre») o presentar un <strong>hecho con un resultado actual</strong> («Se ha roto una cuerda. Necesito otra»). En los tres casos el hecho puede estar acabado.</p>\n<p>El <strong>indefinido</strong> encuadra el hecho en un episodio pasado. Compáralo con el compuesto: «Esta temporada hemos agotado las entradas tres veces» es un recuento hasta hoy. «La temporada pasada agotamos las entradas tres veces» resume una etapa cerrada. El mismo hecho admite perspectivas distintas según el contexto: «He perdido la tarjeta. ¿Me dejas entrar?» y «Perdí la tarjeta el lunes. Ayer pedí otra».</p>\n<h3>Variación regional</h3>\n<p>En buena parte del centro y norte peninsular es frecuente «Hoy hemos ensayado». «Hoy ensayamos», con sentido de pasado, es habitual en muchas zonas de América y también en zonas de España, como Canarias y partes del noroeste. El compuesto también se usa en América, por ejemplo para experiencias o situaciones que alcanzan el presente, con diferencias entre variedades. «Hoy» y «esta semana» ayudan a situar el hecho. La elección depende también del uso de cada comunidad y de cómo se presenta el episodio.</p></section><section class=\"lesson-block\"><h2>Indefinido e imperfecto</h2><p>Una acción larga puede verse como un todo («El cuarteto <strong>ensayó</strong> durante seis meses») y un hecho breve puede verse como habitual («El timbre <strong>sonaba</strong> a las seis todos los días»). Una fecha concreta también admite ambos enfoques. «A las ocho el grupo <strong>ensayaba</strong>» presenta el ensayo en curso. «A las ocho el grupo <strong>empezó</strong> a ensayar» fija su inicio.</p>\n<div class=\"example\"><p>«Cuando se abrió el telón, el público <strong>aplaudía</strong>» sitúa la apertura en medio de los aplausos. «Cuando se abrió el telón, el público <strong>aplaudió</strong>» presenta el aplauso como un hecho ligado a la apertura, normalmente interpretado como reacción.</p></div>\n<p>El imperfecto puede describir estados («La sala era estrecha»), hábitos («Ensayábamos los martes») y acciones simultáneas («Mientras la cantante afinaba, el público charlaba»). El indefinido también expresa repetición cuando se presenta la serie en conjunto («Ese mes ensayamos cada martes»). Con algunos verbos cambia la lectura: «Conocía a la directora» describe una relación previa. «Conoció a la directora» presenta el primer encuentro.</p></section><section class=\"lesson-block\"><h2>Pluscuamperfecto y orden de los hechos</h2><p>Se forma con el imperfecto de <em>haber</em> y el participio invariable («habíamos abierto»). Señala una acción o experiencia anterior a un punto pasado que puede aparecer en la misma frase o recuperarse del contexto.</p>\n<div class=\"example\"><p><strong>El orden de los hechos.</strong> En 2017 grabó una maqueta → en 2019 firmó un contrato → hoy recuerda aquel día.</p><p><strong>El orden del relato.</strong> «En 2019 firmó su primer contrato. Dos años antes <strong>había grabado</strong> una maqueta en casa».</p></div>\n<p>«Apenas había empezado el ensayo cuando sonó la alarma» expresa anterioridad incluso si pasan pocos segundos. «Al entrar, todavía no habían afinado» deja abierta la posibilidad de que afinaran después. Compara «Cuando llegó la técnica, el grupo <strong>probaba</strong> los micrófonos» (prueba en curso), «los <strong>probó</strong>» (hecho del relato asociado a la llegada) y «ya los <strong>había probado</strong>» (prueba anterior a la llegada).</p>\n<p>También se pueden narrar los dos hechos en indefinido si su orden queda claro. «Primero grabó la maqueta y después firmó». El pluscuamperfecto permite mencionar primero la firma y reconstruir el hecho anterior. Compara también «Hasta ahora nunca <strong>ha dirigido</strong> una orquesta» con «Hasta aquel estreno nunca <strong>había dirigido</strong> una orquesta». Cambia el límite desde el que se evalúa la experiencia.</p>\n<p>En una entrevista se puede citar «Ya he visto el vídeo» y, al reconstruir la entrevista desde aquel momento, escribir «Dijo que ya había visto el vídeo». Con «Habíamos pensado tocar fuera, pero llovió», el pluscuamperfecto recupera una intención previa. El contexto indica qué pasó con el plan.</p></section><section class=\"lesson-block\"><h2>Dos comprobaciones para grecoparlantes</h2><p>El contraste griego entre παρατατικός y αόριστος ofrece un punto de partida para distinguir «ensayaba» y «ensayó». Para elegir entre «ensayó» y «ha ensayado», comprueba además qué referencia utiliza el hablante y qué alternancias son habituales en la variedad de español que escuchas. Si dudas entre «ha» y «había», prueba a reformular con «hasta ahora» o «hasta aquel momento».</p>\n<p>Revisa también el auxiliar y el participio. «Las artistas han escrito» y «las artistas habían escrito» cambian de auxiliar según el punto de referencia. El participio <em>escrito</em> se mantiene. Con un pronombre, escribe «ya <strong>la había visto</strong>».</p></section><section class=\"lesson-block\"><h2>De la entrevista a la biografía</h2><div class=\"example\"><p><strong>Perfil ficticio.</strong> Antes de entrar en la compañía, Nora Salas <strong>había bailado</strong> en festivales de barrio. Durante su formación <strong>ensayaba</strong> por las tardes y <strong>trabajaba</strong> de noche. En 2021 <strong>estrenó</strong> su primera pieza. Desde aquel estreno <strong>ha creado</strong> tres obras y sigue preparando la cuarta.</p></div>\n<p>Localiza el hecho anterior, la rutina, el hito fechado y el balance vigente. Después escribe dos frases para una biografía: empieza por el estreno y retrocede a los festivales. Reescribe la última frase como balance de una etapa que acabó en 2024.</p>\n<details><summary>Ver un modelo y comparar las decisiones</summary><p>«En 2021 estrenó su primera pieza. Antes de entrar en la compañía ya había bailado en festivales de barrio». Para el balance retrospectivo: «Entre su estreno de 2021 y el cierre de aquella etapa en 2024, creó tres obras». El recuento termina en 2024.</p></details>\n<p><strong>En el manual.</strong> En la entrevista de la pista 18, la formación gimnástica precede al inicio en el ballet, la rutina de estudio y ensayos enmarca esa etapa y la valoración de su esfuerzo se hace desde el momento de la entrevista. Después de la escucha, identifica los cuatro tiempos en la actividad 2.1 (p. 47). En la actividad 2.2 (p. 48), explica qué cambia si el verbo de habla encuadra una intervención como contexto o la presenta como un hecho de la secuencia. Contrasta tu interpretación con las claves.</p>\n<p>Para consultar los usos de estos tiempos, abre el <a href=\"https://cvc.cervantes.es/ensenanza/biblioteca_ele/plan_curricular/niveles/02_gramatica_inventario_b1-b2.htm\">inventario de gramática B1–B2 del Instituto Cervantes</a>.</p></section>",
+      "exerciseTitle": "Del marco temporal a la biografía",
       "questions": [
         {
+          "type": "choice",
+          "q": "«Hasta ahora, el coro ha dado cuatro conciertos». ¿Dónde está el límite del recuento?",
+          "options": [
+            "En el momento de hablar",
+            "En la fecha del cuarto concierto",
+            "En un punto futuro"
+          ],
+          "answer": 0,
+          "ex": "«Hasta ahora» toma el presente como límite del recuento."
+        },
+        {
+          "type": "choice",
+          "q": "«Entre enero y marzo de 2022, el coro dio cuatro conciertos». ¿Qué presenta el verbo?",
+          "options": [
+            "Una rutina en curso en marzo",
+            "Un balance de un tramo pasado ya cerrado",
+            "Un recuento que incluye el presente"
+          ],
+          "answer": 1,
+          "ex": "Las dos fechas delimitan el tramo que se resume en indefinido."
+        },
+        {
+          "type": "choice",
+          "q": "«He perdido la entrada. ¿Puedes buscar mi nombre en la lista?». ¿Qué relación establece quien habla?",
+          "options": [
+            "La pérdida interrumpe otro episodio pasado",
+            "La pérdida era habitual",
+            "La pérdida motiva una petición en el presente"
+          ],
+          "answer": 2,
+          "ex": "El perfecto compuesto presenta la pérdida como un hecho que importa en la situación actual."
+        },
+        {
+          "type": "choice",
+          "q": "«Nunca había dirigido una orquesta hasta aquel estreno». ¿Cuál es la referencia para evaluar la experiencia?",
+          "options": [
+            "El presente",
+            "Aquel estreno",
+            "El nacimiento de la orquesta"
+          ],
+          "answer": 1,
+          "ex": "El estreno fija el límite pasado de la falta de experiencia."
+        },
+        {
+          "type": "choice",
+          "q": "«Cuando entró la directora, los músicos afinaban». ¿Qué sabemos de la afinación al entrar la directora?",
+          "options": [
+            "Estaba en curso",
+            "Ya había terminado",
+            "Empezó en ese momento"
+          ],
+          "answer": 0,
+          "ex": "El imperfecto sitúa a la directora en medio de la afinación."
+        },
+        {
+          "type": "choice",
+          "q": "«Cuando entró la directora, los músicos ya habían afinado». ¿Qué sucedió primero?",
+          "options": [
+            "La entrada de la directora",
+            "La afinación",
+            "Los hechos fueron simultáneos"
+          ],
+          "answer": 1,
+          "ex": "«Ya habían afinado» coloca la afinación antes de la entrada."
+        },
+        {
+          "type": "choice",
+          "q": "Elige la frase que presenta como un conjunto los ensayos de un mes ya terminado.",
+          "options": [
+            "Por aquel entonces ensayaban todos los lunes.",
+            "Hasta hoy han ensayado todos los lunes.",
+            "En marzo de 2022 ensayaron todos los lunes."
+          ],
+          "answer": 2,
+          "ex": "«Ensayaron» reúne las sesiones dentro de marzo de 2022."
+        },
+        {
+          "type": "choice",
+          "q": "«Nora conocía a la directora cuando se presentó a la audición». ¿Qué indica «conocía»?",
+          "options": [
+            "El primer encuentro ocurrió en la audición",
+            "La relación ya existía al presentarse a la audición",
+            "La relación empezó al terminar la audición"
+          ],
+          "answer": 1,
+          "ex": "«Conocía» describe una situación existente en ese momento. «Conoció» presentaría el primer encuentro como un hecho."
+        },
+        {
+          "type": "choice",
+          "q": "Dos personas dicen «Hoy he comprado las entradas» y «Hoy compré las entradas». ¿Qué explicación es válida?",
+          "options": [
+            "Solo el compuesto puede referirse a hechos de hoy.",
+            "El simple indica que la compra fue ayer.",
+            "Ambas formas pueden referirse a una compra de hoy, según el uso de la variedad y el contexto."
+          ],
+          "answer": 2,
+          "ex": "El adverbio «hoy» ubica ambas compras en el mismo día. La distribución de los dos tiempos varía."
+        },
+        {
+          "type": "choice",
+          "q": "«Apenas había arrancado la música cuando saltó la alarma». ¿Qué orden se desprende de la frase?",
+          "options": [
+            "Primero empezó la música e inmediatamente después saltó la alarma.",
+            "Primero saltó la alarma y después empezó la música.",
+            "La frase presenta un hábito."
+          ],
+          "answer": 0,
+          "ex": "«Apenas… cuando» indica proximidad. El pluscuamperfecto marca que la música empezó antes."
+        },
+        {
           "type": "gap",
-          "q": "Usa el perfecto compuesto para un balance vigente. «Hasta ahora, Alba ____ (componer) cuatro piezas para el grupo».",
+          "q": "Usa el perfecto compuesto para un balance vigente. «Hasta ahora, Alba ____ (componer) cuatro piezas».",
           "answers": [
             "ha compuesto"
           ],
-          "ex": "«Ha compuesto» se forma con el presente de haber y el participio irregular «compuesto»."
+          "ex": "«Ha compuesto» combina el auxiliar en presente con el participio irregular «compuesto»."
         },
         {
           "type": "gap",
-          "q": "Presenta el debut como un hito fechado. «En 2018, Alba ____ (debutar) en un teatro de Cádiz».",
+          "q": "Usa el perfecto compuesto para una experiencia hasta el presente. «Mis compañeras nunca ____ (ver) un ensayo general».",
+          "answers": [
+            "han visto"
+          ],
+          "ex": "El sujeto plural pide «han». El participio «visto» se mantiene invariable."
+        },
+        {
+          "type": "gap",
+          "q": "Presenta el debut como un hito fechado en indefinido. «En 2018, Alba ____ (debutar) en Cádiz».",
           "answers": [
             "debutó"
           ],
-          "ex": "El indefinido presenta el debut como un hecho completo en un año cerrado."
+          "ex": "«Debutó» sitúa el hito completo en 2018. Lleva tilde en la vocal final."
         },
         {
           "type": "gap",
-          "q": "Presenta el hábito como fondo de la historia. «De niña, Alba ____ (ensayar) los sábados con su padre».",
+          "q": "Resume una etapa cerrada en indefinido. «De 2018 a 2020, Julia ____ (dirigir) el coro municipal».",
+          "answers": [
+            "dirigió"
+          ],
+          "ex": "El intervalo de 2018 a 2020 delimita la etapa, aunque durara años."
+        },
+        {
+          "type": "gap",
+          "q": "Describe la rutina con el imperfecto. «De niños, mis hermanos ____ (ir) al conservatorio los jueves».",
+          "answers": [
+            "iban"
+          ],
+          "ex": "«Iban» es el imperfecto de «ir» para un sujeto plural. Aquí expresa una costumbre."
+        },
+        {
+          "type": "gap",
+          "q": "Presenta el ensayo como acción en curso en imperfecto. «A las ocho, cuando sonó el teléfono, yo ____ (ensayar)».",
           "answers": [
             "ensayaba"
           ],
-          "ex": "El imperfecto presenta el hábito sin delimitar su final."
+          "ex": "El ensayo ya estaba en curso al sonar el teléfono. La hora también puede situar acciones en desarrollo."
         },
         {
           "type": "gap",
-          "q": "Marca la acción anterior al debut. «Cuando debutó, Alba ya ____ (grabar) una maqueta».",
+          "q": "Expresa que la apertura precedió a la llegada. Usa el pluscuamperfecto. «Cuando llegamos, las técnicas ya ____ (abrir) la sala».",
           "answers": [
-            "había grabado"
+            "habían abierto"
           ],
-          "ex": "La grabación ya había ocurrido cuando se produjo el debut."
+          "ex": "«Habían» concuerda con «las técnicas». «Abierto» es un participio irregular invariable."
+        },
+        {
+          "type": "gap",
+          "q": "Usa el pluscuamperfecto e incluye el pronombre «la». «Cuando Marta pidió la partitura, yo ya ____ (encontrar)».",
+          "answers": [
+            "la había encontrado"
+          ],
+          "ex": "El pronombre átono se coloca antes del auxiliar. El hallazgo precede a la petición."
         },
         {
           "type": "choice",
-          "q": "«La compañía actuó en Sevilla durante tres meses en 2022». ¿Qué perspectiva adopta el hablante?",
+          "q": "En una crónica, ¿qué versión presenta el discurso de la directora como un hecho que hace avanzar el relato?",
           "options": [
-            "Acción simultánea en curso",
-            "Etapa completa con duración delimitada",
-            "Experiencia abierta hasta hoy"
+            "La directora explicaba el programa cuando falló el micrófono.",
+            "La directora explicó el programa y dio paso al primer grupo.",
+            "La directora ya había explicado el programa antes de abrirse la sala."
           ],
           "answer": 1,
-          "ex": "El indefinido presenta la estancia como un período completo."
+          "ex": "«Explicó» y «dio» sitúan dos sucesos en la línea principal. Las otras versiones presentan contexto o un hecho anterior."
         },
         {
           "type": "choice",
-          "q": "¿Qué ocurrió primero en «Apenas había empezado la función cuando se apagaron las luces»?",
+          "q": "«El público aplaudía cuando se abrió el telón». ¿Qué cambia si escribes «aplaudió»?",
           "options": [
-            "Empezó la función.",
-            "Se apagaron las luces.",
-            "El enunciado deja el orden abierto."
-          ],
-          "answer": 0,
-          "ex": "El comienzo de la función es el hecho anterior, aunque la separación temporal sea muy corta."
-        },
-        {
-          "type": "choice",
-          "q": "«Era una sala pequeña y el público conversaba cuando salió el guitarrista». ¿Qué verbo introduce el acontecimiento que hace avanzar la escena?",
-          "options": [
-            "era",
-            "conversaba",
-            "salió"
+            "El aplauso pasa a ser una experiencia de toda la vida.",
+            "El aplauso queda situado antes de la apertura.",
+            "El aplauso pasa a presentarse como un hecho ligado a la apertura."
           ],
           "answer": 2,
-          "ex": "«Salió» presenta el acontecimiento. Los imperfectos describen el entorno."
-        },
-        {
-          "type": "gap",
-          "q": "Describe una acción en curso como telón de fondo: «Cuando se encendieron las luces, el público ____ (buscar) sus asientos». Usa pretérito imperfecto.",
-          "answers": [
-            "buscaba"
-          ],
-          "ex": "«Buscaba» presenta la búsqueda como una acción en curso en el momento en que se encendieron las luces."
-        },
-        {
-          "type": "gap",
-          "q": "Expresa anterioridad respecto a 2020: «Cuando firmó su contrato en 2020, la violinista ya ____ (ganar) dos concursos». Usa pluscuamperfecto.",
-          "answers": [
-            "había ganado"
-          ],
-          "ex": "Los premios preceden al contrato de 2020: «había ganado»."
+          "ex": "Con «aplaudía» los aplausos ya estaban en curso. Con «aplaudió» se presentan como un acontecimiento."
         },
         {
           "type": "choice",
-          "q": "¿Cuál presenta correctamente un hábito pasado como contexto, sin convertirlo en un acontecimiento puntual?",
+          "q": "«Habíamos pensado tocar fuera, pero al final montamos el escenario dentro». ¿Qué aporta el pluscuamperfecto?",
           "options": [
-            "De pequeña, ensayaba todos los domingos.",
-            "De pequeña, ensayó todos los domingos.",
-            "De pequeña, ha ensayado todos los domingos."
+            "Recupera una intención anterior al cambio de lugar.",
+            "Indica que el grupo ya había tocado fuera.",
+            "Indica que el plan sigue pendiente hoy."
           ],
           "answer": 0,
-          "ex": "El imperfecto presenta los ensayos repetidos como hábito. El indefinido también puede expresar repetición delimitada, pero aquí se pide explícitamente la perspectiva descriptiva."
+          "ex": "El pluscuamperfecto sitúa la idea antes de la decisión. El resto de la frase aclara que tocaron dentro."
         },
         {
           "type": "choice",
-          "q": "En una narración situada en 2017 se lee «La compañía había actuado en Lima dos años antes». ¿Qué año corresponde a la actuación anterior?",
+          "q": "«En 2020 firmó el contrato. Dos años antes había grabado una maqueta». ¿En qué año grabó la maqueta?",
           "options": [
-            "2015",
-            "2017",
-            "2019"
+            "2020",
+            "2018",
+            "2022"
+          ],
+          "answer": 1,
+          "ex": "Los dos años se cuentan hacia atrás desde la firma de 2020."
+        },
+        {
+          "type": "gap",
+          "q": "Traslada la cita «Ya he visto el vídeo» a un relato que toma como referencia la entrevista de ayer. Usa el pluscuamperfecto. «Dijo que ya ____ (ver) el vídeo».",
+          "answers": [
+            "había visto"
+          ],
+          "ex": "El visionado precede a la declaración. «Había visto» expresa anterioridad desde aquel punto pasado."
+        },
+        {
+          "type": "choice",
+          "q": "¿Qué frase expresa una etapa de gira como un todo, aunque durara mucho?",
+          "options": [
+            "Por entonces estaba de gira.",
+            "Cuando lo llamaron, ya había empezado la gira.",
+            "Estuvo de gira durante dos años y luego volvió a casa."
+          ],
+          "answer": 2,
+          "ex": "«Estuvo» presenta el estado como una etapa delimitada. La duración es compatible con el indefinido."
+        },
+        {
+          "type": "choice",
+          "q": "«Al llegar al teatro, todavía no habían abierto las puertas». ¿Qué conclusión permite la frase?",
+          "options": [
+            "Las puertas seguían cerradas al llegar.",
+            "Las puertas permanecieron cerradas toda la noche.",
+            "Las puertas se habían abierto antes de la llegada."
           ],
           "answer": 0,
-          "ex": "«Había actuado» sitúa la actuación antes del punto de referencia de 2017; «dos años antes» indica 2015."
+          "ex": "«Todavía no» niega la apertura hasta el momento de la llegada y permite que se produzca después."
+        },
+        {
+          "type": "choice",
+          "q": "En el perfil de Nora Salas, ¿qué par describe la rutina de formación y señala el estreno como hito?",
+          "options": [
+            "Ensayó / estrenaba",
+            "Ensayaba / estrenó",
+            "Ha ensayado / había estrenado"
+          ],
+          "answer": 1,
+          "ex": "«Ensayaba» encuadra la rutina. «Estrenó» introduce el logro de 2021."
+        },
+        {
+          "type": "choice",
+          "q": "En el perfil de Nora, ¿qué justifica el orden «había bailado» → «estrenó» → «ha creado»?",
+          "options": [
+            "Se cuenta todo como hábitos simultáneos.",
+            "Se enumeran tres hitos de una etapa cerrada antes de 2021.",
+            "Se distingue un hecho anterior, un hito fechado y un recuento vigente."
+          ],
+          "answer": 2,
+          "ex": "Los festivales son anteriores a su entrada en la compañía. El estreno se fecha en 2021 y el recuento llega a hoy."
+        },
+        {
+          "type": "gap",
+          "q": "Para el perfil de Nora, cierra el recuento en 2024 y usa el indefinido. «Entre 2021 y 2024, Nora ____ (crear) tres obras».",
+          "answers": [
+            "creó"
+          ],
+          "ex": "«Creó» resume el tramo delimitado. El balance hasta el presente del perfil usa «ha creado»."
+        },
+        {
+          "type": "choice",
+          "q": "Compara «En 2021 había compuesto dos piezas» con «En 2021 compuso dos piezas». ¿Cuál sitúa expresamente la composición dentro de 2021?",
+          "options": [
+            "La segunda",
+            "La primera",
+            "Las dos por igual"
+          ],
+          "answer": 0,
+          "ex": "«Compuso» sitúa el hecho en el año indicado. Con «había compuesto», 2021 puede funcionar como referencia desde la que se mira hacia lo ya hecho."
+        },
+        {
+          "type": "choice",
+          "q": "¿Qué secuencia enlaza una descripción, un acontecimiento y el hecho anterior?",
+          "options": [
+            "La sala se llenó. El concierto empezó. El público aplaudió.",
+            "La sala estaba llena cuando empezó el concierto. El grupo ya había probado el sonido.",
+            "Este mes la sala se ha llenado tres veces."
+          ],
+          "answer": 1,
+          "ex": "«Estaba» describe el marco, «empezó» introduce el acontecimiento y «había probado» recupera el hecho anterior."
         }
       ],
-      "exerciseNote": "Elige una opción o escribe la forma solicitada. Pulsa «Corregir respuestas» para ver la explicación."
+      "exerciseNote": "1–10: interpreta las formas. 11–18: escribe la forma pedida, con las tildes. 19–25: compara perspectivas y reconstruye el orden. 26–30: aplica lo aprendido al relato. Pulsa «Corregir respuestas» para ver la explicación de cada pregunta."
     },
     "biografia": {
       "introduction": "Organiza una vida artística en etapas y explica cómo se relacionan la formación, el esfuerzo y los logros.",
