@@ -7,181 +7,64 @@ window.ISP10_UNITS[3] = {
   },
   "lessons": [
     {
-      "id": "musica-bienestar",
-      "index": "01",
-      "title": "Cómo expresar gustos y describir sensaciones",
-      "short": "Gustos, sensaciones y estrategias de escucha",
-      "icon": "♫",
-      "minutes": 20,
-      "type": "Léxico y destrezas"
-    },
-    {
       "id": "opinar",
-      "index": "02",
-      "title": "Cómo expresar y justificar una opinión",
-      "short": "Expresar un punto de vista y distinguir razones de ejemplos",
+      "title": "Expresar y justificar una opinión",
       "icon": "✦",
       "minutes": 20,
       "type": "Gramática"
     },
     {
       "id": "argumentar",
-      "index": "03",
-      "title": "Cómo estructurar un argumento y responder a objeciones",
-      "short": "Tesis, conectores y respuesta a objeciones",
+      "title": "Estructurar un argumento y responder a objeciones",
       "icon": "▤",
       "minutes": 30,
       "type": "Gramática y destrezas"
     },
     {
       "id": "acuerdo",
-      "index": "04",
-      "title": "Cómo expresar acuerdo, acuerdo parcial y desacuerdo",
-      "short": "Matizar una postura y debatir sobre la fama musical",
+      "title": "Expresar acuerdo, acuerdo parcial y desacuerdo",
       "icon": "❝",
       "minutes": 25,
       "type": "Comunicación"
     },
     {
-      "id": "musica-cultura",
-      "index": "05",
-      "title": "Cómo comparar trayectorias e interpretar una canción",
-      "short": "David Bisbal, Pablo Alborán y Macaco",
-      "icon": "♫",
-      "minutes": 25,
-      "type": "Cultura y destrezas"
-    },
-    {
       "id": "pasados",
-      "index": "06",
-      "title": "Cómo elegir entre los tiempos del pasado",
-      "short": "Cuatro tiempos para contar una trayectoria",
+      "title": "Elegir entre los tiempos del pasado",
       "icon": "◷",
       "minutes": 45,
       "type": "Gramática"
     },
     {
       "id": "biografia",
-      "index": "07",
-      "title": "Cómo escribir una biografía",
-      "short": "Del entrenamiento al escenario",
+      "title": "Escribir una biografía",
       "icon": "◈",
       "minutes": 30,
       "type": "Cultura y destrezas"
     },
     {
       "id": "entonacion",
-      "index": "08",
-      "title": "Cómo colocar las pausas al leer en voz alta",
-      "short": "Leer en voz alta respetando los grupos sintácticos",
+      "title": "Colocar las pausas al leer en voz alta",
       "icon": "♪",
       "minutes": 20,
       "type": "Fonética"
     },
     {
       "id": "vocabulario3",
-      "index": "09",
       "title": "Vocabulario para hablar de música, danza y carácter",
-      "short": "Música, danza, carácter y expresiones coloquiales",
       "icon": "☷",
       "minutes": 20,
       "type": "Léxico"
     },
     {
       "id": "repaso3",
-      "index": "10",
       "title": "Repaso de argumentación, pasados y pronunciación",
-      "short": "Argumentación, pasados, léxico y pronunciación",
       "icon": "✓",
       "minutes": 20,
       "type": "Evaluación"
     }
   ],
   "pages": {
-    "musica-bienestar": {
-      "introduction": "Describe cómo influyen tus experiencias en tus gustos musicales. Interpreta un diálogo y una breve lectura sin confundir las impresiones personales con pruebas universales.",
-      "blocks": "<section class=\"lesson-block\"><h2>De los gustos a las sensaciones</h2>\n        <p>Un <strong>género</strong> es un tipo de música, como la salsa o el flamenco. El <strong>ritmo</strong> organiza los sonidos en el tiempo y la <strong>melodía</strong> es la sucesión de notas que reconoces al tararear. Puedes hablar del ritmo de una canción, de lo que cuenta su letra o del modo en que se interpreta.</p>\n        <div class=\"example\">Las baladas me traen recuerdos. Para caminar prefiero algo movido. Cuando necesito concentrarme, me apetece escuchar música instrumental.</div>\n        <p>En la danza, «seguir el compás» es ajustar los movimientos a la pauta rítmica. Una «coreografía» organiza los movimientos de una pieza. El ballet clásico, la danza contemporánea y los bailes de salón ofrecen distintos puntos de partida para comparar técnica y expresión.</p></section><section class=\"lesson-block\"><h2>Escucha y compara las reacciones</h2>\n        <p>La <strong>musicoterapia</strong> utiliza la música y sus elementos con fines terapéuticos. La <strong>danzaterapia</strong> emplea el movimiento expresivo.</p>\n        <h3>Práctica con un diálogo inventado</h3>\n        <p>En pareja, una persona abre el diálogo y lo lee en voz alta. La otra escucha sin mirar. Si trabajas a solas, lee el diálogo una vez y ciérralo. Después, responde con tus palabras. ¿Qué hicieron varias personas al oír la pieza rápida? ¿Qué dijo cada una de las dos participantes sobre la pieza lenta?</p>\n        <details><summary>Abrir el diálogo de práctica</summary>\n        <div class=\"example\"><p>— ¿Qué habéis observado en el taller de música?</p><p>— Con una pieza lenta, algunas personas prefirieron escuchar en silencio. Con otra más rápida, varias empezaron a marcar el pulso con las manos.</p><p>— ¿Reaccionó todo el grupo de la misma manera?</p><p>— Hubo reacciones distintas. Una participante dijo que la primera pieza le traía recuerdos tristes. Otra contó que le ayudaba a tranquilizarse.</p></div>\n        </details>\n        <details><summary>Ver respuesta</summary><p>Varias personas marcaron el pulso con las manos al oír la pieza rápida. La pieza lenta le trajo recuerdos tristes a una participante y ayudó a otra a tranquilizarse.</p></details>\n        </section><section class=\"lesson-block\"><h2>Práctica opcional</h2><p>Piensa en dos canciones que conozcas. Para cada una, escribe cuándo la escucharías y por qué.</p><div class=\"example\">Para caminar, elegiría una canción rápida porque me ayuda a mantener el paso. Para leer, pondría música instrumental porque me distrae menos.</div></section><section class=\"lesson-block\"><h2>¿La misma música produce las mismas emociones?</h2><p>Lee este caso ficticio. Después, distingue entre una observación y una conclusión excesivamente general.</p><div class=\"example\"><p>En un taller, una monitora pidió a ocho participantes que escucharan dos fragmentos instrumentales y describieran sus impresiones. Algunos asociaron el primero con recuerdos agradables; a otros les pareció melancólico. Al escuchar el segundo, tres participantes se levantaron para seguir el ritmo. Los demás permanecieron sentados, aunque dos dijeron que la música les había dado energía. La monitora no consideró que una reacción fuera más correcta que otra: preguntó por los recuerdos, las expectativas y las circunstancias de cada persona.</p></div><p>Una reacción observada permite describir a quienes participaron, pero no demuestra que un género musical produzca necesariamente el mismo efecto en todas las personas. Distingue también el uso cotidiano de la música para relajarse de una intervención de musicoterapia realizada por profesionales.</p></section>",
-      "exerciseTitle": "Comprueba lo aprendido",
-      "exerciseNote": "Contesta las cinco preguntas. Puedes volver a leer el diálogo para responder la pregunta 4. Al terminar, pulsa «Corregir respuestas».",
-      "questions": [
-        {
-          "type": "choice",
-          "q": "¿Qué elemento reconoces cuando tarareas la sucesión de notas de una canción?",
-          "options": [
-            "La letra",
-            "La melodía",
-            "El género"
-          ],
-          "answer": 1,
-          "ex": "La melodía es una sucesión reconocible de notas."
-        },
-        {
-          "type": "choice",
-          "q": "Todos los bailarines ajustan sus pasos a la pauta rítmica. ¿Qué hacen?",
-          "options": [
-            "Cambian de género",
-            "Componen la letra",
-            "Siguen el compás"
-          ],
-          "answer": 2,
-          "ex": "Seguir el compás implica ajustar los movimientos a la pauta rítmica."
-        },
-        {
-          "type": "gap",
-          "q": "Completa con un sustantivo que empiece por «auto-». «La valoración que una persona hace de sí misma se llama ____».",
-          "answers": [
-            "autoestima"
-          ],
-          "ex": "Autoestima designa la valoración de uno mismo."
-        },
-        {
-          "type": "choice",
-          "q": "Según el diálogo, ¿qué dijo una de las participantes sobre la pieza lenta?",
-          "options": [
-            "Le ayudó a tranquilizarse.",
-            "La animó a marcar el pulso con las manos.",
-            "Produjo la misma reacción en todo el grupo."
-          ],
-          "answer": 0,
-          "ex": "Una participante dijo que la pieza lenta la ayudó a tranquilizarse. A otra le trajo recuerdos tristes."
-        },
-        {
-          "type": "choice",
-          "q": "¿Qué frase vincula una preferencia musical con una situación concreta?",
-          "options": [
-            "La música tiene ritmo.",
-            "Cuando corro, elijo canciones rápidas porque me ayudan a mantener el paso.",
-            "Existen muchos estilos."
-          ],
-          "answer": 1,
-          "ex": "La frase identifica un contexto, una preferencia y su motivo."
-        },
-        {
-          "type": "choice",
-          "q": "En el taller ficticio, ¿qué interpretación respeta la diversidad de reacciones?",
-          "options": [
-            "La misma pieza provocó impresiones distintas entre los participantes.",
-            "Los participantes sentados no sintieron nada.",
-            "El primer fragmento redujo el estrés de todos."
-          ],
-          "answer": 0,
-          "ex": "La observación describe impresiones diversas; no demuestra una reacción idéntica ni un efecto terapéutico."
-        },
-        {
-          "type": "choice",
-          "q": "¿Qué afirmación distingue un uso cotidiano de la música de una intervención terapéutica?",
-          "options": [
-            "Escuchar canciones en casa equivale necesariamente a recibir tratamiento.",
-            "La musicoterapia persigue objetivos terapéuticos mediante una intervención profesional.",
-            "Todas las melodías producen el mismo resultado clínico."
-          ],
-          "answer": 1,
-          "ex": "Una elección musical personal no debe confundirse con un tratamiento dirigido por profesionales."
-        }
-      ]
-    },
     "opinar": {
-      "introduction": "Formula una postura sobre música y personalidad y apóyala con razones que puedas explicar.",
       "blocks": "<section class=\"lesson-block\"><h2>Afirmar y cuestionar una idea</h2>\n        <p>Para presentar una idea como propia puedes usar <strong>creo que</strong>, <strong>considero que</strong> o <strong>me parece que</strong>, normalmente con indicativo. Cuando rechazas o pones en duda esa idea con <strong>no creo que</strong>, <strong>no considero que</strong> o <strong>no me parece que</strong>, lo habitual es el subjuntivo.</p>\n        <div class=\"example\">Considero que el contexto <b>influye</b> en lo que escuchamos. No considero que un género musical <b>defina</b> el carácter de sus oyentes.</div>\n        <p>«A mi modo de ver» introduce tu perspectiva. «Según la autora» atribuye una idea a otra persona. Puedes expresar reservas con «yo diría que».</p></section><section class=\"lesson-block\"><h2>Tesis, razón, ejemplo y evidencia</h2>\n        <p>Imagina un foro donde alguien afirma que un estilo musical revela el carácter. Una <strong>tesis</strong> posible es que los gustos dependen en parte de la situación. Una <strong>razón</strong> sería que una misma persona elige música para actividades diferentes. Un <strong>ejemplo</strong> sería elegir salsa para bailar y música instrumental para leer.</p>\n        <p>Un ejemplo concreto ilustra la razón. Si aportas una encuesta o citas a una persona experta, indica qué se estudió y hasta dónde llegan los resultados. Una asociación entre dos rasgos admite varias explicaciones.</p></section><section class=\"lesson-block\"><h2>La evidencia no sustituye a la interpretación</h2><p>Imagina que alguien escribe: «En mi grupo de estudio, cinco personas escuchan rock para concentrarse». El dato puede apoyar que ese hábito existe entre esas personas, pero no demuestra que escuchar rock mejore la concentración de todo el mundo. Para argumentar con rigor, diferencia <strong>dato</strong>, <strong>interpretación</strong> y <strong>generalización</strong>.</p><div class=\"example\">Dato: «Tres participantes declararon que prefieren estudiar en silencio».<br>Interpretación prudente: «En este grupo no hay una preferencia uniforme».<br>Generalización injustificada: «El silencio es siempre la única opción eficaz».</div></section>",
       "exerciseTitle": "La postura y sus razones",
       "questions": [
@@ -268,7 +151,6 @@ window.ISP10_UNITS[3] = {
       "exerciseNote": "Elige una opción o escribe la forma solicitada. Pulsa «Corregir respuestas» para ver la explicación."
     },
     "argumentar": {
-      "introduction": "Construye una argumentación B2 con tesis, razones, ejemplo, objeción y réplica; identifica los conectores que expresan cada relación.",
       "blocks": "<section class=\"lesson-block\"><h2>Del tema a la conclusión</h2>\n        <ol><li><strong>Introducción.</strong> Delimita el tema y explica por qué se discute.</li><li><strong>Tesis.</strong> Expresa en una frase la postura que defenderás. Puede aparecer en la introducción.</li><li><strong>Argumentación.</strong> Desarrolla cada razón con un ejemplo, un dato verificable o una fuente pertinente.</li><li><strong>Contraargumentación.</strong> Presenta una objeción plausible y responde a ella.</li><li><strong>Conclusión.</strong> Recupera tu postura y extrae una consecuencia o una propuesta.</li></ol>\n        <p>Una pregunta retórica invita a reflexionar. Una cita de autoridad requiere una fuente identificable. Si usas porcentajes, precisa de dónde salen y qué población representan.</p></section><section class=\"lesson-block\"><h2>Conectores y relaciones</h2>\n        <div class=\"table-scroll\"><table class=\"content-table\"><thead><tr><th>Función</th><th>Recursos</th></tr></thead><tbody>\n        <tr><td>Presentar y ordenar</td><td>Para empezar, en primer lugar, por otra parte</td></tr>\n        <tr><td>Añadir y ejemplificar</td><td>Además, asimismo, por ejemplo</td></tr>\n        <tr><td>Causa y consecuencia</td><td>Puesto que, ya que, por tanto, de ahí que + subjuntivo</td></tr>\n        <tr><td>Contraste y concesión</td><td>Sin embargo, en cambio, si bien, aunque</td></tr>\n        <tr><td>Atribuir y concluir</td><td>Según, en opinión de, en definitiva, en conclusión</td></tr>\n        </tbody></table></div>\n        <div class=\"example\"><p><strong>Modelo breve.</strong> Propongo dedicar cinco minutos de clase a una canción. Un estribillo breve facilita la repetición de una expresión nueva. Además, comparar interpretaciones genera conversación. Es cierto que algunas grabaciones son difíciles de seguir. Por eso conviene elegir un fragmento claro y preparar una pregunta de escucha. En definitiva, la canción merece un lugar en clase cuando responde a un objetivo concreto.</p></div>\n        <h3>Una propuesta sobre el acceso a la música</h3>\n        <div class=\"example\"><p>Las salas municipales deberían publicar grabaciones gratuitas de algunos conciertos con permiso de los artistas. Así podrían escucharlos quienes viven lejos y los grupos llegarían a nuevos públicos. Es cierto que grabar cuesta dinero. Por eso propongo empezar con una actuación al mes y evaluar su alcance.</p></div>\n        <p>Identifica la tesis, las dos razones, la objeción y la medida final. Después, redacta una respuesta que añada otra objeción y una forma de resolverla.</p>\n        <details><summary>Ver respuesta y réplica posible</summary><p>La tesis es publicar grabaciones gratuitas con permiso de los artistas. Las razones son facilitar el acceso a quienes viven lejos y ampliar el público de los grupos. La objeción es el coste de grabar. La medida final es probar con una actuación mensual y evaluar su alcance.</p><p>Réplica posible. Algunas bandas podrían preferir que su repertorio completo solo se escuche en directo. Se podría acordar con ellas qué piezas publicar.</p></details></section><section class=\"lesson-block\"><h2>Lectura crítica: un escenario para grupos nuevos</h2><div class=\"example\"><p><strong>¿Quién tiene derecho al escenario?</strong> En nuestra ciudad abundan las personas que ensayan durante años sin encontrar un lugar donde actuar. Propongo que la sala municipal reserve una tarde al mes para grupos sin contrato discográfico. La medida ampliaría la variedad de propuestas y permitiría al público conocer proyectos que hoy apenas tienen visibilidad. Por ejemplo, un cuarteto formado por estudiantes podría presentar su primer repertorio sin asumir el coste de alquilar una sala privada.</p><p>Algunas personas objetan que la programación debería garantizar siempre una gran asistencia. El riesgo económico existe y no conviene ignorarlo. Sin embargo, una actuación mensual, con aforo y presupuesto fijados de antemano, permitiría comprobar la demanda antes de ampliar la iniciativa. No sabemos cuántas personas acudirían: por eso sería poco riguroso anunciar desde ahora un éxito seguro.</p><p>En definitiva, merece la pena realizar una prueba de tres meses y publicar después sus resultados, incluidos los que no sean favorables.</p></div><p>Identifica en la lectura la propuesta, sus dos razones, el ejemplo, la objeción y la respuesta. Observa que el autor distingue la previsión de asistencia de un hecho ya demostrado.</p></section>",
       "exerciseTitle": "Organiza y conecta las ideas",
       "questions": [
@@ -397,8 +279,7 @@ window.ISP10_UNITS[3] = {
       "exerciseNote": "Elige una opción o escribe la forma solicitada. Pulsa «Corregir respuestas» para ver la explicación."
     },
     "acuerdo": {
-      "introduction": "Responde a una opinión con el grado de acuerdo que quieres expresar y explica tu postura.",
-      "blocks": "<section class=\"lesson-block\"><h2>Tres maneras de responder</h2>\n        <div class=\"table-scroll\"><table class=\"content-table\"><thead><tr><th>Intención</th><th>Respuesta a «Los concursos de televisión ayudan a los músicos que empiezan»</th></tr></thead><tbody>\n        <tr><td>Acuerdo</td><td>Comparto tu opinión. El concurso da visibilidad a quienes empiezan.</td></tr>\n        <tr><td>Acuerdo parcial</td><td>Hasta cierto punto sí. Da visibilidad, pero la exposición dura poco.</td></tr>\n        <tr><td>Desacuerdo</td><td>Yo no lo veo así. La exposición es tan breve que muchos participantes siguen sin encontrar actuaciones.</td></tr>\n        </tbody></table></div>\n        <p>«En efecto» y «desde luego» suelen confirmar una idea. «Puede ser, pero…» deja espacio para una reserva. «¡Qué va!» expresa rechazo en un registro coloquial. En una intervención formal puedes decir «discrepo en ese punto» y explicar el motivo.</p></section><section class=\"lesson-block\"><h2>Un intercambio con réplicas</h2>\n        <div class=\"example\"><p>— Los festivales deberían reservar la mitad del cartel a grupos locales.</p><p>— Estoy de acuerdo en darles más espacio, aunque fijaría la cuota después de consultar a los organizadores.</p><p>— Entiendo la cautela. ¿Y si probamos la medida durante una edición y evaluamos la asistencia?</p></div>\n        <p>Antes de rebatir, resume el punto concreto que has entendido. Después, aporta una razón y plantea una alternativa que tu interlocutor pueda valorar.</p></section>",
+      "blocks": "<section class=\"lesson-block\"><h2>Maneras de responder</h2>\n        <div class=\"table-scroll\"><table class=\"content-table\"><thead><tr><th>Intención</th><th>Respuesta a «Los concursos de televisión ayudan a los músicos que empiezan»</th></tr></thead><tbody>\n        <tr><td>Acuerdo</td><td>Comparto tu opinión. El concurso da visibilidad a quienes empiezan.</td></tr>\n        <tr><td>Acuerdo parcial</td><td>Hasta cierto punto sí. Da visibilidad, pero la exposición dura poco.</td></tr>\n        <tr><td>Desacuerdo</td><td>Yo no lo veo así. La exposición es tan breve que muchos participantes siguen sin encontrar actuaciones.</td></tr>\n        </tbody></table></div>\n        <p>«En efecto» y «desde luego» suelen confirmar una idea. «Puede ser, pero…» deja espacio para una reserva. «¡Qué va!» expresa rechazo en un registro coloquial. En una intervención formal puedes decir «discrepo en ese punto» y explicar el motivo.</p></section><section class=\"lesson-block\"><h2>Un intercambio con réplicas</h2>\n        <div class=\"example\"><p>— Los festivales deberían reservar la mitad del cartel a grupos locales.</p><p>— Estoy de acuerdo en darles más espacio, aunque fijaría la cuota después de consultar a los organizadores.</p><p>— Entiendo la cautela. ¿Y si probamos la medida durante una edición y evaluamos la asistencia?</p></div>\n        <p>Antes de rebatir, resume el punto concreto que has entendido. Después, aporta una razón y plantea una alternativa que tu interlocutor pueda valorar.</p></section>",
       "exerciseTitle": "Reconoce y matiza la postura",
       "questions": [
         {
@@ -489,91 +370,8 @@ window.ISP10_UNITS[3] = {
       ],
       "exerciseNote": "Elige una opción o escribe la forma solicitada. Pulsa «Corregir respuestas» para ver la explicación."
     },
-    "musica-cultura": {
-      "introduction": "Compara tres caminos para darse a conocer y analiza cómo una canción puede representar realidades sociales.",
-      "blocks": "<section class=\"lesson-block\"><h2>Televisión, redes y calle</h2>\n        <p><strong>David Bisbal</strong> quedó segundo en la primera edición de «Operación Triunfo». El concurso le abrió una vía hacia la grabación y los conciertos.</p>\n        <p><strong>Pablo Alborán</strong> empezó a componer de joven y difundió interpretaciones en Internet. El «boca a boca» ayudó a que esos vídeos llegaran a más oyentes.</p>\n        <p><strong>Macaco</strong>, nombre artístico de Daniel Carbonell, tocó en la calle en Barcelona y reunió a músicos de distintos orígenes. Su repertorio combina influencias como la rumba, el reggae y el funk.</p>\n        <p>A partir de los tres perfiles, identifica cómo se dio a conocer cada artista. Luego escribe una semejanza y una diferencia entre Bisbal y Alborán.</p>\n        <details><summary>Ver respuesta posible</summary><p>Bisbal ganó visibilidad con un concurso de televisión, Alborán difundió sus interpretaciones en Internet y Macaco tocó en la calle. Los dos aprovecharon un medio que les permitió llegar a un público más amplio. La televisión fue decisiva para Bisbal y los vídeos en Internet para Alborán.</p></details></section><section class=\"lesson-block\"><h2>Una canción que cambia de escenario</h2>\n        <p>En «Hijos de un mismo dios», Macaco yuxtapone escenas de distintos lugares. El desempleo, la violencia cotidiana, la desconexión política, la soledad en redes y la presión laboral sirven como puntos de partida para interpretar la canción.</p>\n        <h3>Dos escenas de práctica inspiradas en el tema de la canción</h3>\n        <div class=\"example\"><p><strong>A.</strong> Cada noche, Irene cena con el portátil abierto. Ha prometido tres veces apagarlo a las ocho, pero sigue contestando mensajes del trabajo hasta que su familia se va a dormir.</p><p><strong>B.</strong> En el barrio de Samir ha cerrado la última fábrica. Todos los lunes, Samir repasa las ofertas con su vecina. Esta semana solo han encontrado una oferta de trabajo. Samir tendría que mudarse a otra ciudad para aceptarla.</p></div>\n        <p>Identifica el problema social de cada escena y señala un detalle que apoye tu interpretación. Si estas escenas formaran parte de una canción, ¿qué sonido cotidiano elegirías para cada una y por qué?</p>\n        <details><summary>Ver respuesta posible</summary><p>La escena A muestra cómo el trabajo invade el tiempo familiar. Irene sigue contestando mensajes hasta que su familia se acuesta. La escena B sugiere desempleo y falta de oportunidades locales. Ha cerrado la fábrica y la única oferta exige mudarse. Podrían oírse notificaciones en A y, en B, el eco de la puerta metálica de la fábrica.</p></details></section>",
-      "exerciseTitle": "Trayectorias y lectura cultural",
-      "questions": [
-        {
-          "type": "choice",
-          "q": "¿Qué medio dio a David Bisbal la visibilidad destacada en esta lección?",
-          "options": [
-            "Un concurso televisivo",
-            "Un grupo formado en la calle",
-            "Vídeos caseros como primera vía de difusión"
-          ],
-          "answer": 0,
-          "ex": "Su paso por Operación Triunfo amplió su público."
-        },
-        {
-          "type": "choice",
-          "q": "¿Qué experiencia distingue la trayectoria de Pablo Alborán en esta comparación?",
-          "options": [
-            "Formar una banda callejera en las Ramblas",
-            "Difundir interpretaciones propias en Internet",
-            "Entrar en una academia de un concurso televisivo"
-          ],
-          "answer": 1,
-          "ex": "Los vídeos en Internet ayudaron a difundir sus primeras interpretaciones."
-        },
-        {
-          "type": "choice",
-          "q": "¿Qué artista reunió a músicos de distintos orígenes tras tocar en la calle en Barcelona?",
-          "options": [
-            "David Bisbal",
-            "Pablo Alborán",
-            "Macaco"
-          ],
-          "answer": 2,
-          "ex": "Macaco empezó como músico callejero y formó un grupo multicultural."
-        },
-        {
-          "type": "choice",
-          "q": "Una escena muestra a alguien con muchos contactos en redes que lleva semanas sin visitar a nadie. ¿Qué lectura se apoya mejor en ese detalle?",
-          "options": [
-            "Falta de oportunidades laborales",
-            "Distancia entre la conexión digital y el trato personal",
-            "Dificultad para aprender una coreografía"
-          ],
-          "answer": 1,
-          "ex": "La diferencia entre el número de contactos y la falta de encuentros sugiere soledad."
-        },
-        {
-          "type": "gap",
-          "q": "Completa la expresión que significa difusión de persona a persona. «La grabación se hizo conocida gracias al boca a ____».",
-          "answers": [
-            "boca"
-          ],
-          "ex": "El boca a boca es la difusión mediante recomendaciones personales."
-        },
-        {
-          "type": "choice",
-          "q": "De los tres perfiles presentados, ¿qué comparación respeta la información disponible?",
-          "options": [
-            "Bisbal, Alborán y Macaco se dieron a conocer por vías idénticas.",
-            "Las trayectorias muestran vías distintas de difusión: televisión, Internet y actuaciones callejeras.",
-            "La televisión fue el primer medio de difusión destacado para los tres."
-          ],
-          "answer": 1,
-          "ex": "La comparación se basa en las vías mencionadas para cada artista, no en una generalización."
-        },
-        {
-          "type": "choice",
-          "q": "En la escena de Irene, ¿qué detalle respalda la interpretación de un conflicto entre trabajo y vida familiar?",
-          "options": [
-            "Que ha apagado el ordenador durante semanas.",
-            "Que contesta mensajes laborales hasta después de que su familia se va a dormir.",
-            "Que ha dejado de utilizar el correo electrónico."
-          ],
-          "answer": 1,
-          "ex": "El detalle vincula directamente las exigencias laborales con la ausencia de tiempo compartido."
-        }
-      ],
-      "exerciseNote": "Elige una opción o escribe la forma solicitada. Pulsa «Corregir respuestas» para ver la explicación."
-    },
     "pasados": {
-      "introduction": "Compara los ejemplos y elige el tiempo verbal según lo que quieres contar.",
-      "blocks": "<section class=\"lesson-block\"><h2>Cómo elegir el tiempo</h2>\n<div class=\"past-cards\"><div class=\"example past-card\"><h3>¿Qué ha hecho hasta hoy?</h3><p>Este mes Nora <strong>ha dado</strong> tres conciertos.</p><p><strong><button class=\"greek-hint\" type=\"button\" data-greek=\"παρακείμενος\" aria-expanded=\"false\" aria-label=\"Perfecto compuesto (traducción al griego)\">Perfecto compuesto</button>.</strong> El recuento llega hasta hoy.</p></div><div class=\"example past-card\"><h3>¿Qué pasó?</h3><p>En 2021 Nora <strong>estrenó</strong> su primera obra.</p><p><strong><button class=\"greek-hint\" type=\"button\" data-greek=\"αόριστος\" aria-expanded=\"false\" aria-label=\"Indefinido o perfecto simple (traducción al griego)\">Indefinido o perfecto simple</button>.</strong> Contamos un hecho del pasado.</p></div><div class=\"example past-card\"><h3>¿Qué hacía en aquella época?</h3><p>De niña, Nora <strong>ensayaba</strong> los sábados.</p><p><strong><button class=\"greek-hint\" type=\"button\" data-greek=\"παρατατικός\" aria-expanded=\"false\" aria-label=\"Imperfecto (traducción al griego)\">Imperfecto</button>.</strong> Describimos una costumbre.</p></div><div class=\"example past-card\"><h3>¿Qué había pasado antes?</h3><p>Al firmar su contrato, Nora ya <strong>había grabado</strong> una maqueta.</p><p><strong><button class=\"greek-hint\" type=\"button\" data-greek=\"υπερσυντέλικος\" aria-expanded=\"false\" aria-label=\"Pluscuamperfecto (traducción al griego)\">Pluscuamperfecto</button>.</strong> Grabó la maqueta antes de firmar.</p></div></div></section>\n<section class=\"lesson-block\"><h2>Perfecto compuesto e indefinido</h2>\n<div class=\"past-cards\"><div class=\"example past-card\"><h3>Un recuento hasta hoy</h3><p>Esta temporada <strong>hemos agotado</strong> las entradas tres veces.</p><p>La temporada sigue. Contamos las veces que ha ocurrido hasta hoy.</p></div><div class=\"example past-card\"><h3>Un recuento de una etapa pasada</h3><p>La temporada pasada <strong>agotamos</strong> las entradas tres veces.</p><p>La temporada terminó. Contamos los hechos de ese período.</p></div><div class=\"example past-card\"><h3>Una experiencia hasta hoy</h3><p>Nunca <strong>he tocado</strong> al aire libre.</p><p>Hablo de mi experiencia hasta el momento en que digo la frase.</p></div><div class=\"example past-card\"><h3>Algo que importa ahora</h3><p><strong>He perdido</strong> mi entrada. ¿Puedes buscar mi nombre en la lista?</p><p>Perdí la entrada antes. Ahora necesito ayuda para entrar.</p></div></div><p><strong>Cómo se forma el perfecto compuesto.</strong> Usa <em>he, has, ha, hemos, habéis, han</em> + participio. En «Nora ha escrito» y «Nora y Eva han escrito», solo cambia el auxiliar.</p></section>\n<section class=\"lesson-block\"><h2>Indefinido e imperfecto</h2>\n<div class=\"past-cards\"><div class=\"example past-card\"><h3>Los aplausos ya habían empezado</h3><p>Cuando se abrió el telón, el público <strong>aplaudía</strong>.</p><p>El imperfecto muestra lo que estaba pasando al abrirse el telón.</p></div><div class=\"example past-card\"><h3>El público reaccionó</h3><p>Cuando se abrió el telón, el público <strong>aplaudió</strong>.</p><p>El indefinido cuenta el aplauso como una reacción a la apertura.</p></div><div class=\"example past-card\"><h3>Así era la escena</h3><p>La sala <strong>era</strong> pequeña. Mientras Nora <strong>afinaba</strong>, el público <strong>charlaba</strong>.</p><p>El imperfecto describe cómo era el lugar y qué pasaba al mismo tiempo.</p></div><div class=\"example past-card\"><h3>Una etapa completa</h3><p>El cuarteto <strong>ensayó</strong> todos los martes de marzo.</p><p>El indefinido presenta como un conjunto los ensayos de ese mes.</p></div></div><p><strong>Conocía / conoció.</strong> «Ya conocía a la directora» significa que ya la conocía en aquel momento. «Conoció a la directora en la audición» cuenta cuándo se encontraron por primera vez.</p></section>\n<section class=\"lesson-block\"><h2>Pluscuamperfecto y orden de los hechos</h2>\n<ol class=\"past-timeline\"><li><strong>2017</strong> · Nora grabó una maqueta.</li><li><strong>2019</strong> · Nora firmó el contrato.</li></ol><div class=\"example past-card\"><h3>Cómo se cuenta desde 2019</h3><p>Cuando firmó el contrato, Nora ya <strong>había grabado</strong> una maqueta.</p><p>La firma es el punto desde el que miramos hacia atrás. La grabación ocurrió antes.</p></div><div class=\"past-cards\"><div class=\"example past-card\"><h3>Apenas… cuando</h3><p>Apenas <strong>había empezado</strong> el ensayo cuando sonó la alarma.</p><p>Primero empezó el ensayo. La alarma sonó enseguida.</p></div><div class=\"example past-card\"><h3>Todavía no</h3><p>Cuando llegamos, todavía no <strong>habían abierto</strong> las puertas.</p><p>Las puertas seguían cerradas al llegar. Pudieron abrirlas después.</p></div></div><div class=\"past-cards\"><div class=\"example past-card\"><h3>Contar lo que alguien dijo</h3><p>«Ya he visto el vídeo». → «Dijo que ya <strong>había visto</strong> el vídeo».</p><p>Primero vio el vídeo. Después habló de él.</p></div><div class=\"example past-card\"><h3>Una idea que cambió</h3><p><strong>Habíamos pensado</strong> tocar fuera, pero llovió y tocamos dentro.</p><p>Primero pensamos en tocar fuera. La lluvia cambió el plan.</p></div></div>\n<p><strong>Cómo se forma.</strong> Usa <em>había, habías, había, habíamos, habíais, habían</em> + participio. El pronombre va delante del auxiliar. «Cuando pidió la partitura, yo ya <strong>la había encontrado</strong>».</p></section>\n<section class=\"lesson-block\"><h2>Claves para grecoparlantes</h2>\n<div class=\"past-cards\"><div class=\"example past-card\"><h3>¿Qué hacía? ¿Qué hizo?</h3><p><strong>Ensayaba</strong> todos los sábados. / En marzo <strong>ensayó</strong> cuatro veces.</p><p>El contraste παρατατικός / αόριστος te ayuda a distinguir una costumbre de una serie que se presenta completa.</p></div><div class=\"example past-card\"><h3>¿Hasta hoy o hasta aquel día?</h3><p>Hasta hoy nunca <strong>ha dirigido</strong> una orquesta. / Hasta aquel estreno nunca <strong>había dirigido</strong> una orquesta.</p><p>En la primera frase, el límite es hoy. En la segunda, es el día del estreno.</p></div></div></section>\n<section class=\"lesson-block\"><h2>De la entrevista a la biografía</h2>\n<div class=\"past-cards\"><div class=\"example past-card\"><h3>Qué hizo antes</h3><p>Antes de entrar en la compañía, Nora <strong>había bailado</strong> en festivales de barrio.</p></div><div class=\"example past-card\"><h3>Qué hacía habitualmente</h3><p>Durante su formación <strong>ensayaba</strong> por las tardes y <strong>trabajaba</strong> de noche.</p></div><div class=\"example past-card\"><h3>Qué pasó en 2021</h3><p>En 2021 <strong>estrenó</strong> su primera pieza.</p></div><div class=\"example past-card\"><h3>Qué ha hecho desde entonces</h3><p>Desde aquel estreno <strong>ha creado</strong> tres obras y sigue preparando la cuarta.</p></div></div><p>Empieza por el estreno de Nora y cuenta después qué había hecho antes. Luego cambia la última frase para que el recuento termine en 2024.</p>\n<details><summary>Ver un modelo</summary><p>En 2021 Nora estrenó su primera pieza. Antes de entrar en la compañía ya había bailado en festivales de barrio.</p><p>Entre 2021 y 2024, Nora creó tres obras.</p></details>\n<p>Consulta el <a href=\"https://cvc.cervantes.es/ensenanza/biblioteca_ele/plan_curricular/niveles/02_gramatica_inventario_b1-b2.htm\">inventario de gramática B1–B2 del Instituto Cervantes</a>.</p></section>",
+      "blocks": "<section class=\"lesson-block\"><h2>La elección del tiempo verbal</h2>\n<div class=\"past-cards\"><div class=\"example past-card\"><h3>¿Qué ha hecho hasta hoy?</h3><p>Este mes Nora <strong>ha dado</strong> tres conciertos.</p><p><strong><button class=\"greek-hint\" type=\"button\" data-greek=\"παρακείμενος\" aria-expanded=\"false\" aria-label=\"Perfecto compuesto (traducción al griego)\">Perfecto compuesto</button>.</strong> El recuento llega hasta hoy.</p></div><div class=\"example past-card\"><h3>¿Qué pasó?</h3><p>En 2021 Nora <strong>estrenó</strong> su primera obra.</p><p><strong><button class=\"greek-hint\" type=\"button\" data-greek=\"αόριστος\" aria-expanded=\"false\" aria-label=\"Indefinido o perfecto simple (traducción al griego)\">Indefinido o perfecto simple</button>.</strong> Contamos un hecho del pasado.</p></div><div class=\"example past-card\"><h3>¿Qué hacía en aquella época?</h3><p>De niña, Nora <strong>ensayaba</strong> los sábados.</p><p><strong><button class=\"greek-hint\" type=\"button\" data-greek=\"παρατατικός\" aria-expanded=\"false\" aria-label=\"Imperfecto (traducción al griego)\">Imperfecto</button>.</strong> Describimos una costumbre.</p></div><div class=\"example past-card\"><h3>¿Qué había pasado antes?</h3><p>Al firmar su contrato, Nora ya <strong>había grabado</strong> una maqueta.</p><p><strong><button class=\"greek-hint\" type=\"button\" data-greek=\"υπερσυντέλικος\" aria-expanded=\"false\" aria-label=\"Pluscuamperfecto (traducción al griego)\">Pluscuamperfecto</button>.</strong> Grabó la maqueta antes de firmar.</p></div></div></section>\n<section class=\"lesson-block\"><h2>Perfecto compuesto e indefinido</h2>\n<div class=\"past-cards\"><div class=\"example past-card\"><h3>Un recuento hasta hoy</h3><p>Esta temporada <strong>hemos agotado</strong> las entradas tres veces.</p><p>La temporada sigue. Contamos las veces que ha ocurrido hasta hoy.</p></div><div class=\"example past-card\"><h3>Un recuento de una etapa pasada</h3><p>La temporada pasada <strong>agotamos</strong> las entradas tres veces.</p><p>La temporada terminó. Contamos los hechos de ese período.</p></div><div class=\"example past-card\"><h3>Una experiencia hasta hoy</h3><p>Nunca <strong>he tocado</strong> al aire libre.</p><p>Hablo de mi experiencia hasta el momento en que digo la frase.</p></div><div class=\"example past-card\"><h3>Algo que importa ahora</h3><p><strong>He perdido</strong> mi entrada. ¿Puedes buscar mi nombre en la lista?</p><p>Perdí la entrada antes. Ahora necesito ayuda para entrar.</p></div></div><p><strong>Cómo se forma el perfecto compuesto.</strong> Usa <em>he, has, ha, hemos, habéis, han</em> + participio. En «Nora ha escrito» y «Nora y Eva han escrito», solo cambia el auxiliar.</p></section>\n<section class=\"lesson-block\"><h2>Indefinido e imperfecto</h2>\n<div class=\"past-cards\"><div class=\"example past-card\"><h3>Los aplausos ya habían empezado</h3><p>Cuando se abrió el telón, el público <strong>aplaudía</strong>.</p><p>El imperfecto muestra lo que estaba pasando al abrirse el telón.</p></div><div class=\"example past-card\"><h3>El público reaccionó</h3><p>Cuando se abrió el telón, el público <strong>aplaudió</strong>.</p><p>El indefinido cuenta el aplauso como una reacción a la apertura.</p></div><div class=\"example past-card\"><h3>Así era la escena</h3><p>La sala <strong>era</strong> pequeña. Mientras Nora <strong>afinaba</strong>, el público <strong>charlaba</strong>.</p><p>El imperfecto describe cómo era el lugar y qué pasaba al mismo tiempo.</p></div><div class=\"example past-card\"><h3>Una etapa completa</h3><p>El cuarteto <strong>ensayó</strong> todos los martes de marzo.</p><p>El indefinido presenta como un conjunto los ensayos de ese mes.</p></div></div><p><strong>Conocía / conoció.</strong> «Ya conocía a la directora» significa que ya la conocía en aquel momento. «Conoció a la directora en la audición» cuenta cuándo se encontraron por primera vez.</p></section>\n<section class=\"lesson-block\"><h2>Pluscuamperfecto y orden de los hechos</h2>\n<ol class=\"past-timeline\"><li><strong>2017</strong> · Nora grabó una maqueta.</li><li><strong>2019</strong> · Nora firmó el contrato.</li></ol><div class=\"example past-card\"><h3>La maqueta y el contrato</h3><p>Cuando firmó el contrato, Nora ya <strong>había grabado</strong> una maqueta.</p><p>La firma es el punto desde el que miramos hacia atrás. La grabación ocurrió antes.</p></div><div class=\"past-cards\"><div class=\"example past-card\"><h3>Apenas… cuando</h3><p>Apenas <strong>había empezado</strong> el ensayo cuando sonó la alarma.</p><p>Primero empezó el ensayo. La alarma sonó enseguida.</p></div><div class=\"example past-card\"><h3>Todavía no</h3><p>Cuando llegamos, todavía no <strong>habían abierto</strong> las puertas.</p><p>Las puertas seguían cerradas al llegar. Pudieron abrirlas después.</p></div></div><div class=\"past-cards\"><div class=\"example past-card\"><h3>Contar lo que alguien dijo</h3><p>«Ya he visto el vídeo». → «Dijo que ya <strong>había visto</strong> el vídeo».</p><p>Primero vio el vídeo. Después habló de él.</p></div><div class=\"example past-card\"><h3>Una idea que cambió</h3><p><strong>Habíamos pensado</strong> tocar fuera, pero llovió y tocamos dentro.</p><p>Primero pensamos en tocar fuera. La lluvia cambió el plan.</p></div></div>\n<p><strong>Cómo se forma.</strong> Usa <em>había, habías, había, habíamos, habíais, habían</em> + participio. El pronombre va delante del auxiliar. «Cuando pidió la partitura, yo ya <strong>la había encontrado</strong>».</p></section>\n<section class=\"lesson-block\"><h2>Claves para grecoparlantes</h2>\n<div class=\"past-cards\"><div class=\"example past-card\"><h3>¿Qué hacía? ¿Qué hizo?</h3><p><strong>Ensayaba</strong> todos los sábados. / En marzo <strong>ensayó</strong> cuatro veces.</p><p>El contraste παρατατικός / αόριστος te ayuda a distinguir una costumbre de una serie que se presenta completa.</p></div><div class=\"example past-card\"><h3>¿Hasta hoy o hasta aquel día?</h3><p>Hasta hoy nunca <strong>ha dirigido</strong> una orquesta. / Hasta aquel estreno nunca <strong>había dirigido</strong> una orquesta.</p><p>En la primera frase, el límite es hoy. En la segunda, es el día del estreno.</p></div></div></section>\n<section class=\"lesson-block\"><h2>De la entrevista a la biografía</h2>\n<div class=\"past-cards\"><div class=\"example past-card\"><h3>Qué hizo antes</h3><p>Antes de entrar en la compañía, Nora <strong>había bailado</strong> en festivales de barrio.</p></div><div class=\"example past-card\"><h3>Qué hacía habitualmente</h3><p>Durante su formación <strong>ensayaba</strong> por las tardes y <strong>trabajaba</strong> de noche.</p></div><div class=\"example past-card\"><h3>El estreno de Nora</h3><p>En 2021 <strong>estrenó</strong> su primera pieza.</p></div><div class=\"example past-card\"><h3>Qué ha hecho desde entonces</h3><p>Desde aquel estreno <strong>ha creado</strong> tres obras y sigue preparando la cuarta.</p></div></div><p>Empieza por el estreno de Nora y cuenta después qué había hecho antes. Luego cambia la última frase para que el recuento termine en 2024.</p>\n<details><summary>Ver un modelo</summary><p>En 2021 Nora estrenó su primera pieza. Antes de entrar en la compañía ya había bailado en festivales de barrio.</p><p>Entre 2021 y 2024, Nora creó tres obras.</p></details>\n<p>Consulta el <a href=\"https://cvc.cervantes.es/ensenanza/biblioteca_ele/plan_curricular/niveles/02_gramatica_inventario_b1-b2.htm\">inventario de gramática B1–B2 del Instituto Cervantes</a>.</p></section>",
       "exerciseTitle": "Del marco temporal a la biografía",
       "questions": [
         {
@@ -886,7 +684,6 @@ window.ISP10_UNITS[3] = {
       }
     },
     "biografia": {
-      "introduction": "Organiza una vida artística en etapas y explica cómo se relacionan la formación, el esfuerzo y los logros.",
       "blocks": "<section class=\"lesson-block\"><h2>Una trayectoria en el Ballet Nacional de Cuba</h2>\n        <p><strong>Viengsay Valdés</strong> practicaba gimnasia antes de empezar en el ballet. Su abuela la llevó a la escuela Alejo Carpentier y allí comenzó su formación. Cuenta cómo compaginaba las clases con el entrenamiento, a qué actividades de ocio tuvo que renunciar y qué actuaciones recuerda con especial emoción, entre ellas las de México y San Petersburgo.</p>\n        <p>La reseña de «De acero y nube», de Carlos Tablada, aporta otra mirada sobre la bailarina. Una entrevista conserva la perspectiva de la persona entrevistada. Una biografía organiza los hechos y les da contexto. Una reseña, además, presenta o valora una obra.</p>\n        <p>A partir del perfil anterior, ordena estos hitos y añade una frase sobre la rutina de la bailarina usando el imperfecto. <strong>A.</strong> Actuó en escenarios internacionales. <strong>B.</strong> Practicó gimnasia. <strong>C.</strong> Entró en la escuela Alejo Carpentier.</p>\n        <details><summary>Ver respuesta</summary><p>El orden es B → C → A. Una frase posible es «Durante su formación, compaginaba las clases con el entrenamiento».</p></details></section><section class=\"lesson-block\"><h2>Escribir una biografía breve</h2>\n        <p>Empieza con la identidad de la persona y su campo. Escoge dos o tres hitos verificables y enlázalos con marcas temporales como «por entonces», «años antes» o «a partir de ahí». Explica qué hacía habitualmente, qué había hecho antes de un logro y qué impacto tiene hoy. Si incluyes tu valoración, apóyala en un hecho de la trayectoria.</p>\n        <div class=\"example\"><p><strong>Modelo ficticio.</strong> Lucía Mena es coreógrafa. De niña ensayaba en un centro vecinal. Cuando estrenó su primera obra en 2016, ya había dirigido un grupo juvenil. Desde entonces ha creado talleres que acercan la danza a quienes nunca han subido a un escenario. Admiro esa labor porque sus talleres permiten participar a personas con experiencias muy distintas.</p></div></section>",
       "exerciseTitle": "Lee y organiza la trayectoria",
       "questions": [
@@ -982,8 +779,7 @@ window.ISP10_UNITS[3] = {
       "exerciseNote": "Elige una opción o escribe la forma solicitada. Pulsa «Corregir respuestas» para ver la explicación."
     },
     "entonacion": {
-      "introduction": "Localiza dónde puedes respirar y qué palabras conviene mantener juntas en una lectura neutra.",
-      "blocks": "<section class=\"lesson-block\"><h2>Grupos que se pronuncian juntos</h2>\n        <p>En una lectura fluida, solemos pronunciar juntas las palabras estrechamente relacionadas. Una pausa en medio del grupo puede romper el sentido. La intención expresiva, una vacilación o una corrección espontánea pueden alterar el patrón.</p>\n        <div class=\"table-scroll\"><table class=\"content-table\"><thead><tr><th>Agrupación</th><th>Ejemplos originales</th></tr></thead><tbody>\n        <tr><td>Artículo + nombre, nombre + adjetivo, adjetivo + nombre</td><td>la pista, música suave, breve pausa</td></tr>\n        <tr><td>Verbo + adverbio, adverbio + verbo</td><td>suena bien, no canta</td></tr>\n        <tr><td>Pronombre átono + verbo</td><td>lo grabaron</td></tr>\n        <tr><td>Adverbio + adjetivo, adverbio + adverbio</td><td>muy suave, bastante lejos</td></tr>\n        <tr><td>Tiempo compuesto, perífrasis verbal</td><td>había ensayado, volvió a tocar</td></tr>\n        <tr><td>Preposición + término</td><td>con la orquesta</td></tr>\n        </tbody></table></div></section><section class=\"lesson-block\"><h2>Lee y compara</h2>\n        <p>La barra marca una pausa posible. «Al terminar el ensayo / la cantante volvió a tocar con la orquesta.» Lee la frase a velocidad normal y repítela haciendo una pausa entre «con» y «la orquesta». Observa cómo cambia la fluidez.</p>\n        <h3>Detecta y corrige dos pausas</h3>\n        <div class=\"example\"><p>— Antes del ensayo / la directora habló con / el pianista.</p><p>— Al terminar / lo / llamaron para confirmar la hora.</p></div>\n        <p>Lee el diálogo siguiendo las barras. Quita una barra de cada frase y explica qué palabras separaba. Si practicas en pareja, leed en voz alta ambas versiones.</p>\n        <details><summary>Ver respuesta</summary><p>Las lecturas propuestas son «Antes del ensayo / la directora habló con el pianista» y «Al terminar / lo llamaron para confirmar la hora». Los cortes originales separaban la preposición de su término y el pronombre átono del verbo.</p></details></section>",
+      "blocks": "<section class=\"lesson-block\"><h2>Grupos que se pronuncian juntos</h2>\n        <p>En una lectura fluida, solemos pronunciar juntas las palabras estrechamente relacionadas. Una pausa en medio del grupo puede romper el sentido. La intención expresiva, una vacilación o una corrección espontánea pueden alterar el patrón.</p>\n        <div class=\"table-scroll\"><table class=\"content-table\"><thead><tr><th>Agrupación</th><th>Ejemplos originales</th></tr></thead><tbody>\n        <tr><td>Artículo + nombre, nombre + adjetivo, adjetivo + nombre</td><td>la pista, música suave, breve pausa</td></tr>\n        <tr><td>Verbo + adverbio, adverbio + verbo</td><td>suena bien, no canta</td></tr>\n        <tr><td>Pronombre átono + verbo</td><td>lo grabaron</td></tr>\n        <tr><td>Adverbio + adjetivo, adverbio + adverbio</td><td>muy suave, bastante lejos</td></tr>\n        <tr><td>Tiempo compuesto, perífrasis verbal</td><td>había ensayado, volvió a tocar</td></tr>\n        <tr><td>Preposición + término</td><td>con la orquesta</td></tr>\n        </tbody></table></div></section><section class=\"lesson-block\"><h2>Lee y compara</h2>\n        <p>La barra marca una pausa posible. «Al terminar el ensayo / la cantante volvió a tocar con la orquesta.» Lee la frase a velocidad normal y repítela haciendo una pausa entre «con» y «la orquesta». Observa cómo cambia la fluidez.</p>\n        <h3>Detecta y corrige las pausas</h3>\n        <div class=\"example\"><p>— Antes del ensayo / la directora habló con / el pianista.</p><p>— Al terminar / lo / llamaron para confirmar la hora.</p></div>\n        <p>Lee el diálogo siguiendo las barras. Quita una barra de cada frase y explica qué palabras separaba. Si practicas en pareja, leed en voz alta ambas versiones.</p>\n        <details><summary>Ver respuesta</summary><p>Las lecturas propuestas son «Antes del ensayo / la directora habló con el pianista» y «Al terminar / lo llamaron para confirmar la hora». Los cortes originales separaban la preposición de su término y el pronombre átono del verbo.</p></details></section>",
       "exerciseTitle": "Marca una pausa posible",
       "questions": [
         {
@@ -1067,7 +863,6 @@ window.ISP10_UNITS[3] = {
       "exerciseNote": "Elige una opción o escribe la forma solicitada. Pulsa «Corregir respuestas» para ver la explicación."
     },
     "vocabulario3": {
-      "introduction": "Busca palabras y expresiones de la unidad y fíjate en las combinaciones que aparecen en los ejemplos.",
       "blocks": "<section class=\"lesson-block\"><h2>Glosario</h2><div id=\"vocab-app\"></div></section><section class=\"lesson-block\"><h2>Aprender por combinaciones</h2><p>Anota el verbo o la preposición que acompaña a cada expresión. Por ejemplo, «seguir el compás», «renunciar a las vacaciones» y «estar al corriente de las novedades». Usa cada combinación en una frase propia.</p></section>",
       "exerciseTitle": "Léxico en contexto",
       "questions": [
@@ -1146,7 +941,6 @@ window.ISP10_UNITS[3] = {
       "exerciseNote": "Elige una opción o escribe la forma solicitada. Pulsa «Corregir respuestas» para ver la explicación."
     },
     "repaso3": {
-      "introduction": "Integra lo aprendido: interpreta argumentos, distingue perspectivas temporales y reconoce las pausas adecuadas.",
       "blocks": "<section class=\"lesson-block\"><h2>Antes de corregir</h2><p>Localiza la intención comunicativa, la relación entre las ideas y el punto temporal de referencia. En la pregunta de lectura, comprueba qué palabras forman un grupo.</p><p>Tras corregir, revisa <a href=\"#opinar\">02 · Opinión</a>, <a href=\"#argumentar\">03 · Argumentación</a>, <a href=\"#acuerdo\">04 · Acuerdo</a>, <a href=\"#pasados\">06 · Pasados</a>, <a href=\"#entonacion\">08 · Entonación</a> o <a href=\"#vocabulario3\">09 · Vocabulario</a> según la pregunta que quieras repasar.</p></section>",
       "exerciseTitle": "Autoevaluación",
       "questions": [
