@@ -65,7 +65,7 @@ window.ISP10_UNITS[3] = {
   ],
   "pages": {
     "opinar": {
-      "blocks": "<section class=\"lesson-block\"><h2>Afirmar y cuestionar una idea</h2>\n        <p>Para presentar una idea como propia puedes usar <strong>creo que</strong>, <strong>considero que</strong> o <strong>me parece que</strong>, normalmente con indicativo. Cuando rechazas o pones en duda esa idea con <strong>no creo que</strong>, <strong>no considero que</strong> o <strong>no me parece que</strong>, lo habitual es el subjuntivo.</p>\n        <div class=\"example\">Considero que el contexto <b>influye</b> en lo que escuchamos. No considero que un género musical <b>defina</b> el carácter de sus oyentes.</div>\n        <p>«A mi modo de ver» introduce tu perspectiva. «Según la autora» atribuye una idea a otra persona. Puedes expresar reservas con «yo diría que».</p></section><section class=\"lesson-block\"><h2>Tesis, razón, ejemplo y evidencia</h2>\n        <p>Imagina un foro donde alguien afirma que un estilo musical revela el carácter. Una <strong>tesis</strong> posible es que los gustos dependen en parte de la situación. Una <strong>razón</strong> sería que una misma persona elige música para actividades diferentes. Un <strong>ejemplo</strong> sería elegir salsa para bailar y música instrumental para leer.</p>\n        <p>Un ejemplo concreto ilustra la razón. Si aportas una encuesta o citas a una persona experta, indica qué se estudió y hasta dónde llegan los resultados. Una asociación entre dos rasgos admite varias explicaciones.</p></section><section class=\"lesson-block\"><h2>Del dato a la conclusión</h2>\n<p>Preguntas a tu grupo de estudio: «¿Preferís estudiar con música o en silencio?».</p>\n<div class=\"past-cards\">\n<div class=\"example past-card\"><h3>El dato · ¿Qué dijeron?</h3><p>«Cinco personas prefieren estudiar con rock y tres prefieren estudiar en silencio».</p><p>Esto es lo que dijeron las personas del grupo.</p></div>\n<div class=\"example past-card\"><h3>La conclusión · ¿Qué sabemos?</h3><p>«En este grupo hay personas que prefieren el rock y otras que prefieren el silencio».</p><p>Podemos decirlo porque el grupo dio respuestas diferentes.</p></div>\n<div class=\"example past-card\"><h3>¿Qué frase va demasiado lejos?</h3><p>«Todo el mundo estudia mejor en silencio».</p><p>La encuesta solo pregunta qué prefiere cada persona. Para decir que alguien estudia mejor en silencio, necesitamos ver cómo le va en una tarea.</p></div>\n<div class=\"example past-card\"><h3>¿Qué podemos hacer para saber más?</h3><p>Las mismas personas hacen una tarea con rock y otra parecida en silencio.</p><p>Después comparamos cuántas respuestas correctas tienen en cada tarea.</p></div>\n</div></section>",
+      "blocks": "<section class=\"lesson-block\"><h2>Afirmar y cuestionar una idea</h2><div class=\"past-cards\"><div class=\"example past-card\"><h3>Creo que… · Indicativo</h3><p>Creo que la música <strong>ayuda</strong> a estudiar.</p></div><div class=\"example past-card\"><h3>No creo que… · Subjuntivo</h3><p>No creo que la música <strong>ayude</strong> a todo el mundo.</p></div></div><p>También puedes decir «considero que» o «me parece que». Para decir de quién es una idea, usa «según». Por ejemplo, «Según la autora, algunas personas prefieren estudiar en silencio».</p></section><section class=\"lesson-block\"><h2>Tesis, razón, ejemplo y evidencia</h2>\n        <p>Imagina un foro donde alguien afirma que un estilo musical revela el carácter. Una <strong>tesis</strong> posible es que los gustos dependen en parte de la situación. Una <strong>razón</strong> sería que una misma persona elige música para actividades diferentes. Un <strong>ejemplo</strong> sería elegir salsa para bailar y música instrumental para leer.</p>\n        <p>Un ejemplo concreto ilustra la razón. Si aportas una encuesta o citas a una persona experta, indica qué se estudió y hasta dónde llegan los resultados. Que dos cosas ocurran juntas puede tener varias explicaciones.</p></section><section class=\"lesson-block\"><h2>Del dato a la conclusión</h2>\n<p>Preguntas a tu grupo de estudio: «¿Preferís estudiar con música o en silencio?».</p>\n<div class=\"past-cards\">\n<div class=\"example past-card\"><h3>El dato · ¿Qué dijeron?</h3><p>«Cinco personas prefieren estudiar con rock y tres prefieren estudiar en silencio».</p><p>Esto es lo que dijeron las personas del grupo.</p></div>\n<div class=\"example past-card\"><h3>La conclusión · ¿Qué sabemos?</h3><p>«En este grupo hay personas que prefieren el rock y otras que prefieren el silencio».</p><p>Podemos decirlo porque el grupo dio respuestas diferentes.</p></div>\n<div class=\"example past-card\"><h3>¿Qué frase va demasiado lejos?</h3><p>«Todo el mundo estudia mejor en silencio».</p><p>La encuesta solo pregunta qué prefiere cada persona. Para decir que alguien estudia mejor en silencio, necesitamos ver cómo le va en una tarea.</p></div>\n<div class=\"example past-card\"><h3>¿Qué podemos hacer para saber más?</h3><p>Las mismas personas hacen una tarea con rock y otra parecida en silencio.</p><p>Después comparamos cuántas respuestas correctas tienen en cada tarea.</p></div>\n</div></section>",
       "exerciseTitle": "La postura y sus razones",
       "questions": [
         {
@@ -74,7 +74,7 @@ window.ISP10_UNITS[3] = {
           "answers": [
             "influyen"
           ],
-          "ex": "La opinión afirmativa presenta la proposición con indicativo."
+          "ex": "Con «considero que» afirmas una idea. Aquí se usa el indicativo «influyen»."
         },
         {
           "type": "gap",
@@ -82,40 +82,40 @@ window.ISP10_UNITS[3] = {
           "answers": [
             "defina"
           ],
-          "ex": "La opinión negada presenta esta proposición en subjuntivo."
+          "ex": "Con «no creo que» se usa el subjuntivo «defina»."
         },
         {
           "type": "choice",
-          "q": "¿Qué expresión atribuye la idea a una fuente?",
+          "q": "¿Qué expresión indica de quién es la idea?",
           "options": [
             "A mi modo de ver",
             "Según la investigadora",
             "Yo diría que"
           ],
           "answer": 1,
-          "ex": "«Según la investigadora» identifica la procedencia de la idea."
+          "ex": "«Según la investigadora» dice de quién es la idea."
         },
         {
           "type": "choice",
-          "q": "«Ana escucha jazz para cocinar y rock para entrenar». ¿Qué función cumple tras una razón general sobre los contextos de escucha?",
+          "q": "«Ana escucha jazz para cocinar y rock para entrenar». ¿Es una cita, una conclusión o un ejemplo?",
           "options": [
             "Cita literal",
             "Conclusión",
             "Ejemplo"
           ],
           "answer": 2,
-          "ex": "La conducta de Ana ilustra una idea mediante un caso particular."
+          "ex": "Ana es un ejemplo de alguien que cambia de música según lo que hace."
         },
         {
           "type": "choice",
-          "q": "En una encuesta de un curso, varios aficionados al jazz se describen como reservados. ¿Qué conclusión respeta el alcance del dato?",
+          "q": "En una encuesta de clase, varias personas dicen que les gusta el jazz y que son reservadas. ¿Qué podemos decir con esos datos?",
           "options": [
             "En ese curso, varios encuestados dieron ambas respuestas.",
             "El jazz vuelve reservadas a las personas.",
             "Todos los aficionados al jazz son reservados."
           ],
           "answer": 0,
-          "ex": "El dato describe a participantes concretos y permite informar de esa coincidencia."
+          "ex": "Podemos decir que varias personas de esa clase dieron las dos respuestas."
         },
         {
           "type": "choice",
@@ -126,7 +126,7 @@ window.ISP10_UNITS[3] = {
             "A–3, B–2, C–1"
           ],
           "answer": 0,
-          "ex": "La tesis es la postura general (2); la razón la justifica (1); el caso de Lucía la ilustra (3)."
+          "ex": "La frase 2 da la opinión, la 1 explica por qué y la 3 da un ejemplo."
         },
         {
           "type": "gap",
@@ -134,77 +134,77 @@ window.ISP10_UNITS[3] = {
           "answers": [
             "describa"
           ],
-          "ex": "La opinión negada «no considero que» presenta el contenido en subjuntivo: «describa»."
+          "ex": "Con «no considero que» se usa el subjuntivo «describa»."
         },
         {
           "type": "choice",
-          "q": "¿Qué conclusión se desprende de «cinco personas de mi grupo de estudio escuchan rock para concentrarse»?",
+          "q": "Cinco personas dicen que escuchan rock para concentrarse. ¿Qué podemos decir a partir de sus respuestas?",
           "options": [
-            "En ese grupo hay cinco personas que declaran ese hábito.",
+            "Esas cinco personas dicen que escuchan rock para concentrarse.",
             "El rock mejora la concentración de todos los estudiantes.",
             "A todas las personas del grupo les gusta el mismo género."
           ],
           "answer": 0,
-          "ex": "Una observación sobre cinco personas no permite atribuir el comportamiento a todos."
+          "ex": "Las respuestas hablan de esas personas del grupo."
         }
       ],
       "exerciseNote": "Elige una opción o escribe la forma solicitada. Pulsa «Corregir respuestas» para ver la explicación."
     },
     "argumentar": {
-      "blocks": "<section class=\"lesson-block\"><h2>Del tema a la conclusión</h2>\n        <ol><li><strong>Introducción.</strong> Delimita el tema y explica por qué se discute.</li><li><strong>Tesis.</strong> Expresa en una frase la postura que defenderás. Puede aparecer en la introducción.</li><li><strong>Argumentación.</strong> Desarrolla cada razón con un ejemplo, un dato verificable o una fuente pertinente.</li><li><strong>Contraargumentación.</strong> Presenta una objeción plausible y responde a ella.</li><li><strong>Conclusión.</strong> Recupera tu postura y extrae una consecuencia o una propuesta.</li></ol>\n        <p>Una pregunta retórica invita a reflexionar. Una cita de autoridad requiere una fuente identificable. Si usas porcentajes, precisa de dónde salen y qué población representan.</p></section><section class=\"lesson-block\"><h2>Conectores y relaciones</h2>\n        <div class=\"table-scroll\"><table class=\"content-table\"><thead><tr><th>Función</th><th>Recursos</th></tr></thead><tbody>\n        <tr><td>Presentar y ordenar</td><td>Para empezar, en primer lugar, por otra parte</td></tr>\n        <tr><td>Añadir y ejemplificar</td><td>Además, asimismo, por ejemplo</td></tr>\n        <tr><td>Causa y consecuencia</td><td>Puesto que, ya que, por tanto, de ahí que + subjuntivo</td></tr>\n        <tr><td>Contraste y concesión</td><td>Sin embargo, en cambio, si bien, aunque</td></tr>\n        <tr><td>Atribuir y concluir</td><td>Según, en opinión de, en definitiva, en conclusión</td></tr>\n        </tbody></table></div>\n        <div class=\"example\"><p><strong>Modelo breve.</strong> Propongo dedicar cinco minutos de clase a una canción. Un estribillo breve facilita la repetición de una expresión nueva. Además, comparar interpretaciones genera conversación. Es cierto que algunas grabaciones son difíciles de seguir. Por eso conviene elegir un fragmento claro y preparar una pregunta de escucha. En definitiva, la canción merece un lugar en clase cuando responde a un objetivo concreto.</p></div>\n        <h3>Una propuesta sobre el acceso a la música</h3>\n        <div class=\"example\"><p>Las salas municipales deberían publicar grabaciones gratuitas de algunos conciertos con permiso de los artistas. Así podrían escucharlos quienes viven lejos y los grupos llegarían a nuevos públicos. Es cierto que grabar cuesta dinero. Por eso propongo empezar con una actuación al mes y evaluar su alcance.</p></div>\n        <p>Identifica la tesis, las dos razones, la objeción y la medida final. Después, redacta una respuesta que añada otra objeción y una forma de resolverla.</p>\n        <details><summary>Ver respuesta y réplica posible</summary><p>La tesis es publicar grabaciones gratuitas con permiso de los artistas. Las razones son facilitar el acceso a quienes viven lejos y ampliar el público de los grupos. La objeción es el coste de grabar. La medida final es probar con una actuación mensual y evaluar su alcance.</p><p>Réplica posible. Algunas bandas podrían preferir que su repertorio completo solo se escuche en directo. Se podría acordar con ellas qué piezas publicar.</p></details></section><section class=\"lesson-block\"><h2>Lectura crítica: un escenario para grupos nuevos</h2><div class=\"example\"><p><strong>¿Quién tiene derecho al escenario?</strong> En nuestra ciudad abundan las personas que ensayan durante años sin encontrar un lugar donde actuar. Propongo que la sala municipal reserve una tarde al mes para grupos sin contrato discográfico. La medida ampliaría la variedad de propuestas y permitiría al público conocer proyectos que hoy apenas tienen visibilidad. Por ejemplo, un cuarteto formado por estudiantes podría presentar su primer repertorio sin asumir el coste de alquilar una sala privada.</p><p>Algunas personas objetan que la programación debería garantizar siempre una gran asistencia. El riesgo económico existe y no conviene ignorarlo. Sin embargo, una actuación mensual, con aforo y presupuesto fijados de antemano, permitiría comprobar la demanda antes de ampliar la iniciativa. No sabemos cuántas personas acudirían: por eso sería poco riguroso anunciar desde ahora un éxito seguro.</p><p>En definitiva, merece la pena realizar una prueba de tres meses y publicar después sus resultados, incluidos los que no sean favorables.</p></div><p>Identifica en la lectura la propuesta, sus dos razones, el ejemplo, la objeción y la respuesta. Observa que el autor distingue la previsión de asistencia de un hecho ya demostrado.</p></section>",
+      "blocks": "<section class=\"lesson-block\"><h2>Del tema a la conclusión</h2><p>Presenta el tema al principio. Estos recuadros muestran cómo defender una propuesta sobre la música en clase.</p><div class=\"past-cards\"><div class=\"example past-card\"><h3>Opinión</h3><p><strong>Propongo</strong> escuchar una canción breve en clase.</p></div><div class=\"example past-card\"><h3>Razón</h3><p><strong>Así</strong> podemos practicar palabras nuevas.</p></div><div class=\"example past-card\"><h3>Ejemplo</h3><p><strong>Por ejemplo</strong>, podemos repetir una expresión del estribillo.</p></div><div class=\"example past-card\"><h3>Objeción</h3><p><strong>Es cierto que</strong> algunas canciones son difíciles de entender.</p></div><div class=\"example past-card\"><h3>Respuesta</h3><p><strong>Por eso</strong> podemos elegir una canción lenta y leer la letra primero.</p></div><div class=\"example past-card\"><h3>Conclusión</h3><p><strong>En definitiva</strong>, vale la pena probar con una canción fácil.</p></div></div><p>Si citas a alguien, di quién es. Si das un porcentaje, explica de dónde sale y a quién se refiere.</p></section><section class=\"lesson-block\"><h2>Conectores y relaciones</h2>\n        <div class=\"past-cards\"><div class=\"example past-card\"><h3>Presentar y ordenar</h3><p><strong>Para empezar</strong>, elegimos una canción. <strong>Después</strong>, leemos la letra.</p></div><div class=\"example past-card\"><h3>Añadir y dar un ejemplo</h3><p><strong>Además</strong>, podemos hablar de la letra. <strong>Por ejemplo</strong>, cada persona puede explicar su frase favorita.</p></div><div class=\"example past-card\"><h3>Dar una razón y mostrar el resultado</h3><p>Elegimos una canción lenta <strong>porque</strong> es fácil de seguir. La letra es clara. <strong>Por tanto</strong>, podemos cantarla en clase.</p></div><div class=\"example past-card\"><h3>De ahí que + subjuntivo</h3><p>La letra es difícil. <strong>De ahí que</strong> la profesora <strong>prepare</strong> un glosario. Es otra forma de decir «Por eso, la profesora prepara un glosario».</p></div><div class=\"example past-card\"><h3>Mostrar un contraste</h3><p>La canción es conocida. <strong>Sin embargo</strong>, muchos alumnos no entienden la letra. <strong>Aunque</strong> sea conocida, conviene leer la letra primero.</p></div><div class=\"example past-card\"><h3>Citar una fuente y cerrar</h3><p><strong>Según</strong> la profesora, leer la letra ayuda. <strong>En definitiva</strong>, vale la pena dedicar tiempo a leerla.</p></div></div><h3>Una propuesta sobre el acceso a la música</h3>\n        <div class=\"example\"><p>Las salas municipales deberían publicar grabaciones gratuitas de algunos conciertos con permiso de los artistas. Así podrían escucharlos quienes viven lejos y los grupos llegarían a nuevos públicos. Es cierto que grabar cuesta dinero. Por eso propongo empezar con una actuación al mes y ver a cuántas personas llega.</p></div>\n        <p>Identifica la tesis, las dos razones, la objeción y la medida final. Después, redacta una respuesta que añada otra objeción y una forma de resolverla.</p>\n        <details><summary>Ver respuesta y réplica posible</summary><p>La tesis es publicar grabaciones gratuitas con permiso de los artistas. Las razones son facilitar el acceso a quienes viven lejos y ampliar el público de los grupos. La objeción es el coste de grabar. La medida final es probar con una actuación mensual y ver a cuántas personas llega.</p><p>Réplica posible. Algunas bandas podrían preferir que su repertorio completo solo se escuche en directo. Se podría acordar con ellas qué piezas publicar.</p></details></section><section class=\"lesson-block\"><h2>Un escenario para grupos nuevos</h2><div class=\"example\"><p><strong>¿Quién tiene derecho al escenario?</strong> En nuestra ciudad, muchos grupos ensayan durante años y no encuentran un lugar para tocar. Propongo que la sala municipal reserve una tarde al mes para grupos sin contrato con una compañía de discos. Habría más variedad de música y el público podría conocer a grupos que todavía son poco conocidos. Por ejemplo, un cuarteto formado por estudiantes podría tocar sus primeras canciones sin pagar el alquiler de una sala privada.</p><p>Algunas personas piensan que solo se deberían organizar conciertos que atraigan a mucho público. El riesgo económico existe y no conviene ignorarlo. Sin embargo, podemos empezar con un concierto al mes. Si fijamos antes el número de plazas y el dinero que podemos gastar, veremos cuántas personas vienen antes de organizar más conciertos. Todavía no sabemos cuántas personas vendrán.</p><p>En definitiva, merece la pena realizar una prueba de tres meses y publicar después sus resultados, aunque venga poca gente.</p></div><p>Identifica en la lectura la propuesta, sus dos razones, el ejemplo, la objeción y la respuesta. ¿Qué propone probar el autor? ¿Qué sabrá después de la prueba?</p></section>",
       "exerciseTitle": "Organiza y conecta las ideas",
       "questions": [
         {
           "type": "choice",
-          "q": "¿Qué frase es una tesis que puede defenderse?",
+          "q": "¿Qué frase presenta una opinión que se puede defender?",
           "options": [
             "La música en la ciudad",
             "El centro cultural debería ceder una sala semanal a grupos principiantes.",
             "Por ejemplo, el grupo del barrio."
           ],
           "answer": 1,
-          "ex": "La tesis enuncia una postura sobre una medida concreta."
+          "ex": "La frase dice qué cambio defiende la persona."
         },
         {
           "type": "choice",
-          "q": "Completa con un conector de adición. «La sala tiene buena acústica. ____, es accesible en autobús».",
+          "q": "Elige la palabra que añade otra ventaja. «La sala tiene buena acústica. ____, es accesible en autobús».",
           "options": [
             "Sin embargo",
             "Por consiguiente",
             "Además"
           ],
           "answer": 2,
-          "ex": "El acceso en autobús añade una ventaja independiente."
+          "ex": "«Además» añade otra ventaja de la sala."
         },
         {
           "type": "choice",
-          "q": "Completa con un conector de contraste. «La entrada era gratuita. ____, acudió muy poca gente».",
+          "q": "Elige el conector que muestra el contraste. «La entrada era gratuita. ____, acudió muy poca gente».",
           "options": [
             "Sin embargo",
             "Asimismo",
             "Por ejemplo"
           ],
           "answer": 0,
-          "ex": "La asistencia escasa contrasta con la expectativa que genera la gratuidad."
+          "ex": "«Sin embargo» muestra el contraste. Con entrada gratis, se esperaba más público."
         },
         {
           "type": "choice",
-          "q": "Completa con un conector de consecuencia. «El grupo amplió el aforo y pudo ofrecer más entradas. ____, bajó el número de personas en lista de espera».",
+          "q": "Elige el conector que indica el resultado. «El grupo amplió el aforo y pudo ofrecer más entradas. ____, bajó el número de personas en lista de espera».",
           "options": [
             "En cambio",
             "Por tanto",
             "Por ejemplo"
           ],
           "answer": 1,
-          "ex": "La lista de espera se redujo como consecuencia de la mayor disponibilidad."
+          "ex": "«Por tanto» introduce el resultado. Al ofrecer más entradas, quedaron menos personas en lista de espera."
         },
         {
           "type": "gap",
-          "q": "Completa en presente. «Hay poca luz en el escenario, de ahí que el equipo ____ (pedir) focos nuevos».",
+          "q": "Completa con el presente de subjuntivo. «Hay poca luz en el escenario, de ahí que el equipo ____ (pedir) focos nuevos».",
           "answers": [
             "pida"
           ],
-          "ex": "La construcción «de ahí que» introduce la consecuencia con subjuntivo."
+          "ex": "Después de «de ahí que» usamos el subjuntivo «pida»."
         },
         {
           "type": "choice",
@@ -215,7 +215,7 @@ window.ISP10_UNITS[3] = {
             "Reconoce una objeción y ofrece una respuesta"
           ],
           "answer": 2,
-          "ex": "La primera frase concede una dificultad y la segunda propone cómo afrontarla."
+          "ex": "Primero reconoce el coste. Después propone una prueba."
         },
         {
           "type": "choice",
@@ -226,7 +226,7 @@ window.ISP10_UNITS[3] = {
             "C → B → A → D"
           ],
           "answer": 0,
-          "ex": "El texto pasa de la postura inicial a las razones, atiende la objeción y cierra con una conclusión."
+          "ex": "Primero presenta la opinión. Luego da razones, responde a una objeción y termina con una conclusión."
         },
         {
           "type": "choice",
@@ -237,29 +237,29 @@ window.ISP10_UNITS[3] = {
             "Que el ayuntamiento no tiene ninguna sala."
           ],
           "answer": 0,
-          "ex": "La objeción se refiere al riesgo de programar conciertos sin asegurar una gran asistencia."
+          "ex": "A algunas personas les preocupa que venga poco público."
         },
         {
           "type": "choice",
-          "q": "¿Qué propuesta responde al riesgo económico sin dar por demostrado el éxito?",
+          "q": "¿Qué propone el autor para probar su idea con poco riesgo?",
           "options": [
             "Cancelar definitivamente todos los conciertos de debutantes.",
             "Realizar una prueba limitada y evaluar sus resultados.",
             "Afirmar que acudirán miles de personas sin investigar."
           ],
           "answer": 1,
-          "ex": "La prueba de tres meses reduce la incertidumbre y permite fundamentar decisiones posteriores."
+          "ex": "El autor propone hacer una prueba y ver cuánta gente viene."
         },
         {
           "type": "choice",
-          "q": "Clasifica «No sabemos cuántas personas acudirían». ¿Qué papel desempeña en el argumento?",
+          "q": "«Todavía no sabemos cuántas personas vendrán». ¿Qué reconoce el autor con esta frase?",
           "options": [
-            "Es una conclusión estadística demostrada.",
-            "Reconoce un límite del conocimiento disponible.",
-            "Cita las palabras de una autoridad externa."
+            "Ya sabe cuánta gente vendrá.",
+            "Todavía no sabe cuánta gente vendrá.",
+            "Está citando a otra persona."
           ],
           "answer": 1,
-          "ex": "El autor reconoce incertidumbre; no presenta una cifra inventada como evidencia."
+          "ex": "El autor admite que todavía desconoce cuánta gente vendrá."
         }
       ],
       "writing": [
@@ -267,7 +267,7 @@ window.ISP10_UNITS[3] = {
           "id": "argumentacion",
           "instructions": "Escribe tu carta en el recuadro: el borrador se guarda en este navegador. Utiliza las casillas de revisión de abajo y marca cada una después de comprobar ese aspecto. Las marcas no se guardan al cambiar de página. Pulsa «Descargar texto» para obtener un archivo que puedes enviar por correo electrónico a tu tutora.",
           "title": "Carta de opinión para un centro cultural",
-          "prompt": "Formas parte de un grupo de vecinos que colabora con un centro cultural. Escribe una carta de opinión dirigida a su dirección (170–200 palabras) para defender o rechazar que se reserve una parte de la programación a artistas emergentes. Expón una tesis, dos razones con un ejemplo, reconoce y responde a una objeción y cierra con una propuesta viable.",
+          "prompt": "Un centro cultural quiere dar más espacio a los artistas que están empezando. Escribe una carta a la dirección (170–200 palabras). Di si apoyas la idea, da dos razones y un ejemplo, responde a una posible crítica y termina con una propuesta.",
           "check": [
             "Me dirijo a la dirección del centro y mantengo el registro adecuado.",
             "Mi tesis es explícita y la apoyo con dos razones y un ejemplo.",
@@ -279,7 +279,7 @@ window.ISP10_UNITS[3] = {
       "exerciseNote": "Elige una opción o escribe la forma solicitada. Pulsa «Corregir respuestas» para ver la explicación."
     },
     "acuerdo": {
-      "blocks": "<section class=\"lesson-block\"><h2>Maneras de responder</h2>\n        <div class=\"table-scroll\"><table class=\"content-table\"><thead><tr><th>Intención</th><th>Respuesta a «Los concursos de televisión ayudan a los músicos que empiezan»</th></tr></thead><tbody>\n        <tr><td>Acuerdo</td><td>Comparto tu opinión. El concurso da visibilidad a quienes empiezan.</td></tr>\n        <tr><td>Acuerdo parcial</td><td>Hasta cierto punto sí. Da visibilidad, pero la exposición dura poco.</td></tr>\n        <tr><td>Desacuerdo</td><td>Yo no lo veo así. La exposición es tan breve que muchos participantes siguen sin encontrar actuaciones.</td></tr>\n        </tbody></table></div>\n        <p>«En efecto» y «desde luego» suelen confirmar una idea. «Puede ser, pero…» deja espacio para una reserva. «¡Qué va!» expresa rechazo en un registro coloquial. En una intervención formal puedes decir «discrepo en ese punto» y explicar el motivo.</p></section><section class=\"lesson-block\"><h2>Un intercambio con réplicas</h2>\n        <div class=\"example\"><p>— Los festivales deberían reservar la mitad del cartel a grupos locales.</p><p>— Estoy de acuerdo en darles más espacio, aunque fijaría la cuota después de consultar a los organizadores.</p><p>— Entiendo la cautela. ¿Y si probamos la medida durante una edición y evaluamos la asistencia?</p></div>\n        <p>Antes de rebatir, resume el punto concreto que has entendido. Después, aporta una razón y plantea una alternativa que tu interlocutor pueda valorar.</p></section>",
+      "blocks": "<section class=\"lesson-block\"><h2>Maneras de responder</h2><p>Alguien dice «Los concursos de televisión ayudan a los músicos que empiezan».</p><div class=\"past-cards\"><div class=\"example past-card\"><h3>Acuerdo</h3><p><strong>Estoy de acuerdo.</strong> Así, más gente conoce a los músicos.</p></div><div class=\"example past-card\"><h3>Acuerdo parcial</h3><p><strong>Sí, pero</strong> la gente puede olvidarse de los músicos cuando termina el concurso.</p></div><div class=\"example past-card\"><h3>Desacuerdo</h3><p><strong>No lo veo así.</strong> Después del concurso, muchos músicos siguen sin encontrar dónde tocar.</p></div></div><p>«En efecto» y «desde luego» sirven para mostrar acuerdo. Con amigos puedes decir «¡Qué va!». En una reunión formal puedes decir «Discrepo en ese punto».</p><div class=\"past-cards\"><div class=\"example past-card\"><h3>Desacuerdo con subjuntivo</h3><p>No estoy de acuerdo con que el festival <strong>cobre</strong> a los músicos. Discrepo de que los organizadores <strong>decidan</strong> todo solos.</p></div></div></section><section class=\"lesson-block\"><h2>Un intercambio con réplicas</h2>\n        <div class=\"example\"><p>— Los festivales deberían reservar la mitad del cartel a grupos locales.</p><p>— Estoy de acuerdo en darles más espacio, aunque fijaría la cuota después de consultar a los organizadores.</p><p>— Entiendo la cautela. ¿Y si probamos la medida durante una edición y evaluamos la asistencia?</p></div>\n        <p>Antes de responder, di qué parte de la idea has entendido. Después, da una razón y ofrece otra opción.</p></section>",
       "exerciseTitle": "Reconoce y matiza la postura",
       "questions": [
         {
@@ -291,7 +291,7 @@ window.ISP10_UNITS[3] = {
             "Desacuerdo"
           ],
           "answer": 0,
-          "ex": "Confirma la idea anterior."
+          "ex": "«En efecto» muestra acuerdo."
         },
         {
           "type": "choice",
@@ -302,29 +302,29 @@ window.ISP10_UNITS[3] = {
             "Rechazo sin matices"
           ],
           "answer": 1,
-          "ex": "Acepta parte de la propuesta y formula una reserva."
+          "ex": "Acepta una parte de la idea y explica qué problema ve."
         },
         {
           "type": "choice",
-          "q": "En una reunión formal, ¿cómo discrepas y aportas una razón?",
+          "q": "En una reunión formal, ¿qué frase muestra desacuerdo y da una razón?",
           "options": [
             "¡Qué va!",
             "Claro, totalmente.",
             "Discrepo en ese punto porque el presupuesto cubre una sola actuación."
           ],
           "answer": 2,
-          "ex": "La fórmula expresa desacuerdo en un registro formal y lo justifica."
+          "ex": "La respuesta muestra desacuerdo con respeto y explica el motivo."
         },
         {
           "type": "choice",
-          "q": "¿Qué respuesta concede una ventaja y después señala un límite?",
+          "q": "¿Qué respuesta acepta una ventaja y después señala un problema?",
           "options": [
             "Entiendo que la televisión amplía el público, aunque la fama puede durar poco.",
             "La televisión siempre perjudica a los músicos.",
             "Estoy totalmente de acuerdo con todo."
           ],
           "answer": 0,
-          "ex": "Se reconoce el aumento de público y se matiza su duración."
+          "ex": "La respuesta acepta que más gente puede conocer al grupo y señala que ese efecto dura poco."
         },
         {
           "type": "gap",
@@ -332,18 +332,18 @@ window.ISP10_UNITS[3] = {
           "answers": [
             "cobre"
           ],
-          "ex": "«Cobre» va en subjuntivo porque el hablante valora y rechaza la medida."
+          "ex": "Después de «no estoy de acuerdo con que» usamos el subjuntivo «cobre»."
         },
         {
           "type": "choice",
-          "q": "En un debate universitario, alguien afirma «Los conciertos gratuitos son siempre la mejor opción». ¿Qué réplica expresa desacuerdo parcial de manera apropiada?",
+          "q": "Alguien dice «Los conciertos gratuitos son siempre la mejor opción». ¿Qué respuesta muestra acuerdo solo con una parte?",
           "options": [
             "Sí, sin ninguna excepción.",
-            "Es cierto que facilitan el acceso, pero también hay que financiar a los intérpretes.",
+            "Sí, así puede venir más gente, pero también hay que pagar a los músicos.",
             "¡Qué tontería! No sabes de qué hablas."
           ],
           "answer": 1,
-          "ex": "La respuesta concede una ventaja y presenta una reserva razonada sin descalificar al interlocutor."
+          "ex": "La respuesta acepta una ventaja y explica qué le preocupa."
         },
         {
           "type": "gap",
@@ -351,7 +351,7 @@ window.ISP10_UNITS[3] = {
           "answers": [
             "decidan"
           ],
-          "ex": "La construcción «discrepo de que» presenta la proposición como objeto del desacuerdo; «decidan» es subjuntivo."
+          "ex": "Después de «discrepo de que» usamos el subjuntivo «decidan»."
         }
       ],
       "writing": [
@@ -359,7 +359,7 @@ window.ISP10_UNITS[3] = {
           "id": "debate",
           "instructions": "Puedes preparar un guion en el recuadro y utilizar las casillas para revisar la intervención. Después, graba un mensaje de audio en Viber y envíalo a tu tutora. La grabación y el envío se realizan en Viber, no en esta página. Las marcas de las casillas no se conservan.",
           "title": "Intervención oral ante la comisión cultural",
-          "prompt": "Imagina que formas parte de una comisión que debe elegir entre contratar a un artista conocido o a un grupo emergente para un único concierto. Prepara una intervención de 2–3 minutos dirigida a los demás miembros. Presenta tu decisión con dos razones, reconoce una ventaja de la otra opción, expresa acuerdo parcial o desacuerdo razonado y termina con una propuesta concreta.",
+          "prompt": "Imagina que tu grupo tiene que elegir entre un artista conocido y un grupo que acaba de empezar. Prepara una intervención de 2–3 minutos. Elige una opción y da dos razones. Menciona algo bueno de la otra opción y termina con una propuesta concreta.",
           "check": [
             "Expongo una postura comprensible y al menos dos razones.",
             "Reconozco una ventaja de la opción alternativa y matizo mi respuesta.",
@@ -371,19 +371,19 @@ window.ISP10_UNITS[3] = {
       "exerciseNote": "Elige una opción o escribe la forma solicitada. Pulsa «Corregir respuestas» para ver la explicación."
     },
     "pasados": {
-      "blocks": "<section class=\"lesson-block\"><h2>La elección del tiempo verbal</h2>\n<div class=\"past-cards\"><div class=\"example past-card\"><h3>¿Qué ha hecho hasta hoy?</h3><p>Este mes Nora <strong>ha dado</strong> tres conciertos.</p><p><strong><button class=\"greek-hint\" type=\"button\" data-greek=\"παρακείμενος\" aria-expanded=\"false\" aria-label=\"Perfecto compuesto (traducción al griego)\">Perfecto compuesto</button>.</strong> El recuento llega hasta hoy.</p></div><div class=\"example past-card\"><h3>¿Qué pasó?</h3><p>En 2021 Nora <strong>estrenó</strong> su primera obra.</p><p><strong><button class=\"greek-hint\" type=\"button\" data-greek=\"αόριστος\" aria-expanded=\"false\" aria-label=\"Indefinido o perfecto simple (traducción al griego)\">Indefinido o perfecto simple</button>.</strong> Contamos un hecho del pasado.</p></div><div class=\"example past-card\"><h3>¿Qué hacía en aquella época?</h3><p>De niña, Nora <strong>ensayaba</strong> los sábados.</p><p><strong><button class=\"greek-hint\" type=\"button\" data-greek=\"παρατατικός\" aria-expanded=\"false\" aria-label=\"Imperfecto (traducción al griego)\">Imperfecto</button>.</strong> Describimos una costumbre.</p></div><div class=\"example past-card\"><h3>¿Qué había pasado antes?</h3><p>Al firmar su contrato, Nora ya <strong>había grabado</strong> una maqueta.</p><p><strong><button class=\"greek-hint\" type=\"button\" data-greek=\"υπερσυντέλικος\" aria-expanded=\"false\" aria-label=\"Pluscuamperfecto (traducción al griego)\">Pluscuamperfecto</button>.</strong> Grabó la maqueta antes de firmar.</p></div></div></section>\n<section class=\"lesson-block\"><h2>Perfecto compuesto e indefinido</h2>\n<div class=\"past-cards\"><div class=\"example past-card\"><h3>Un recuento hasta hoy</h3><p>Esta temporada <strong>hemos agotado</strong> las entradas tres veces.</p><p>La temporada sigue. Contamos las veces que ha ocurrido hasta hoy.</p></div><div class=\"example past-card\"><h3>Un recuento de una etapa pasada</h3><p>La temporada pasada <strong>agotamos</strong> las entradas tres veces.</p><p>La temporada terminó. Contamos los hechos de ese período.</p></div><div class=\"example past-card\"><h3>Una experiencia hasta hoy</h3><p>Nunca <strong>he tocado</strong> al aire libre.</p><p>Hablo de mi experiencia hasta el momento en que digo la frase.</p></div><div class=\"example past-card\"><h3>Algo que importa ahora</h3><p><strong>He perdido</strong> mi entrada. ¿Puedes buscar mi nombre en la lista?</p><p>Perdí la entrada antes. Ahora necesito ayuda para entrar.</p></div></div><p><strong>Cómo se forma el perfecto compuesto.</strong> Usa <em>he, has, ha, hemos, habéis, han</em> + participio. En «Nora ha escrito» y «Nora y Eva han escrito», solo cambia el auxiliar.</p></section>\n<section class=\"lesson-block\"><h2>Indefinido e imperfecto</h2>\n<div class=\"past-cards\"><div class=\"example past-card\"><h3>Los aplausos ya habían empezado</h3><p>Cuando se abrió el telón, el público <strong>aplaudía</strong>.</p><p>El imperfecto muestra lo que estaba pasando al abrirse el telón.</p></div><div class=\"example past-card\"><h3>El público reaccionó</h3><p>Cuando se abrió el telón, el público <strong>aplaudió</strong>.</p><p>El indefinido cuenta el aplauso como una reacción a la apertura.</p></div><div class=\"example past-card\"><h3>Así era la escena</h3><p>La sala <strong>era</strong> pequeña. Mientras Nora <strong>afinaba</strong>, el público <strong>charlaba</strong>.</p><p>El imperfecto describe cómo era el lugar y qué pasaba al mismo tiempo.</p></div><div class=\"example past-card\"><h3>Una etapa completa</h3><p>El cuarteto <strong>ensayó</strong> todos los martes de marzo.</p><p>El indefinido presenta como un conjunto los ensayos de ese mes.</p></div></div><p><strong>Conocía / conoció.</strong> «Ya conocía a la directora» significa que ya la conocía en aquel momento. «Conoció a la directora en la audición» cuenta cuándo se encontraron por primera vez.</p></section>\n<section class=\"lesson-block\"><h2>Pluscuamperfecto y orden de los hechos</h2>\n<ol class=\"past-timeline\"><li><strong>2017</strong> · Nora grabó una maqueta.</li><li><strong>2019</strong> · Nora firmó el contrato.</li></ol><div class=\"example past-card\"><h3>La maqueta y el contrato</h3><p>Cuando firmó el contrato, Nora ya <strong>había grabado</strong> una maqueta.</p><p>La firma es el punto desde el que miramos hacia atrás. La grabación ocurrió antes.</p></div><div class=\"past-cards\"><div class=\"example past-card\"><h3>Apenas… cuando</h3><p>Apenas <strong>había empezado</strong> el ensayo cuando sonó la alarma.</p><p>Primero empezó el ensayo. La alarma sonó enseguida.</p></div><div class=\"example past-card\"><h3>Todavía no</h3><p>Cuando llegamos, todavía no <strong>habían abierto</strong> las puertas.</p><p>Las puertas seguían cerradas al llegar. Pudieron abrirlas después.</p></div></div><div class=\"past-cards\"><div class=\"example past-card\"><h3>Contar lo que alguien dijo</h3><p>«Ya he visto el vídeo». → «Dijo que ya <strong>había visto</strong> el vídeo».</p><p>Primero vio el vídeo. Después habló de él.</p></div><div class=\"example past-card\"><h3>Una idea que cambió</h3><p><strong>Habíamos pensado</strong> tocar fuera, pero llovió y tocamos dentro.</p><p>Primero pensamos en tocar fuera. La lluvia cambió el plan.</p></div></div>\n<p><strong>Cómo se forma.</strong> Usa <em>había, habías, había, habíamos, habíais, habían</em> + participio. El pronombre va delante del auxiliar. «Cuando pidió la partitura, yo ya <strong>la había encontrado</strong>».</p></section>\n<section class=\"lesson-block\"><h2>Claves para grecoparlantes</h2>\n<div class=\"past-cards\"><div class=\"example past-card\"><h3>¿Qué hacía? ¿Qué hizo?</h3><p><strong>Ensayaba</strong> todos los sábados. / En marzo <strong>ensayó</strong> cuatro veces.</p><p>El contraste παρατατικός / αόριστος te ayuda a distinguir una costumbre de una serie que se presenta completa.</p></div><div class=\"example past-card\"><h3>¿Hasta hoy o hasta aquel día?</h3><p>Hasta hoy nunca <strong>ha dirigido</strong> una orquesta. / Hasta aquel estreno nunca <strong>había dirigido</strong> una orquesta.</p><p>En la primera frase, el límite es hoy. En la segunda, es el día del estreno.</p></div></div></section>\n<section class=\"lesson-block\"><h2>De la entrevista a la biografía</h2>\n<div class=\"past-cards\"><div class=\"example past-card\"><h3>Qué hizo antes</h3><p>Antes de entrar en la compañía, Nora <strong>había bailado</strong> en festivales de barrio.</p></div><div class=\"example past-card\"><h3>Qué hacía habitualmente</h3><p>Durante su formación <strong>ensayaba</strong> por las tardes y <strong>trabajaba</strong> de noche.</p></div><div class=\"example past-card\"><h3>El estreno de Nora</h3><p>En 2021 <strong>estrenó</strong> su primera pieza.</p></div><div class=\"example past-card\"><h3>Qué ha hecho desde entonces</h3><p>Desde aquel estreno <strong>ha creado</strong> tres obras y sigue preparando la cuarta.</p></div></div><p>Empieza por el estreno de Nora y cuenta después qué había hecho antes. Luego cambia la última frase para que el recuento termine en 2024.</p>\n<details><summary>Ver un modelo</summary><p>En 2021 Nora estrenó su primera pieza. Antes de entrar en la compañía ya había bailado en festivales de barrio.</p><p>Entre 2021 y 2024, Nora creó tres obras.</p></details>\n<p>Consulta el <a href=\"https://cvc.cervantes.es/ensenanza/biblioteca_ele/plan_curricular/niveles/02_gramatica_inventario_b1-b2.htm\">inventario de gramática B1–B2 del Instituto Cervantes</a>.</p></section>",
+      "blocks": "<section class=\"lesson-block\"><h2>La elección del tiempo verbal</h2>\n<div class=\"past-cards\"><div class=\"example past-card\"><h3>¿Qué ha hecho hasta hoy?</h3><p>Este mes Nora <strong>ha dado</strong> tres conciertos.</p><p><strong><button class=\"greek-hint\" type=\"button\" data-greek=\"παρακείμενος\" aria-expanded=\"false\" aria-label=\"Perfecto compuesto (traducción al griego)\">Perfecto compuesto</button>.</strong> El recuento llega hasta hoy.</p></div><div class=\"example past-card\"><h3>¿Qué pasó?</h3><p>En 2021 Nora <strong>estrenó</strong> su primera obra.</p><p><strong><button class=\"greek-hint\" type=\"button\" data-greek=\"αόριστος\" aria-expanded=\"false\" aria-label=\"Indefinido o perfecto simple (traducción al griego)\">Indefinido o perfecto simple</button>.</strong> Contamos un hecho del pasado.</p></div><div class=\"example past-card\"><h3>¿Qué hacía en aquella época?</h3><p>De niña, Nora <strong>ensayaba</strong> los sábados.</p><p><strong><button class=\"greek-hint\" type=\"button\" data-greek=\"παρατατικός\" aria-expanded=\"false\" aria-label=\"Imperfecto (traducción al griego)\">Imperfecto</button>.</strong> Describimos una costumbre.</p></div><div class=\"example past-card\"><h3>¿Qué había pasado antes?</h3><p>Al firmar su contrato, Nora ya <strong>había grabado</strong> una maqueta.</p><p><strong><button class=\"greek-hint\" type=\"button\" data-greek=\"υπερσυντέλικος\" aria-expanded=\"false\" aria-label=\"Pluscuamperfecto (traducción al griego)\">Pluscuamperfecto</button>.</strong> Grabó la maqueta antes de firmar.</p></div></div></section>\n<section class=\"lesson-block\"><h2>Perfecto compuesto e indefinido</h2>\n<div class=\"past-cards\"><div class=\"example past-card\"><h3>Un recuento hasta hoy</h3><p>Esta temporada <strong>hemos agotado</strong> las entradas tres veces.</p><p>La temporada sigue. Contamos las veces que ha ocurrido hasta hoy.</p></div><div class=\"example past-card\"><h3>Un recuento de una etapa pasada</h3><p>La temporada pasada <strong>agotamos</strong> las entradas tres veces.</p><p>La temporada terminó. Contamos los hechos de ese período.</p></div><div class=\"example past-card\"><h3>Una experiencia hasta hoy</h3><p>Nunca <strong>he tocado</strong> al aire libre.</p><p>Hablo de mi experiencia hasta el momento en que digo la frase.</p></div><div class=\"example past-card\"><h3>Algo que importa ahora</h3><p><strong>He perdido</strong> mi entrada. ¿Puedes buscar mi nombre en la lista?</p><p>Perdí la entrada antes. Ahora necesito ayuda para entrar.</p></div></div><p><strong>Cómo se forma el perfecto compuesto.</strong> Usa <em>he, has, ha, hemos, habéis, han</em> + participio. En «Nora ha escrito» y «Nora y Eva han escrito», solo cambia el auxiliar.</p></section>\n<section class=\"lesson-block\"><h2>Indefinido e imperfecto</h2>\n<div class=\"past-cards\"><div class=\"example past-card\"><h3>Los aplausos ya habían empezado</h3><p>Cuando se abrió el telón, el público <strong>aplaudía</strong>.</p><p>El imperfecto muestra lo que estaba pasando al abrirse el telón.</p></div><div class=\"example past-card\"><h3>El público reaccionó</h3><p>Cuando se abrió el telón, el público <strong>aplaudió</strong>.</p><p>El indefinido cuenta el aplauso como una reacción a la apertura.</p></div><div class=\"example past-card\"><h3>Así era la escena</h3><p>La sala <strong>era</strong> pequeña. Mientras Nora <strong>afinaba</strong>, el público <strong>charlaba</strong>.</p><p>El imperfecto describe cómo era el lugar y qué pasaba al mismo tiempo.</p></div><div class=\"example past-card\"><h3>Una etapa completa</h3><p>El cuarteto <strong>ensayó</strong> todos los martes de marzo.</p><p>El indefinido cuenta todos los ensayos de ese mes.</p></div></div><p><strong>Conocía / conoció.</strong> «Ya conocía a la directora» significa que ya la conocía en aquel momento. «Conoció a la directora en la audición» cuenta cuándo se encontraron por primera vez.</p></section>\n<section class=\"lesson-block\"><h2>Pluscuamperfecto y orden de los hechos</h2>\n<ol class=\"past-timeline\"><li><strong>2017</strong> · Nora grabó una maqueta.</li><li><strong>2019</strong> · Nora firmó el contrato.</li></ol><div class=\"example past-card\"><h3>La maqueta y el contrato</h3><p>Cuando firmó el contrato, Nora ya <strong>había grabado</strong> una maqueta.</p><p>La firma es el punto desde el que miramos hacia atrás. La grabación ocurrió antes.</p></div><div class=\"past-cards\"><div class=\"example past-card\"><h3>Apenas… cuando</h3><p>Apenas <strong>había empezado</strong> el ensayo cuando sonó la alarma.</p><p>Primero empezó el ensayo. La alarma sonó enseguida.</p></div><div class=\"example past-card\"><h3>Todavía no</h3><p>Cuando llegamos, todavía no <strong>habían abierto</strong> las puertas.</p><p>Las puertas seguían cerradas al llegar. Pudieron abrirlas después.</p></div></div><div class=\"past-cards\"><div class=\"example past-card\"><h3>Contar lo que alguien dijo</h3><p>«Ya he visto el vídeo». → «Dijo que ya <strong>había visto</strong> el vídeo».</p><p>Primero vio el vídeo. Después habló de él.</p></div><div class=\"example past-card\"><h3>Una idea que cambió</h3><p><strong>Habíamos pensado</strong> tocar fuera, pero llovió y tocamos dentro.</p><p>Primero pensamos en tocar fuera. La lluvia cambió el plan.</p></div></div>\n<p><strong>Cómo se forma.</strong> Usa <em>había, habías, había, habíamos, habíais, habían</em> + participio. El pronombre va delante del auxiliar. «Cuando pidió la partitura, yo ya <strong>la había encontrado</strong>».</p></section>\n<section class=\"lesson-block\"><h2>Claves para grecoparlantes</h2>\n<div class=\"past-cards\"><div class=\"example past-card\"><h3>¿Qué hacía? ¿Qué hizo?</h3><p><strong>Ensayaba</strong> todos los sábados. / En marzo <strong>ensayó</strong> cuatro veces.</p><p>El contraste παρατατικός / αόριστος te ayuda a distinguir una costumbre de una serie de ensayos que ya terminó.</p></div><div class=\"example past-card\"><h3>¿Hasta hoy o hasta aquel día?</h3><p>Hasta hoy nunca <strong>ha dirigido</strong> una orquesta. / Hasta aquel estreno nunca <strong>había dirigido</strong> una orquesta.</p><p>En la primera frase, el límite es hoy. En la segunda, es el día del estreno.</p></div></div></section>\n<section class=\"lesson-block\"><h2>De la entrevista a la biografía</h2>\n<div class=\"past-cards\"><div class=\"example past-card\"><h3>Qué hizo antes</h3><p>Antes de entrar en la compañía, Nora <strong>había bailado</strong> en festivales de barrio.</p></div><div class=\"example past-card\"><h3>Qué hacía habitualmente</h3><p>Durante su formación <strong>ensayaba</strong> por las tardes y <strong>trabajaba</strong> de noche.</p></div><div class=\"example past-card\"><h3>El estreno de Nora</h3><p>En 2021 <strong>estrenó</strong> su primera pieza.</p></div><div class=\"example past-card\"><h3>Qué ha hecho desde entonces</h3><p>Desde aquel estreno <strong>ha creado</strong> tres obras y sigue preparando la cuarta.</p></div></div><p>Empieza por el estreno de Nora y cuenta después qué había hecho antes. Luego cambia la última frase para que el recuento termine en 2024.</p>\n<details><summary>Ver un modelo</summary><p>En 2021 Nora estrenó su primera pieza. Antes de entrar en la compañía ya había bailado en festivales de barrio.</p><p>Entre 2021 y 2024, Nora creó tres obras.</p></details>\n<p>Consulta el <a href=\"https://cvc.cervantes.es/ensenanza/biblioteca_ele/plan_curricular/niveles/02_gramatica_inventario_b1-b2.htm\">inventario de gramática B1–B2 del Instituto Cervantes</a>.</p></section>",
       "exerciseTitle": "Del marco temporal a la biografía",
       "questions": [
         {
           "type": "choice",
-          "q": "«Hasta ahora, el coro ha dado cuatro conciertos». ¿Dónde está el límite del recuento?",
+          "q": "«Hasta ahora, el coro ha dado cuatro conciertos». ¿Hasta qué momento se cuentan los conciertos?",
           "options": [
             "En el momento de hablar",
             "En la fecha del cuarto concierto",
             "En un punto futuro"
           ],
           "answer": 0,
-          "ex": "«Hasta ahora» toma el presente como límite del recuento."
+          "ex": "«Hasta ahora» quiere decir «hasta hoy»."
         },
         {
           "type": "choice",
@@ -398,14 +398,14 @@ window.ISP10_UNITS[3] = {
         },
         {
           "type": "choice",
-          "q": "«He perdido la entrada. ¿Puedes buscar mi nombre en la lista?». ¿Qué relación establece quien habla?",
+          "q": "«He perdido la entrada. ¿Puedes buscar mi nombre en la lista?». ¿Por qué pide ayuda?",
           "options": [
-            "La pérdida interrumpe otro episodio pasado",
-            "La pérdida era habitual",
-            "La pérdida motiva una petición en el presente"
+            "Perdía la entrada a menudo.",
+            "Quiere pedir otra entrada para mañana.",
+            "Ha perdido la entrada y necesita entrar ahora."
           ],
           "answer": 2,
-          "ex": "El perfecto compuesto presenta la pérdida como un hecho que importa en la situación actual."
+          "ex": "Perdió la entrada y ahora necesita ayuda para entrar."
         },
         {
           "type": "choice",
@@ -420,14 +420,14 @@ window.ISP10_UNITS[3] = {
         },
         {
           "type": "choice",
-          "q": "«Cuando entró la directora, los músicos afinaban». ¿Qué sabemos de la afinación al entrar la directora?",
+          "q": "«Cuando entró la directora, los músicos afinaban». ¿Qué estaban haciendo al entrar ella?",
           "options": [
-            "Estaba en curso",
-            "Ya había terminado",
-            "Empezó en ese momento"
+            "Ya estaban afinando.",
+            "Ya habían terminado de afinar.",
+            "Empezaron a afinar al verla."
           ],
           "answer": 0,
-          "ex": "El imperfecto sitúa a la directora en medio de la afinación."
+          "ex": "Cuando entró la directora, los músicos ya estaban afinando."
         },
         {
           "type": "choice",
@@ -449,7 +449,7 @@ window.ISP10_UNITS[3] = {
             "En marzo de 2022 ensayaron todos los lunes."
           ],
           "answer": 2,
-          "ex": "«Ensayaron» presenta como un conjunto las sesiones de marzo de 2022."
+          "ex": "«Ensayaron» cuenta todos los ensayos de marzo de 2022."
         },
         {
           "type": "choice",
@@ -464,14 +464,14 @@ window.ISP10_UNITS[3] = {
         },
         {
           "type": "choice",
-          "q": "Dos personas dicen «Hoy he comprado las entradas» y «Hoy compré las entradas». ¿Qué explicación es válida?",
+          "q": "¿Qué frase cuenta las veces que se han agotado las entradas en la temporada que sigue en marcha?",
           "options": [
-            "Solo el compuesto puede referirse a hechos de hoy.",
-            "El simple indica que la compra fue ayer.",
-            "Ambas formas pueden referirse a una compra de hoy, según el uso de la variedad y el contexto."
+            "La temporada pasada agotamos las entradas tres veces.",
+            "Cuando empezó la temporada, ya habíamos agotado las entradas para el estreno.",
+            "Esta temporada hemos agotado las entradas tres veces."
           ],
           "answer": 2,
-          "ex": "El adverbio «hoy» ubica ambas compras en el mismo día. La distribución de los dos tiempos varía."
+          "ex": "«Esta temporada» indica que la temporada sigue y «hemos agotado» cuenta lo que ha pasado hasta hoy."
         },
         {
           "type": "choice",
@@ -482,7 +482,7 @@ window.ISP10_UNITS[3] = {
             "La frase presenta un hábito."
           ],
           "answer": 0,
-          "ex": "«Apenas… cuando» indica proximidad. El pluscuamperfecto marca que la música empezó antes."
+          "ex": "Primero empezó la música. La alarma saltó enseguida."
         },
         {
           "type": "gap",
@@ -526,11 +526,11 @@ window.ISP10_UNITS[3] = {
         },
         {
           "type": "gap",
-          "q": "Presenta el ensayo como acción en curso en imperfecto. «A las ocho, cuando sonó el teléfono, yo ____ (ensayar)».",
+          "q": "Usa el imperfecto para decir qué estabas haciendo. «A las ocho, cuando sonó el teléfono, yo ____ (ensayar)».",
           "answers": [
             "ensayaba"
           ],
-          "ex": "El ensayo ya estaba en curso al sonar el teléfono. La hora también puede situar acciones en desarrollo."
+          "ex": "Ya estaba ensayando cuando sonó el teléfono."
         },
         {
           "type": "gap",
@@ -546,7 +546,7 @@ window.ISP10_UNITS[3] = {
           "answers": [
             "la había encontrado"
           ],
-          "ex": "El pronombre átono se coloca antes del auxiliar. El hallazgo precede a la petición."
+          "ex": "Pon «la» antes de «había». Encontraste la partitura antes de que Marta la pidiera."
         },
         {
           "type": "choice",
@@ -572,7 +572,7 @@ window.ISP10_UNITS[3] = {
         },
         {
           "type": "choice",
-          "q": "«Habíamos pensado tocar fuera, pero al final montamos el escenario dentro». ¿Qué aporta el pluscuamperfecto?",
+          "q": "«Habíamos pensado tocar fuera, pero al final montamos el escenario dentro». ¿Qué nos dice «habíamos pensado»?",
           "options": [
             "Recupera una intención anterior al cambio de lugar.",
             "Indica que el grupo ya había tocado fuera.",
@@ -684,30 +684,30 @@ window.ISP10_UNITS[3] = {
       }
     },
     "biografia": {
-      "blocks": "<section class=\"lesson-block\"><h2>Una trayectoria en el Ballet Nacional de Cuba</h2>\n        <p><strong>Viengsay Valdés</strong> es bailarina. En su entrevista cuenta cómo empezó y qué recuerda de su carrera.</p><ol class=\"past-timeline\"><li class=\"example\"><strong>Antes del ballet</strong><br><strong>Practicaba</strong> gimnasia y <strong>bailaba</strong> en casa.</li><li class=\"example\"><strong>Entrada en la escuela</strong><br>Su abuela la <strong>llevó</strong> a la escuela Alejo Carpentier. Allí <strong>empezó</strong> a formarse como bailarina.</li><li class=\"example\"><strong>Durante su formación</strong><br><strong>Estudiaba</strong> y <strong>entrenaba</strong>. A veces tuvo que renunciar a las vacaciones.</li><li class=\"example\"><strong>Más adelante</strong><br><strong>Actuó</strong> en otros países. Recuerda con emoción sus actuaciones en México y San Petersburgo.</li></ol>\n        <p>La reseña de «De acero y nube», de Carlos Tablada, aporta otra mirada sobre la bailarina. Una entrevista conserva la perspectiva de la persona entrevistada. Una biografía organiza los hechos y les da contexto. Una reseña, además, presenta o valora una obra.</p>\n        <p>Busca en la línea de tiempo qué hacía Viengsay mientras estudiaba ballet. Escribe una frase con un verbo en imperfecto.</p><details><summary>Ver una respuesta posible</summary><p>Durante su formación, <strong>estudiaba</strong> y <strong>entrenaba</strong>.</p></details></section><section class=\"lesson-block\"><h2>Escribir una biografía breve</h2>\n        <p>Empieza con la identidad de la persona y su campo. Escoge dos o tres hitos verificables y enlázalos con marcas temporales como «por entonces», «años antes» o «a partir de ahí». Explica qué hacía habitualmente, qué había hecho antes de un logro y qué impacto tiene hoy. Si incluyes tu valoración, apóyala en un hecho de la trayectoria.</p>\n        <h3>La trayectoria de Lucía Mena</h3><p>Lucía es una coreógrafa ficticia.</p><ol class=\"past-timeline\"><li class=\"example\"><strong>De niña · imperfecto</strong><br><strong>Ensayaba</strong> en un centro vecinal.</li><li class=\"example\"><strong>Antes del estreno · pluscuamperfecto</strong><br>Cuando estrenó su primera obra, ya <strong>había dirigido</strong> un grupo juvenil.</li><li class=\"example\"><strong>En 2016 · indefinido</strong><br><strong>Estrenó</strong> su primera obra.</li><li class=\"example\"><strong>Desde entonces hasta hoy · perfecto compuesto</strong><br><strong>Ha creado</strong> talleres de danza.</li></ol><h3>La biografía completa</h3><div class=\"example\"><p><strong>Modelo ficticio.</strong> Lucía Mena es coreógrafa. De niña ensayaba en un centro vecinal. Cuando estrenó su primera obra en 2016, ya había dirigido un grupo juvenil. Desde entonces ha creado talleres que acercan la danza a quienes nunca han subido a un escenario. Admiro esa labor porque sus talleres permiten participar a personas con experiencias muy distintas.</p></div></section>",
+      "blocks": "<section class=\"lesson-block\"><h2>Una trayectoria en el Ballet Nacional de Cuba</h2>\n        <p><strong>Viengsay Valdés</strong> es bailarina. En su entrevista cuenta cómo empezó y qué recuerda de su carrera.</p><ol class=\"past-timeline\"><li class=\"example\"><strong>Antes del ballet</strong><br><strong>Practicaba</strong> gimnasia y <strong>bailaba</strong> en casa.</li><li class=\"example\"><strong>Entrada en la escuela</strong><br>Su abuela la <strong>llevó</strong> a la escuela Alejo Carpentier. Allí <strong>empezó</strong> a formarse como bailarina.</li><li class=\"example\"><strong>Durante su formación</strong><br><strong>Estudiaba</strong> y <strong>entrenaba</strong>. A veces tuvo que renunciar a las vacaciones.</li><li class=\"example\"><strong>Más adelante</strong><br><strong>Actuó</strong> en otros países. Recuerda con emoción sus actuaciones en México y San Petersburgo.</li></ol>\n        <p>La reseña de «De acero y nube», de Carlos Tablada, aporta otra mirada sobre la bailarina. En una entrevista, la persona cuenta su historia con sus propias palabras. En una biografía, alguien ordena los hechos de su vida. En una reseña, alguien presenta una obra y puede dar su opinión.</p>\n        <p>Busca en la línea de tiempo qué hacía Viengsay mientras estudiaba ballet. Escribe una frase con un verbo en imperfecto.</p><details><summary>Ver una respuesta posible</summary><p>Durante su formación, <strong>estudiaba</strong> y <strong>entrenaba</strong>.</p></details></section><section class=\"lesson-block\"><h2>Escribir una biografía breve</h2>\n        <p>Empieza por decir quién es la persona y a qué se dedica. Elige momentos importantes que puedas confirmar. Para mostrar el orden, usa expresiones como «en aquella época», «años antes» o «desde entonces». Si das tu opinión, explica qué hecho te lleva a pensar así.</p>\n        <h3>La trayectoria de Lucía Mena</h3><p>Lucía es una coreógrafa ficticia.</p><ol class=\"past-timeline\"><li class=\"example\"><strong>De niña · imperfecto</strong><br><strong>Ensayaba</strong> en un centro vecinal.</li><li class=\"example\"><strong>Antes del estreno · pluscuamperfecto</strong><br>Cuando estrenó su primera obra, ya <strong>había dirigido</strong> un grupo juvenil.</li><li class=\"example\"><strong>En 2016 · indefinido</strong><br><strong>Estrenó</strong> su primera obra.</li><li class=\"example\"><strong>Desde entonces hasta hoy · perfecto compuesto</strong><br><strong>Ha creado</strong> talleres de danza.</li></ol><h3>La biografía completa</h3><div class=\"example\"><p><strong>Modelo ficticio.</strong> Lucía Mena es coreógrafa. De niña ensayaba en un centro vecinal. Cuando estrenó su primera obra en 2016, ya había dirigido un grupo juvenil. Desde entonces ha creado talleres que acercan la danza a quienes nunca han subido a un escenario. Admiro esa labor porque sus talleres permiten participar a personas con experiencias muy distintas.</p></div></section>",
       "exerciseTitle": "Lee y organiza la trayectoria",
       "questions": [
         {
           "type": "choice",
-          "q": "Según la lección, ¿qué experiencia de Valdés precedió a su formación en ballet?",
+          "q": "¿Qué hacía Viengsay Valdés antes de estudiar ballet?",
           "options": [
             "La composición musical",
             "La gimnasia",
             "La dirección de una compañía"
           ],
           "answer": 1,
-          "ex": "Valdés recuerda que ya practicaba gimnasia antes de empezar en el ballet."
+          "ex": "Practicaba gimnasia antes de empezar en el ballet."
         },
         {
           "type": "choice",
-          "q": "¿Qué dato del modelo pertenece a la rutina de infancia de Lucía?",
+          "q": "¿Qué hacía Lucía de niña?",
           "options": [
             "Ensayaba en un centro vecinal.",
             "Estrenó su primera obra en 2016.",
             "Ha creado talleres desde el estreno."
           ],
           "answer": 0,
-          "ex": "«De niña ensayaba» introduce un hábito como fondo de la trayectoria."
+          "ex": "De niña, Lucía ensayaba en un centro vecinal."
         },
         {
           "type": "choice",
@@ -718,18 +718,18 @@ window.ISP10_UNITS[3] = {
             "Dirigió un grupo juvenil."
           ],
           "answer": 2,
-          "ex": "El pluscuamperfecto «había dirigido» sitúa esa actividad antes del estreno."
+          "ex": "Lucía dirigió un grupo juvenil antes de estrenar su primera obra."
         },
         {
           "type": "choice",
-          "q": "¿Qué frase separa con claridad la valoración del hecho que la apoya?",
+          "q": "¿En qué frase alguien da su opinión y explica por qué piensa así?",
           "options": [
             "Está claro que es la mejor artista de su época.",
             "Admiro su trabajo porque sus talleres abren la danza a personas sin experiencia.",
             "Es admirable porque todo el mundo la admira."
           ],
           "answer": 1,
-          "ex": "La valoración se presenta como propia y se vincula a una aportación concreta."
+          "ex": "«Admiro su trabajo» da la opinión. Lo que hacen sus talleres explica el motivo."
         },
         {
           "type": "gap",
@@ -737,7 +737,7 @@ window.ISP10_UNITS[3] = {
           "answers": [
             "renunciar"
           ],
-          "ex": "La construcción es «renunciar a» algo."
+          "ex": "Decimos «renunciar a algo»."
         },
         {
           "type": "choice",
@@ -748,7 +748,7 @@ window.ISP10_UNITS[3] = {
             "A → B → C"
           ],
           "answer": 1,
-          "ex": "La cronología indicada por las fechas es 2008–2012, 2016 y 2020."
+          "ex": "Primero estudió danza, después estrenó una obra y al final fundó su compañía."
         },
         {
           "type": "choice",
@@ -759,7 +759,7 @@ window.ISP10_UNITS[3] = {
             "1 hábito; 2 valoración; 3 hecho biográfico"
           ],
           "answer": 0,
-          "ex": "El estreno es un hito, los ensayos describen un hábito y la admiración expresa una valoración personal."
+          "ex": "El estreno fue un hecho, ensayar era una costumbre y «admiro» expresa una opinión."
         }
       ],
       "writing": [
@@ -767,7 +767,7 @@ window.ISP10_UNITS[3] = {
           "id": "biografia",
           "instructions": "Redacta el perfil en el recuadro. Utiliza las casillas para comprobar cada criterio y márcalas al revisarlo; las marcas no se conservan al cambiar de página. Pulsa «Descargar texto» para guardar el archivo y enviarlo por correo electrónico a tu tutora. El borrador se guarda solo en este navegador.",
           "title": "Perfil biográfico para un festival",
-          "prompt": "Un festival prepara una web para presentar a su público a los artistas invitados. Redacta para ese público un perfil biográfico de 150–180 palabras sobre una persona dedicada a la música o a la danza. Identifica una fuente consultada; explica sus comienzos, la formación, al menos dos hitos de su trayectoria y una aportación destacable. Distingue los hechos de tu valoración personal.",
+          "prompt": "Un festival va a presentar a sus artistas en su web. Escribe una biografía de 150–180 palabras sobre una persona de la música o la danza. Di dónde encontraste la información. Cuenta cómo empezó, qué estudió y dos momentos importantes de su vida. Si das tu opinión, explica por qué.",
           "check": [
             "El perfil se dirige al público de un festival y mantiene un registro adecuado.",
             "Explico los comienzos, dos hitos y una aportación e indico una fuente.",
@@ -779,91 +779,91 @@ window.ISP10_UNITS[3] = {
       "exerciseNote": "Elige una opción o escribe la forma solicitada. Pulsa «Corregir respuestas» para ver la explicación."
     },
     "entonacion": {
-      "blocks": "<section class=\"lesson-block\"><h2>Grupos que se pronuncian juntos</h2>\n        <p>En una lectura fluida, solemos pronunciar juntas las palabras estrechamente relacionadas. Una pausa en medio del grupo puede romper el sentido. La intención expresiva, una vacilación o una corrección espontánea pueden alterar el patrón.</p>\n        <div class=\"table-scroll\"><table class=\"content-table\"><thead><tr><th>Agrupación</th><th>Ejemplos originales</th></tr></thead><tbody>\n        <tr><td>Artículo + nombre, nombre + adjetivo, adjetivo + nombre</td><td>la pista, música suave, breve pausa</td></tr>\n        <tr><td>Verbo + adverbio, adverbio + verbo</td><td>suena bien, no canta</td></tr>\n        <tr><td>Pronombre átono + verbo</td><td>lo grabaron</td></tr>\n        <tr><td>Adverbio + adjetivo, adverbio + adverbio</td><td>muy suave, bastante lejos</td></tr>\n        <tr><td>Tiempo compuesto, perífrasis verbal</td><td>había ensayado, volvió a tocar</td></tr>\n        <tr><td>Preposición + término</td><td>con la orquesta</td></tr>\n        </tbody></table></div></section><section class=\"lesson-block\"><h2>Lee y compara</h2>\n        <p>La barra marca una pausa posible. «Al terminar el ensayo / la cantante volvió a tocar con la orquesta.» Lee la frase a velocidad normal y repítela haciendo una pausa entre «con» y «la orquesta». Observa cómo cambia la fluidez.</p>\n        <h3>Detecta y corrige las pausas</h3>\n        <div class=\"example\"><p>— Antes del ensayo / la directora habló con / el pianista.</p><p>— Al terminar / lo / llamaron para confirmar la hora.</p></div>\n        <p>Lee el diálogo siguiendo las barras. Quita una barra de cada frase y explica qué palabras separaba. Si practicas en pareja, leed en voz alta ambas versiones.</p>\n        <details><summary>Ver respuesta</summary><p>Las lecturas propuestas son «Antes del ensayo / la directora habló con el pianista» y «Al terminar / lo llamaron para confirmar la hora». Los cortes originales separaban la preposición de su término y el pronombre átono del verbo.</p></details></section>",
+      "blocks": "<section class=\"lesson-block\"><h2>Palabras que se leen juntas</h2><p>Al leer en voz alta a un ritmo normal, intenta decir juntas las palabras en negrita. La barra indica un lugar donde puedes hacer una pausa.</p><div class=\"past-cards\"><div class=\"example past-card\"><h3>Con la orquesta</h3><p>La cantante volvió a tocar <strong>con la orquesta</strong>. Lee «con la orquesta» de un tirón.</p></div><div class=\"example past-card\"><h3>Pausa dentro del grupo</h3><p>La cantante volvió a tocar con / la orquesta. Lee esta versión y compárala con la otra.</p></div><div class=\"example past-card\"><h3>Palabras que van con el nombre</h3><p><strong>la pista</strong>, <strong>música suave</strong>, <strong>la joven directora</strong></p></div><div class=\"example past-card\"><h3>Palabras que van con el verbo</h3><p><strong>lo grabaron</strong>, <strong>no canta</strong>, <strong>nunca había ensayado</strong>, <strong>suena bien</strong></p></div><div class=\"example past-card\"><h3>Formas verbales</h3><p><strong>había ensayado</strong>, <strong>volvió a tocar</strong></p></div><div class=\"example past-card\"><h3>Palabras que indican el grado</h3><p><strong>muy suave</strong>, <strong>bastante lejos</strong></p></div></div></section><section class=\"lesson-block\"><h2>Lee y compara</h2>\n        <p>La barra marca una pausa posible. «Al terminar el ensayo / la cantante volvió a tocar con la orquesta.» Lee la frase a velocidad normal y repítela haciendo una pausa entre «con» y «la orquesta». Observa cómo cambia la fluidez.</p>\n        <h3>Detecta y corrige las pausas</h3>\n        <div class=\"example\"><p>— Antes del ensayo / la directora habló con / el pianista.</p><p>— Al terminar / lo / llamaron para confirmar la hora.</p></div>\n        <p>Lee el diálogo siguiendo las barras. Quita una barra de cada frase y explica qué palabras separaba. Si practicas en pareja, leed en voz alta ambas versiones.</p>\n        <details><summary>Ver respuesta</summary><p>Las lecturas propuestas son «Antes del ensayo / la directora habló con el pianista» y «Al terminar / lo llamaron para confirmar la hora». Las barras que quitamos separaban «con el pianista» y «lo llamaron».</p></details></section>",
       "exerciseTitle": "Marca una pausa posible",
       "questions": [
         {
           "type": "choice",
-          "q": "La barra indica una pausa. ¿Qué lectura mantiene juntas las agrupaciones?",
+          "q": "La barra indica una pausa. ¿En qué frase se leen juntas las palabras que van juntas?",
           "options": [
             "Tras el / concierto, lo grabaron.",
             "Tras el concierto / lo grabaron.",
             "Tras el concierto, lo / grabaron."
           ],
           "answer": 1,
-          "ex": "La pausa puede cerrar el complemento inicial. «El concierto» y «lo grabaron» permanecen unidos."
+          "ex": "Puedes hacer una pausa tras «Tras el concierto». Mantén juntas las palabras «lo grabaron»."
         },
         {
           "type": "choice",
-          "q": "¿Qué unidad se divide con la pausa en «Ya había / ensayado»?",
+          "q": "¿Qué palabras se separan en «Ya había / ensayado»?",
           "options": [
-            "Preposición y término",
-            "Artículo y nombre",
-            "Auxiliar y participio de un tiempo compuesto"
+            "«Con» y «la orquesta»",
+            "«La» y «pista»",
+            "«Había» y «ensayado»"
           ],
           "answer": 2,
-          "ex": "«Había ensayado» forma un pluscuamperfecto."
+          "ex": "«Había» y «ensayado» forman un solo tiempo verbal y se leen juntos."
         },
         {
           "type": "choice",
-          "q": "¿Qué lectura conserva la perífrasis «volvió a cantar»?",
+          "q": "¿En qué frase se lee «volvió a cantar» sin pausas?",
           "options": [
             "Al final del acto / volvió a cantar.",
             "Al final del acto volvió / a cantar.",
             "Al final del acto volvió a / cantar."
           ],
           "answer": 0,
-          "ex": "La pausa se coloca tras el complemento inicial y deja intacta la perífrasis."
+          "ex": "Puedes parar después de «Al final del acto». Lee «volvió a cantar» sin separar esas palabras."
         },
         {
           "type": "choice",
-          "q": "¿Qué grupo se rompe en «con / su banda»?",
+          "q": "¿Qué palabras se separan en «con / su banda»?",
           "options": [
-            "Nombre y adjetivo",
-            "Preposición y término",
-            "Pronombre átono y verbo"
+            "«Música» y «suave»",
+            "«Con» y «su banda»",
+            "«Lo» y «grabaron»"
           ],
           "answer": 1,
-          "ex": "«Su banda» es el término de la preposición «con»."
+          "ex": "En «con su banda», «con» se lee junto a «su banda»."
         },
         {
           "type": "choice",
-          "q": "¿Qué corte separa un adverbio del adjetivo que modifica?",
+          "q": "¿En qué frase la barra separa «muy» de un adjetivo?",
           "options": [
             "Cuando llegó / el público aplaudió.",
             "Se oía muy / bajo en la sala.",
             "Eligieron una melodía muy / suave."
           ],
           "answer": 2,
-          "ex": "En «muy suave», «muy» modifica al adjetivo «suave». En «se oía muy bajo», «bajo» funciona como adverbio."
+          "ex": "En «muy suave», «suave» describe la melodía. En «se oía muy bajo», «bajo» explica cómo se oía."
         },
         {
           "type": "choice",
-          "q": "¿Qué lectura conserva juntos artículo, sustantivo y adjetivo en «la joven directora»?",
+          "q": "¿En qué frase puedes leer «la joven directora» sin pausas?",
           "options": [
             "La joven / directora llegó temprano.",
             "La / joven directora llegó temprano.",
             "La joven directora / llegó temprano."
           ],
           "answer": 2,
-          "ex": "«La joven directora» forma un grupo nominal; la pausa tras él no separa los elementos que lo integran."
+          "ex": "Lee «la joven directora» de un tirón y haz la pausa después."
         },
         {
           "type": "choice",
-          "q": "En «Nunca / había ensayado con ellos», ¿qué relación se separa con la barra?",
+          "q": "¿Qué separa la barra en «Nunca / había ensayado con ellos»?",
           "options": [
-            "Negación y grupo verbal",
-            "Artículo y nombre",
-            "Preposición y término"
+            "«Nunca» y «había ensayado con ellos»",
+            "Un artículo y un nombre",
+            "Una preposición y las palabras que van con ella"
           ],
           "answer": 0,
-          "ex": "«Nunca» modifica el predicado «había ensayado con ellos» y en lectura neutra se integra con el grupo verbal."
+          "ex": "En una lectura a ritmo normal, lee «nunca había ensayado» sin pausa."
         }
       ],
       "exerciseNote": "Elige una opción o escribe la forma solicitada. Pulsa «Corregir respuestas» para ver la explicación."
     },
     "vocabulario3": {
-      "blocks": "<section class=\"lesson-block\"><h2>Glosario</h2><div id=\"vocab-app\"></div></section><section class=\"lesson-block\"><h2>Aprender por combinaciones</h2><p>Anota el verbo o la preposición que acompaña a cada expresión. Por ejemplo, «seguir el compás», «renunciar a las vacaciones» y «estar al corriente de las novedades». Usa cada combinación en una frase propia.</p></section>",
+      "blocks": "<section class=\"lesson-block\"><h2>Glosario</h2><div id=\"vocab-app\"></div></section><section class=\"lesson-block\"><h2>Aprender expresiones completas</h2><div class=\"past-cards\"><div class=\"example past-card\"><h3>Seguir el compás</h3><p>Escucha el tambor y trata de <strong>seguir el compás</strong> con las palmas.</p></div><div class=\"example past-card\"><h3>Renunciar a</h3><p>Para ensayar, tuvo que <strong>renunciar a</strong> parte de sus vacaciones.</p></div><div class=\"example past-card\"><h3>Estar al corriente de</h3><p>Leo los avisos para <strong>estar al corriente de</strong> los cambios.</p></div><div class=\"example past-card\"><h3>Expresiones entre amigos</h3><p>«El dúo <strong>arrasó</strong> en el festival». Tuvo mucho éxito. «Se presentó a varias audiciones y <strong>no se comió una rosca</strong>». No consiguió ningún papel.</p></div></div><p>Elige una expresión y úsala en una frase propia.</p></section>",
       "exerciseTitle": "Léxico en contexto",
       "questions": [
         {
@@ -875,18 +875,18 @@ window.ISP10_UNITS[3] = {
             "Ocultar su identidad"
           ],
           "answer": 1,
-          "ex": "La expresión alude a una pérdida de éxito, ánimo o relevancia."
+          "ex": "Significa que el grupo pasa por una mala época o ha perdido popularidad."
         },
         {
           "type": "choice",
-          "q": "«El dúo arrasó en el festival». ¿Qué implica en ese contexto?",
+          "q": "«El dúo arrasó en el festival». ¿Qué significa «arrasó» aquí?",
           "options": [
             "Tuvo mucho éxito.",
             "Actuó en secreto.",
             "Canceló su actuación."
           ],
           "answer": 0,
-          "ex": "Arrasar se usa coloquialmente para hablar de un éxito contundente."
+          "ex": "Aquí «arrasó» quiere decir que tuvo mucho éxito."
         },
         {
           "type": "choice",
@@ -897,7 +897,7 @@ window.ISP10_UNITS[3] = {
             "Quien está informado sobre ellas."
           ],
           "answer": 2,
-          "ex": "«Estar al corriente de» significa estar informado."
+          "ex": "Significa estar informado de lo que pasa."
         },
         {
           "type": "choice",
@@ -908,7 +908,7 @@ window.ISP10_UNITS[3] = {
             "Solo pudo cantar en un ensayo."
           ],
           "answer": 1,
-          "ex": "«No comerse una rosca» expresa, coloquialmente, falta de éxito."
+          "ex": "Es una forma coloquial de decir que no consiguió nada."
         },
         {
           "type": "gap",
@@ -916,32 +916,32 @@ window.ISP10_UNITS[3] = {
           "answers": [
             "de"
           ],
-          "ex": "La expresión habitual es «estar al corriente de» algo."
+          "ex": "Decimos «estar al corriente de algo»."
         },
         {
           "type": "choice",
-          "q": "¿En cuál de estas frases «arrasar» se utiliza en sentido figurado y coloquial?",
+          "q": "¿En qué frase «arrasar» significa tener mucho éxito?",
           "options": [
             "El viento arrasó el escenario exterior.",
             "La banda arrasó con su primer álbum.",
             "La lluvia arrasó el huerto."
           ],
           "answer": 1,
-          "ex": "Se trata del sentido figurado de éxito contundente, no de destrucción física."
+          "ex": "Se refiere a tener mucho éxito."
         },
         {
           "type": "gap",
-          "q": "Completa con la preposición que exige esta combinación: «Renunció ____ una beca para continuar su formación artística».",
+          "q": "Completa con la preposición que falta. «Renunció ____ una beca para continuar su formación artística».",
           "answers": [
             "a"
           ],
-          "ex": "La construcción correcta es «renunciar a algo»."
+          "ex": "Decimos «renunciar a algo»."
         }
       ],
       "exerciseNote": "Elige una opción o escribe la forma solicitada. Pulsa «Corregir respuestas» para ver la explicación."
     },
     "repaso3": {
-      "blocks": "<section class=\"lesson-block\"><h2>Antes de corregir</h2><p>Localiza la intención comunicativa, la relación entre las ideas y el punto temporal de referencia. En la pregunta de lectura, comprueba qué palabras forman un grupo.</p><p>Tras corregir, revisa <a href=\"#opinar\">02 · Opinión</a>, <a href=\"#argumentar\">03 · Argumentación</a>, <a href=\"#acuerdo\">04 · Acuerdo</a>, <a href=\"#pasados\">06 · Pasados</a>, <a href=\"#entonacion\">08 · Entonación</a> o <a href=\"#vocabulario3\">09 · Vocabulario</a> según la pregunta que quieras repasar.</p></section>",
+      "blocks": "<section class=\"lesson-block\"><h2>Vuelve a la explicación</h2><p>Después de corregir, vuelve a la lección que quieras repasar.</p><ul><li><a href=\"#opinar\">Opinión</a></li><li><a href=\"#argumentar\">Argumentación</a></li><li><a href=\"#acuerdo\">Acuerdo y desacuerdo</a></li><li><a href=\"#pasados\">Tiempos del pasado</a></li><li><a href=\"#entonacion\">Pausas</a></li><li><a href=\"#vocabulario3\">Vocabulario</a></li></ul></section>",
       "exerciseTitle": "Autoevaluación",
       "questions": [
         {
@@ -950,18 +950,18 @@ window.ISP10_UNITS[3] = {
           "answers": [
             "revele"
           ],
-          "ex": "La opinión negada presenta esta proposición con subjuntivo."
+          "ex": "Después de «no me parece que» usamos «revele»."
         },
         {
           "type": "choice",
-          "q": "¿Qué fórmula introduce un punto de vista ajeno?",
+          "q": "¿Qué expresión indica de quién es la opinión?",
           "options": [
             "En definitiva",
             "En opinión del jurado",
             "A mi modo de ver"
           ],
           "answer": 1,
-          "ex": "La opinión se atribuye al jurado."
+          "ex": "La frase indica que la opinión es del jurado."
         },
         {
           "type": "choice",
@@ -972,7 +972,7 @@ window.ISP10_UNITS[3] = {
             "Coincido en lo del precio, aunque discrepo sobre el horario."
           ],
           "answer": 2,
-          "ex": "Acepta un aspecto y expresa desacuerdo con otro."
+          "ex": "La respuesta acepta una parte y señala otra con la que no está de acuerdo."
         },
         {
           "type": "gap",
@@ -980,37 +980,37 @@ window.ISP10_UNITS[3] = {
           "answers": [
             "había firmado"
           ],
-          "ex": "La firma es anterior al anuncio, ambos situados en el pasado."
+          "ex": "El grupo firmó el contrato antes de que anunciaran el concierto."
         },
         {
           "type": "gap",
-          "q": "Presenta la acción como un hito fechado. «En junio de 2021 la compañía ____ (estrenar) su primera obra».",
+          "q": "Usa el indefinido para contar lo que pasó en esa fecha. «En junio de 2021 la compañía ____ (estrenar) su primera obra».",
           "answers": [
             "estrenó"
           ],
-          "ex": "El indefinido sitúa el estreno completo en una fecha cerrada."
+          "ex": "«Estrenó» cuenta lo que pasó en junio de 2021."
         },
         {
           "type": "choice",
-          "q": "¿En qué frase la barra marca una pausa compatible con una lectura neutra?",
+          "q": "¿Dónde puedes hacer una pausa al leer a un ritmo normal?",
           "options": [
             "Después del recital / la artista habló con el público.",
             "Después del recital la / artista habló con el público.",
             "Después del recital la artista habló con / el público."
           ],
           "answer": 0,
-          "ex": "La pausa tras «Después del recital» deja intactos el artículo con el nombre y la preposición con su término."
+          "ex": "La pausa va después de «Después del recital». Lee «la artista» y «con el público» sin cortar esas expresiones."
         },
         {
           "type": "choice",
-          "q": "¿Qué expresión alude a destacar más allá del anonimato?",
+          "q": "¿Qué expresión significa que alguien se hace famoso?",
           "options": [
             "Estar al corriente",
             "Dar el salto a la fama",
             "Perder el compás"
           ],
           "answer": 1,
-          "ex": "«Dar el salto a la fama» indica que una persona pasa a ser muy conocida."
+          "ex": "Significa que una persona pasa a ser muy conocida."
         },
         {
           "type": "choice",
@@ -1021,29 +1021,29 @@ window.ISP10_UNITS[3] = {
             "En definitiva, propongo probar el nuevo horario durante un mes."
           ],
           "answer": 2,
-          "ex": "El conector señala el cierre y la frase formula una medida concreta."
+          "ex": "La frase termina con una propuesta concreta."
         },
         {
           "type": "choice",
-          "q": "Una estudiante afirma que el 80 % del alumnado disfruta del jazz, basándose en cuatro respuestas de cinco amistades. ¿Qué error argumentativo comete?",
+          "q": "Cuatro de cinco amigos dicen que les gusta el jazz. Una estudiante afirma que al 80 % de todo el alumnado le gusta el jazz. ¿En qué se equivoca?",
           "options": [
             "Confunde una pequeña muestra de amistades con el conjunto del alumnado.",
             "Ha utilizado un tiempo verbal incorrecto.",
             "Ha introducido una objeción sin responder."
           ],
           "answer": 0,
-          "ex": "La proporción de cuatro de cinco describe a esas personas; no justifica la extrapolación a todo el alumnado."
+          "ex": "El dato habla de esos cinco amigos. Para hablar de todo el alumnado harían falta más datos."
         },
         {
           "type": "choice",
-          "q": "¿Cuál de estas secuencias combina una tesis, una objeción reconocida y una réplica?",
+          "q": "¿Qué respuesta presenta una opinión, reconoce un problema y ofrece una solución?",
           "options": [
             "Se organizó un concierto. Fue el viernes. Terminó tarde.",
             "Propongo abrir más ensayos al público. Es cierto que requieren personal, pero podríamos empezar con un ensayo mensual.",
             "Los conciertos son bonitos y la música es agradable."
           ],
           "answer": 1,
-          "ex": "La propuesta plantea una tesis, reconoce el coste de personal y ofrece una alternativa limitada."
+          "ex": "Primero da una opinión, luego reconoce el coste y propone una forma de empezar."
         },
         {
           "type": "gap",
@@ -1051,7 +1051,7 @@ window.ISP10_UNITS[3] = {
           "answers": [
             "garantice"
           ],
-          "ex": "«No creo que» suele introducir subjuntivo cuando el hablante rechaza esa afirmación: «garantice»."
+          "ex": "Con «no creo que» usamos el subjuntivo «garantice»."
         }
       ],
       "exerciseNote": "Elige una opción o escribe la forma solicitada. Pulsa «Corregir respuestas» para ver la explicación."
